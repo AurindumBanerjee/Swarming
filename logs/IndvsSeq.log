@@ -1,0 +1,91 @@
+nohup: ignoring input
+2025-12-01 21:04:38,552 - independent - INFO - Starting Independent Search (1 to 20 caps)
+Loading Data...
+Data Loaded Successfully: 21 Nodes, 1391 Frequencies.
+
+--- Starting STRATEGY 1: Independent Search ---
+  Optimizing for 1 capacitors...2025-12-01 21:06:11,397 - independent - INFO - Count: 1 | Min Peak Z: 0.09462 Ohms | Time: 92.84s | Config: [Node 16: Cap #1014] 
+ Done. Min Z: 0.09462
+  Optimizing for 2 capacitors...2025-12-01 21:07:45,534 - independent - INFO - Count: 2 | Min Peak Z: 0.08500 Ohms | Time: 94.14s | Config: [Node 9: Cap #1487] [Node 10: Cap #433] 
+ Done. Min Z: 0.08500
+  Optimizing for 3 capacitors...2025-12-01 21:09:18,715 - independent - INFO - Count: 3 | Min Peak Z: 0.06509 Ohms | Time: 93.18s | Config: [Node 9: Cap #1014] [Node 7: Cap #1022] [Node 5: Cap #910] 
+ Done. Min Z: 0.06509
+  Optimizing for 4 capacitors...2025-12-01 21:10:55,243 - independent - INFO - Count: 4 | Min Peak Z: 0.06470 Ohms | Time: 96.53s | Config: [Node 9: Cap #1692] [Node 10: Cap #685] [Node 14: Cap #967] [Node 6: Cap #1434] 
+ Done. Min Z: 0.06470
+  Optimizing for 5 capacitors...2025-12-01 21:12:28,376 - independent - INFO - Count: 5 | Min Peak Z: 0.05787 Ohms | Time: 93.13s | Config: [Node 6: Cap #2015] [Node 15: Cap #611] [Node 9: Cap #932] [Node 10: Cap #671] [Node 14: Cap #1014] 
+ Done. Min Z: 0.05787
+  Optimizing for 6 capacitors...2025-12-01 21:14:03,453 - independent - INFO - Count: 6 | Min Peak Z: 0.05849 Ohms | Time: 95.08s | Config: [Node 5: Cap #1276] [Node 9: Cap #1012] [Node 14: Cap #1582] [Node 6: Cap #712] [Node 20: Cap #1287] [Node 15: Cap #1222] 
+ Done. Min Z: 0.05849
+  Optimizing for 7 capacitors...2025-12-01 21:15:38,515 - independent - INFO - Count: 7 | Min Peak Z: 0.05154 Ohms | Time: 95.06s | Config: [Node 14: Cap #1600] [Node 7: Cap #766] [Node 15: Cap #1183] [Node 6: Cap #1664] [Node 5: Cap #447] [Node 8: Cap #652] [Node 9: Cap #1252] 
+ Done. Min Z: 0.05154
+  Optimizing for 8 capacitors...2025-12-01 21:17:15,741 - independent - INFO - Count: 8 | Min Peak Z: 0.05360 Ohms | Time: 97.23s | Config: [Node 8: Cap #1438] [Node 14: Cap #500] [Node 6: Cap #1735] [Node 5: Cap #678] [Node 7: Cap #1543] [Node 9: Cap #1150] [Node 10: Cap #426] [Node 16: Cap #2093] 
+ Done. Min Z: 0.05360
+  Optimizing for 9 capacitors...2025-12-01 21:18:51,126 - independent - INFO - Count: 9 | Min Peak Z: 0.04901 Ohms | Time: 95.38s | Config: [Node 10: Cap #1574] [Node 6: Cap #979] [Node 14: Cap #510] [Node 15: Cap #862] [Node 7: Cap #1483] [Node 9: Cap #774] [Node 16: Cap #1905] [Node 4: Cap #2145] [Node 5: Cap #960] 
+ Done. Min Z: 0.04901
+  Optimizing for 10 capacitors...2025-12-01 21:20:25,124 - independent - INFO - Count: 10 | Min Peak Z: 0.05084 Ohms | Time: 94.00s | Config: [Node 14: Cap #617] [Node 16: Cap #1271] [Node 18: Cap #829] [Node 9: Cap #1251] [Node 10: Cap #617] [Node 15: Cap #1132] [Node 20: Cap #222] [Node 6: Cap #2215] [Node 13: Cap #1320] [Node 5: Cap #588] 
+ Done. Min Z: 0.05084
+  Optimizing for 11 capacitors...2025-12-01 21:21:59,625 - independent - INFO - Count: 11 | Min Peak Z: 0.05129 Ohms | Time: 94.50s | Config: [Node 13: Cap #1629] [Node 14: Cap #1509] [Node 5: Cap #2744] [Node 16: Cap #1275] [Node 3: Cap #1914] [Node 6: Cap #1116] [Node 9: Cap #512] [Node 10: Cap #752] [Node 7: Cap #2576] [Node 15: Cap #568] [Node 11: Cap #1316] 
+ Done. Min Z: 0.05129
+  Optimizing for 12 capacitors...2025-12-01 21:23:35,890 - independent - INFO - Count: 12 | Min Peak Z: 0.05377 Ohms | Time: 96.26s | Config: [Node 9: Cap #610] [Node 16: Cap #43] [Node 15: Cap #1434] [Node 12: Cap #890] [Node 1: Cap #691] [Node 10: Cap #898] [Node 7: Cap #299] [Node 11: Cap #2043] [Node 17: Cap #894] [Node 6: Cap #904] [Node 14: Cap #2452] [Node 2: Cap #1568] 
+ Done. Min Z: 0.05377
+  Optimizing for 13 capacitors...2025-12-01 21:25:09,603 - independent - INFO - Count: 13 | Min Peak Z: 0.05026 Ohms | Time: 93.71s | Config: [Node 4: Cap #1417] [Node 14: Cap #1440] [Node 15: Cap #455] [Node 13: Cap #864] [Node 9: Cap #670] [Node 16: Cap #606] [Node 7: Cap #2035] [Node 11: Cap #3282] [Node 5: Cap #1694] [Node 6: Cap #1123] [Node 8: Cap #627] [Node 10: Cap #2087] [Node 12: Cap #263] 
+ Done. Min Z: 0.05026
+  Optimizing for 14 capacitors...2025-12-01 21:26:43,321 - independent - INFO - Count: 14 | Min Peak Z: 0.05065 Ohms | Time: 93.72s | Config: [Node 14: Cap #891] [Node 6: Cap #547] [Node 7: Cap #1680] [Node 15: Cap #742] [Node 9: Cap #500] [Node 11: Cap #2378] [Node 12: Cap #1664] [Node 10: Cap #1371] [Node 5: Cap #2523] [Node 16: Cap #1008] [Node 13: Cap #420] [Node 17: Cap #1253] [Node 8: Cap #2851] [Node 18: Cap #1548] 
+ Done. Min Z: 0.05065
+  Optimizing for 15 capacitors...2025-12-01 21:28:17,413 - independent - INFO - Count: 15 | Min Peak Z: 0.04989 Ohms | Time: 94.09s | Config: [Node 5: Cap #2069] [Node 8: Cap #1796] [Node 3: Cap #1967] [Node 7: Cap #1820] [Node 16: Cap #363] [Node 14: Cap #838] [Node 10: Cap #929] [Node 9: Cap #1187] [Node 11: Cap #1770] [Node 4: Cap #1511] [Node 12: Cap #1155] [Node 13: Cap #1521] [Node 6: Cap #605] [Node 15: Cap #1506] [Node 17: Cap #2533] 
+ Done. Min Z: 0.04989
+  Optimizing for 16 capacitors...2025-12-01 21:29:52,675 - independent - INFO - Count: 16 | Min Peak Z: 0.05083 Ohms | Time: 95.26s | Config: [Node 8: Cap #1049] [Node 5: Cap #976] [Node 11: Cap #2723] [Node 17: Cap #2360] [Node 14: Cap #850] [Node 12: Cap #1346] [Node 9: Cap #1487] [Node 15: Cap #618] [Node 13: Cap #1777] [Node 16: Cap #648] [Node 18: Cap #1998] [Node 6: Cap #1651] [Node 7: Cap #92] [Node 19: Cap #990] [Node 20: Cap #1054] [Node 10: Cap #872] 
+ Done. Min Z: 0.05083
+  Optimizing for 17 capacitors...2025-12-01 21:31:27,531 - independent - INFO - Count: 17 | Min Peak Z: 0.05016 Ohms | Time: 94.85s | Config: [Node 11: Cap #2184] [Node 18: Cap #1913] [Node 12: Cap #286] [Node 10: Cap #1074] [Node 7: Cap #892] [Node 8: Cap #835] [Node 6: Cap #907] [Node 13: Cap #1327] [Node 3: Cap #572] [Node 14: Cap #1626] [Node 19: Cap #1392] [Node 5: Cap #1463] [Node 4: Cap #1002] [Node 15: Cap #2488] [Node 16: Cap #1158] [Node 17: Cap #987] [Node 9: Cap #586] 
+ Done. Min Z: 0.05016
+  Optimizing for 18 capacitors...2025-12-01 21:33:00,572 - independent - INFO - Count: 18 | Min Peak Z: 0.05081 Ohms | Time: 93.04s | Config: [Node 16: Cap #908] [Node 7: Cap #1256] [Node 8: Cap #1861] [Node 15: Cap #1279] [Node 2: Cap #58] [Node 11: Cap #1068] [Node 18: Cap #1913] [Node 3: Cap #2412] [Node 9: Cap #1024] [Node 14: Cap #1566] [Node 10: Cap #618] [Node 17: Cap #1346] [Node 4: Cap #2160] [Node 19: Cap #2304] [Node 5: Cap #1424] [Node 6: Cap #1076] [Node 20: Cap #1538] [Node 12: Cap #1231] 
+ Done. Min Z: 0.05081
+  Optimizing for 19 capacitors...2025-12-01 21:34:32,095 - independent - INFO - Count: 19 | Min Peak Z: 0.05029 Ohms | Time: 91.52s | Config: [Node 4: Cap #1515] [Node 16: Cap #837] [Node 11: Cap #1377] [Node 1: Cap #744] [Node 6: Cap #1195] [Node 8: Cap #1334] [Node 14: Cap #1981] [Node 15: Cap #815] [Node 7: Cap #993] [Node 3: Cap #2027] [Node 2: Cap #1978] [Node 17: Cap #1105] [Node 9: Cap #1814] [Node 18: Cap #536] [Node 19: Cap #851] [Node 5: Cap #433] [Node 20: Cap #1291] [Node 10: Cap #517] [Node 12: Cap #1558] 
+ Done. Min Z: 0.05029
+  Optimizing for 20 capacitors...2025-12-01 21:36:05,084 - independent - INFO - Count: 20 | Min Peak Z: 0.05114 Ohms | Time: 92.99s | Config: [Node 17: Cap #1411] [Node 8: Cap #216] [Node 14: Cap #483] [Node 18: Cap #1937] [Node 12: Cap #1159] [Node 9: Cap #509] [Node 4: Cap #1400] [Node 11: Cap #56] [Node 15: Cap #1969] [Node 13: Cap #2924] [Node 10: Cap #2612] [Node 16: Cap #983] [Node 3: Cap #3082] [Node 7: Cap #473] [Node 19: Cap #3220] [Node 20: Cap #1736] [Node 1: Cap #2538] [Node 2: Cap #2399] [Node 5: Cap #2076] [Node 6: Cap #1853] 
+2025-12-01 21:36:05,086 - sequential - INFO - Starting Sequential Search (1 to 20 caps) with Warm Start
+ Done. Min Z: 0.05114
+
+--- Starting STRATEGY 2: Sequential (Warm Start) Search ---
+  Optimizing for 1 capacitors (Warm Start)...2025-12-01 21:37:39,840 - sequential - INFO - Count: 1 | Min Peak Z: 0.08736 Ohms | Time: 94.75s | Config: [Node 9: Cap #1012] 
+ Done. Min Z: 0.08736
+  Optimizing for 2 capacitors (Warm Start)...2025-12-01 21:39:12,904 - sequential - INFO - Count: 2 | Min Peak Z: 0.06477 Ohms | Time: 93.06s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] 
+ Done. Min Z: 0.06477
+  Optimizing for 3 capacitors (Warm Start)...2025-12-01 21:40:47,328 - sequential - INFO - Count: 3 | Min Peak Z: 0.05710 Ohms | Time: 94.42s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 15: Cap #686] 
+ Done. Min Z: 0.05710
+  Optimizing for 4 capacitors (Warm Start)...2025-12-01 21:42:21,227 - sequential - INFO - Count: 4 | Min Peak Z: 0.05056 Ohms | Time: 93.90s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 15: Cap #686] [Node 14: Cap #447] 
+ Done. Min Z: 0.05056
+  Optimizing for 5 capacitors (Warm Start)...2025-12-01 21:43:55,826 - sequential - INFO - Count: 5 | Min Peak Z: 0.04664 Ohms | Time: 94.60s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #686] [Node 15: Cap #447] [Node 5: Cap #434] 
+ Done. Min Z: 0.04664
+  Optimizing for 6 capacitors (Warm Start)...2025-12-01 21:45:28,925 - sequential - INFO - Count: 6 | Min Peak Z: 0.04398 Ohms | Time: 93.10s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #686] [Node 15: Cap #447] [Node 5: Cap #434] [Node 6: Cap #189] 
+ Done. Min Z: 0.04398
+  Optimizing for 7 capacitors (Warm Start)...2025-12-01 21:47:03,450 - sequential - INFO - Count: 7 | Min Peak Z: 0.04238 Ohms | Time: 94.52s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 15: Cap #686] [Node 14: Cap #447] [Node 5: Cap #434] [Node 6: Cap #189] [Node 7: Cap #365] 
+ Done. Min Z: 0.04238
+  Optimizing for 8 capacitors (Warm Start)...2025-12-01 21:48:36,618 - sequential - INFO - Count: 8 | Min Peak Z: 0.04118 Ohms | Time: 93.17s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 15: Cap #685] [Node 14: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 7: Cap #365] [Node 16: Cap #226] 
+ Done. Min Z: 0.04118
+  Optimizing for 9 capacitors (Warm Start)...2025-12-01 21:50:10,704 - sequential - INFO - Count: 9 | Min Peak Z: 0.04074 Ohms | Time: 94.09s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 15: Cap #685] [Node 14: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 7: Cap #365] [Node 16: Cap #226] [Node 8: Cap #189] 
+ Done. Min Z: 0.04074
+  Optimizing for 10 capacitors (Warm Start)...2025-12-01 21:51:47,270 - sequential - INFO - Count: 10 | Min Peak Z: 0.04027 Ohms | Time: 96.57s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] 
+ Done. Min Z: 0.04027
+  Optimizing for 11 capacitors (Warm Start)...2025-12-01 21:53:23,480 - sequential - INFO - Count: 11 | Min Peak Z: 0.04009 Ohms | Time: 96.21s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] 
+ Done. Min Z: 0.04009
+  Optimizing for 12 capacitors (Warm Start)...2025-12-01 21:54:57,296 - sequential - INFO - Count: 12 | Min Peak Z: 0.03992 Ohms | Time: 93.81s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] [Node 18: Cap #1422] 
+ Done. Min Z: 0.03992
+  Optimizing for 13 capacitors (Warm Start)...2025-12-01 21:56:33,333 - sequential - INFO - Count: 13 | Min Peak Z: 0.03990 Ohms | Time: 96.04s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] [Node 18: Cap #1422] [Node 19: Cap #2255] 
+ Done. Min Z: 0.03990
+  Optimizing for 14 capacitors (Warm Start)...2025-12-01 21:58:08,301 - sequential - INFO - Count: 14 | Min Peak Z: 0.03988 Ohms | Time: 94.97s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] [Node 18: Cap #1422] [Node 19: Cap #2255] [Node 1: Cap #1190] 
+ Done. Min Z: 0.03988
+  Optimizing for 15 capacitors (Warm Start)...2025-12-01 21:59:44,857 - sequential - INFO - Count: 15 | Min Peak Z: 0.03988 Ohms | Time: 96.56s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] [Node 18: Cap #1422] [Node 19: Cap #2255] [Node 1: Cap #1190] [Node 20: Cap #19] 
+ Done. Min Z: 0.03988
+  Optimizing for 16 capacitors (Warm Start)...2025-12-01 22:01:21,931 - sequential - INFO - Count: 16 | Min Peak Z: 0.03988 Ohms | Time: 97.07s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] [Node 18: Cap #1422] [Node 19: Cap #2255] [Node 1: Cap #1190] [Node 20: Cap #19] [Node 3: Cap #15] 
+ Done. Min Z: 0.03988
+  Optimizing for 17 capacitors (Warm Start)...2025-12-01 22:02:57,938 - sequential - INFO - Count: 17 | Min Peak Z: 0.03988 Ohms | Time: 96.01s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] [Node 18: Cap #1422] [Node 19: Cap #2255] [Node 1: Cap #1190] [Node 20: Cap #19] [Node 3: Cap #15] [Node 4: Cap #151] 
+ Done. Min Z: 0.03988
+  Optimizing for 18 capacitors (Warm Start)...2025-12-01 22:04:34,026 - sequential - INFO - Count: 18 | Min Peak Z: 0.03992 Ohms | Time: 96.09s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] [Node 18: Cap #1422] [Node 19: Cap #2255] [Node 1: Cap #1190] [Node 20: Cap #19] [Node 3: Cap #15] [Node 4: Cap #152] [Node 11: Cap #255] 
+ Done. Min Z: 0.03992
+  Optimizing for 19 capacitors (Warm Start)...2025-12-01 22:06:05,448 - sequential - INFO - Count: 19 | Min Peak Z: 0.03997 Ohms | Time: 91.42s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] [Node 18: Cap #1422] [Node 19: Cap #2255] [Node 1: Cap #1190] [Node 20: Cap #19] [Node 3: Cap #15] [Node 4: Cap #152] [Node 11: Cap #255] [Node 12: Cap #111] 
+ Done. Min Z: 0.03997
+  Optimizing for 20 capacitors (Warm Start)...2025-12-01 22:07:38,992 - sequential - INFO - Count: 20 | Min Peak Z: 0.04006 Ohms | Time: 93.54s | Config: [Node 9: Cap #1012] [Node 10: Cap #1014] [Node 14: Cap #685] [Node 15: Cap #448] [Node 5: Cap #434] [Node 6: Cap #189] [Node 8: Cap #365] [Node 16: Cap #225] [Node 7: Cap #189] [Node 2: Cap #1208] [Node 17: Cap #231] [Node 18: Cap #1421] [Node 19: Cap #2255] [Node 1: Cap #1191] [Node 20: Cap #19] [Node 3: Cap #15] [Node 4: Cap #152] [Node 11: Cap #255] [Node 12: Cap #111] [Node 13: Cap #111] 
+ Done. Min Z: 0.04006
+
+All tasks completed. Check .log files for details.

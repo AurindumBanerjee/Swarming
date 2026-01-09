@@ -1,0 +1,40 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/DATA/Aurindum/conda/envs/work/lib/python3.10/site-packages/cupy/__init__.py", line 16, in <module>
+    from cupy import _core  # NOQA
+  File "/DATA/Aurindum/conda/envs/work/lib/python3.10/site-packages/cupy/_core/__init__.py", line 3, in <module>
+    from cupy._core import core  # NOQA
+  File "cupy/_core/core.pyx", line 1, in init cupy._core.core
+  File "/DATA/Aurindum/conda/envs/work/lib/python3.10/site-packages/cupy/cuda/__init__.py", line 9, in <module>
+    from cupy.cuda import compiler  # NOQA
+  File "/DATA/Aurindum/conda/envs/work/lib/python3.10/site-packages/cupy/cuda/compiler.py", line 15, in <module>
+    from cupy.cuda import function
+  File "cupy/cuda/function.pyx", line 1, in init cupy.cuda.function
+  File "cupy/_core/_carray.pyx", line 1, in init cupy._core._carray
+  File "cupy/_core/internal.pyx", line 1, in init cupy._core.internal
+  File "cupy/cuda/memory.pyx", line 1, in init cupy.cuda.memory
+ModuleNotFoundError: No module named 'fastrlock.rlock'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/DATA/Aurindum/Swarming/swarming.py", line 3, in <module>
+    import cupy as cp
+  File "/DATA/Aurindum/conda/envs/work/lib/python3.10/site-packages/cupy/__init__.py", line 18, in <module>
+    raise ImportError(f'''
+ImportError: 
+================================================================
+Failed to import CuPy.
+
+If you installed CuPy via wheels (cupy-cudaXXX or cupy-rocm-X-X), make sure that the package matches with the version of CUDA or ROCm installed.
+
+On Linux, you may need to set LD_LIBRARY_PATH environment variable depending on how you installed CUDA/ROCm.
+On Windows, try setting CUDA_PATH environment variable.
+
+Check the Installation Guide for details:
+  https://docs.cupy.dev/en/latest/install.html
+
+Original error:
+  ModuleNotFoundError: No module named 'fastrlock.rlock'
+================================================================
+
