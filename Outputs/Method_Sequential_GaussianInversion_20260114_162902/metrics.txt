@@ -1,0 +1,2 @@
+Total CPU Time (s): 21084.3786
+Method: Gaussian Manual Inversion

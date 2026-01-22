@@ -1,0 +1,4 @@
+Particles        : 110
+Iterations       : 70
+Threshold (Ohm)  : 0.042
+Total CPU Time(s): 2432.6980

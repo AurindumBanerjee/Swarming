@@ -16,7 +16,8 @@ import matplotlib.pyplot as plt
 import pyswarms as ps
 
 # ---------------- GLOBAL CONFIG ----------------
-DATA_DIR = "/content/Data"
+BASE_DIR = "/DATA/Aurindum/Swarming"
+DATA_DIR = os.path.join(BASE_DIR, "Data")
 
 THRESHOLD = 0.042
 MAX_CAPS = 20
@@ -26,12 +27,13 @@ VALID_NODES_END = 20
 PARTICLE_RANGE = range(10, 201, 10)
 ITER_RANGE = range(10, 201, 10)
 
-WARM_FRACTION = 0.4   # 40% warm-start
+WARM_FRACTION = 0.4
 OPTIONS = {'c1': 1.5, 'c2': 1.5, 'w': 0.7}
 
 # ---------------- OUTPUT ROOT ----------------
 ROOT_OUT = os.path.join(
-    "/content/Outputs",
+    BASE_DIR,
+    "Outputs",
     datetime.now().strftime("%Y%m%d_%H%M%S_ParticleTesting")
 )
 os.makedirs(ROOT_OUT, exist_ok=True)
@@ -50,19 +52,22 @@ GLOBAL_BEST = {
 def setup_logger(log_path):
     logger = logging.getLogger(log_path)
     logger.setLevel(logging.INFO)
+
+    if logger.hasHandlers():
+        logger.handlers.clear()
+
     handler = logging.FileHandler(log_path)
     formatter = logging.Formatter(
         '%(asctime)s %(levelname)s: %(message)s'
     )
     handler.setFormatter(formatter)
-    logger.handlers.clear()
     logger.addHandler(handler)
     return logger
 
 # ---------------- PLOTTING ----------------
 def plot_convergence(cost_history, n_caps, out_folder):
     iters = np.arange(1, len(cost_history) + 1)
-    plt.figure(figsize=(7,4))
+    plt.figure(figsize=(7, 4))
     plt.plot(iters, cost_history, marker='o')
     plt.axhline(
         THRESHOLD,
@@ -84,7 +89,7 @@ def plot_convergence(cost_history, n_caps, out_folder):
     plt.close()
 
 def plot_global_convergence(histories, out_folder):
-    plt.figure(figsize=(9,5))
+    plt.figure(figsize=(9, 5))
     for n, hist in histories.items():
         plt.plot(hist, label=f'n={n}')
     plt.axhline(
@@ -144,7 +149,7 @@ def fitness_cpu(x, n_caps):
     costs = np.zeros(x.shape[0])
     for i in range(x.shape[0]):
         models = np.clip(
-            np.floor(x[i, :n_caps]), 0, N_CAP_MODELS-1
+            np.floor(x[i, :n_caps]), 0, N_CAP_MODELS - 1
         ).astype(int)
 
         locs = np.clip(
@@ -175,7 +180,7 @@ def fitness_cpu(x, n_caps):
 # ---------------- DECODE ----------------
 def decode_solution(pos, n_caps):
     models = np.clip(
-        np.floor(pos[:n_caps]), 0, N_CAP_MODELS-1
+        np.floor(pos[:n_caps]), 0, N_CAP_MODELS - 1
     ).astype(int)
 
     locs = np.clip(
@@ -202,7 +207,6 @@ for N_PARTICLES in PARTICLE_RANGE:
         os.makedirs(out_folder, exist_ok=True)
 
         logger = setup_logger(os.path.join(out_folder, "run.log"))
-
         print(f"\n=== Running {tag} ===")
 
         histories = {}
@@ -221,20 +225,21 @@ for N_PARTICLES in PARTICLE_RANGE:
                     np.full(n_caps, VALID_NODES_START)
                 ])
                 ub = np.concatenate([
-                    np.full(n_caps, N_CAP_MODELS),
+                    np.full(n_caps, N_CAP_MODELS - 1 + 0.99),
                     np.full(n_caps, VALID_NODES_END + 0.99)
                 ])
 
                 init_pos = None
                 if prev_best is not None:
                     warm = int(WARM_FRACTION * N_PARTICLES)
-                    init_pos = np.random.uniform(lb, ub, (N_PARTICLES, 2*n_caps))
-                    init_pos[:warm, :n_caps-1] = prev_best[:n_caps-1]
-                    init_pos[:warm, n_caps:2*n_caps-1] = prev_best[n_caps-1:]
+                    init_pos = np.random.uniform(lb, ub, (N_PARTICLES, 2 * n_caps))
+
+                    init_pos[:warm, :n_caps - 1] = prev_best[:n_caps - 1]
+                    init_pos[:warm, n_caps:n_caps + (n_caps - 1)] = prev_best[n_caps - 1:]
 
                 optimizer = ps.single.GlobalBestPSO(
                     n_particles=N_PARTICLES,
-                    dimensions=2*n_caps,
+                    dimensions=2 * n_caps,
                     options=OPTIONS,
                     bounds=(lb, ub),
                     init_pos=init_pos
@@ -276,7 +281,7 @@ for N_PARTICLES in PARTICLE_RANGE:
 
         # -------- UPDATE GLOBAL BEST --------
         last_n_caps = max(histories.keys())
-        last_min_z = histories[last_n_caps][-1]
+        last_min_z = np.min(histories[last_n_caps])
 
         better = False
         if last_min_z <= THRESHOLD:

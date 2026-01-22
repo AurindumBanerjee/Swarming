@@ -1,0 +1,7 @@
+===== GLOBAL BEST PSO CONFIGURATION =====
+   particles : 130
+  iterations : 50
+      n_caps : 7
+       min_z : 0.04094942190074841
+    cpu_time : 1481.825317943003
+      folder : /DATA/Aurindum/Swarming/Outputs/20260109_202226_ParticleTesting/P130_I50
