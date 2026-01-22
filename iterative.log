@@ -1,0 +1,15 @@
+nohup: ignoring input
+Loading PDN data (Iterative Inversion)...
+N_FREQS=1391, N_NODES=21, N_CAP_MODELS=3348
+Precomputing base inverse...
+Optimizing n_caps=1... done | minZ=0.094705
+Optimizing n_caps=2... done | minZ=0.069460
+Optimizing n_caps=3... done | minZ=0.059133
+Optimizing n_caps=4... done | minZ=0.053680
+Optimizing n_caps=5... done | minZ=0.048589
+Optimizing n_caps=6... done | minZ=0.045977
+Optimizing n_caps=7... done | minZ=0.043709
+Optimizing n_caps=8... done | minZ=0.041512
+
+Total CPU time: 1305.42s
+Results stored in: /DATA/Aurindum/Swarming/Outputs/Method_Sequential_IterativeInversion_20260114_162833
