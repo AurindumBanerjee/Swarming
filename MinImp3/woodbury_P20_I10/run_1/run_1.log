@@ -1,0 +1,2 @@
+2026-04-01 19:17:43,018 INFO: particles=20 iter=10 n_caps=1 minZ=0.080251 runtime=11.50s placement={0: 1014}
+2026-04-01 19:17:55,904 INFO: particles=20 iter=10 n_caps=2 minZ=0.073030 runtime=12.89s placement={0: 1226, 9: 1375}

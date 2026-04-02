@@ -1,0 +1,5 @@
+2026-02-27 03:45:52,665 INFO: n_caps=1 | minZ=0.127288 | ports=[0] | stage_time=47.103
+2026-02-27 03:46:36,002 INFO: n_caps=2 | minZ=0.111872 | ports=[9, 10] | stage_time=43.337
+2026-02-27 03:47:17,814 INFO: n_caps=3 | minZ=0.086654 | ports=[10, 7, 0] | stage_time=41.811
+2026-02-27 03:48:01,436 INFO: n_caps=4 | minZ=0.061988 | ports=[7, 0, 5, 0] | stage_time=43.622
+2026-02-27 03:48:46,136 INFO: n_caps=5 | minZ=0.055379 | ports=[0, 5, 0, 9, 14] | stage_time=44.700

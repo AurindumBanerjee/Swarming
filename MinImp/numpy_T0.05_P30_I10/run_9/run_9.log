@@ -1,0 +1,13 @@
+2026-03-16 11:59:01,202 INFO: particles=30 iter=10 n_caps=1 minZ=0.050000 runtime=12.79s placement={0: 2003}
+2026-03-16 11:59:14,188 INFO: particles=30 iter=10 n_caps=2 minZ=0.050000 runtime=12.99s placement={7: 1848, 14: 271}
+2026-03-16 11:59:27,358 INFO: particles=30 iter=10 n_caps=3 minZ=0.050000 runtime=13.17s placement={3: 2328, 15: 207, 7: 2044}
+2026-03-16 11:59:40,718 INFO: particles=30 iter=10 n_caps=4 minZ=0.050003 runtime=13.36s placement={16: 2123, 2: 392, 0: 1086, 14: 2038}
+2026-03-16 11:59:54,354 INFO: particles=30 iter=10 n_caps=5 minZ=0.050002 runtime=13.64s placement={20: 378, 16: 1232, 3: 1221, 5: 2561, 0: 2230}
+2026-03-16 12:00:08,414 INFO: particles=30 iter=10 n_caps=6 minZ=0.050012 runtime=14.06s placement={20: 0, 6: 1783, 7: 1093, 5: 0, 4: 3347, 19: 2950}
+2026-03-16 12:00:22,312 INFO: particles=30 iter=10 n_caps=7 minZ=0.050004 runtime=13.90s placement={19: 1947, 8: 0, 11: 1012, 20: 841, 5: 2366, 9: 305, 12: 706}
+2026-03-16 12:00:36,674 INFO: particles=30 iter=10 n_caps=8 minZ=0.050000 runtime=14.36s placement={7: 1627, 4: 2406, 16: 1037, 5: 1500, 9: 1911, 13: 1035, 11: 53, 20: 1388}
+2026-03-16 12:00:50,956 INFO: particles=30 iter=10 n_caps=9 minZ=0.050001 runtime=14.28s placement={7: 0, 16: 1104, 10: 1516, 11: 2921, 13: 722, 1: 1329, 14: 97, 20: 0, 6: 943}
+2026-03-16 12:01:05,464 INFO: particles=30 iter=10 n_caps=10 minZ=0.050001 runtime=14.51s placement={16: 0, 10: 1104, 11: 1516, 13: 2921, 1: 722, 14: 1329, 20: 97, 6: 0, 15: 943, 17: 1230}
+2026-03-16 12:01:20,358 INFO: particles=30 iter=10 n_caps=11 minZ=0.050002 runtime=14.89s placement={2: 0, 14: 1175, 15: 935, 7: 2867, 13: 820, 20: 1442, 6: 248, 10: 0, 17: 82, 19: 2746}
+2026-03-16 12:01:35,492 INFO: particles=30 iter=10 n_caps=12 minZ=0.050006 runtime=15.13s placement={14: 82, 15: 0, 7: 935, 13: 2867, 20: 820, 6: 1442, 10: 248, 17: 0, 19: 1175, 5: 2746, 11: 468}
+2026-03-16 12:01:40,189 INFO: particles=30 iter=10 n_caps=13 minZ=0.043942 runtime=4.70s placement={13: 781, 9: 1642, 14: 1532, 16: 1712, 0: 1291, 4: 3347, 1: 3347, 5: 873, 18: 1150, 8: 3347, 15: 1355}

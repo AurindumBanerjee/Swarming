@@ -1,0 +1,31 @@
+2026-03-09 16:23:08,575 INFO: n_caps=1 | iter=15 | minZ=0.030001 | placement={10: 1106}
+2026-03-09 16:23:08,575 INFO: init_n_caps=2 | seeded_previous_caps=1 | new_cap_random_init(cap=1743,port=12)
+2026-03-09 16:23:46,584 INFO: n_caps=2 | iter=15 | minZ=0.030000 | placement={15: 2114, 0: 0}
+2026-03-09 16:23:46,585 INFO: init_n_caps=3 | seeded_previous_caps=2 | new_cap_random_init(cap=2585,port=5)
+2026-03-09 16:24:42,774 INFO: n_caps=3 | iter=15 | minZ=0.030000 | placement={4: 2257, 10: 2913, 5: 3076}
+2026-03-09 16:24:42,774 INFO: init_n_caps=4 | seeded_previous_caps=3 | new_cap_random_init(cap=735,port=13)
+2026-03-09 16:25:55,988 INFO: n_caps=4 | iter=15 | minZ=0.030001 | placement={8: 2418, 3: 1333, 0: 3347, 20: 940}
+2026-03-09 16:25:55,989 INFO: init_n_caps=5 | seeded_previous_caps=4 | new_cap_random_init(cap=1392,port=2)
+2026-03-09 16:27:26,691 INFO: n_caps=5 | iter=15 | minZ=0.030000 | placement={20: 3347, 19: 1662, 0: 1345, 9: 957}
+2026-03-09 16:27:26,691 INFO: init_n_caps=6 | seeded_previous_caps=5 | new_cap_random_init(cap=3347,port=7)
+2026-03-09 16:29:16,010 INFO: n_caps=6 | iter=15 | minZ=0.030000 | placement={8: 92, 6: 2046, 4: 0, 14: 2741, 13: 2105, 10: 68}
+2026-03-09 16:29:16,011 INFO: init_n_caps=7 | seeded_previous_caps=6 | new_cap_random_init(cap=1489,port=4)
+2026-03-09 16:31:22,038 INFO: n_caps=7 | iter=15 | minZ=0.030000 | placement={7: 0, 5: 2097, 14: 749, 4: 2681, 9: 1368, 16: 2274, 15: 1396}
+2026-03-09 16:31:22,039 INFO: init_n_caps=8 | seeded_previous_caps=7 | new_cap_random_init(cap=1275,port=9)
+2026-03-09 16:33:47,550 INFO: n_caps=8 | iter=15 | minZ=0.030000 | placement={9: 1261, 16: 2120, 4: 705, 7: 3347, 18: 1089, 20: 1187, 15: 2060, 11: 938}
+2026-03-09 16:33:47,550 INFO: init_n_caps=9 | seeded_previous_caps=8 | new_cap_random_init(cap=1618,port=10)
+2026-03-09 16:36:29,272 INFO: n_caps=9 | iter=15 | minZ=0.030000 | placement={16: 1261, 4: 2120, 7: 705, 18: 3347, 20: 1089, 15: 1187, 11: 2060, 8: 938, 10: 1618}
+2026-03-09 16:36:29,272 INFO: init_n_caps=10 | seeded_previous_caps=9 | new_cap_random_init(cap=2826,port=17)
+2026-03-09 16:39:32,624 INFO: n_caps=10 | iter=15 | minZ=0.030001 | placement={11: 1387, 7: 2266, 18: 151, 15: 2993, 16: 687, 6: 936, 8: 3195, 9: 2275, 10: 1417, 17: 2405}
+2026-03-09 16:39:32,624 INFO: init_n_caps=11 | seeded_previous_caps=10 | new_cap_random_init(cap=2006,port=1)
+2026-03-09 16:42:55,753 INFO: n_caps=11 | iter=15 | minZ=0.030001 | placement={12: 0, 8: 1463, 6: 3347, 3: 1571, 9: 2012, 15: 2713, 0: 1163, 10: 1731, 19: 3003, 5: 1456, 7: 1546}
+2026-03-09 16:42:55,753 INFO: init_n_caps=12 | seeded_previous_caps=11 | new_cap_random_init(cap=2073,port=16)
+2026-03-09 16:46:37,704 INFO: n_caps=12 | iter=15 | minZ=0.030001 | placement={15: 1936, 20: 453, 0: 2408, 1: 2139, 11: 1151, 10: 223, 12: 3347, 16: 1266, 9: 735, 2: 3194, 7: 0}
+2026-03-09 16:46:37,705 INFO: init_n_caps=13 | seeded_previous_caps=12 | new_cap_random_init(cap=2566,port=0)
+2026-03-09 16:50:35,068 INFO: n_caps=13 | iter=15 | minZ=0.030001 | placement={15: 1740, 0: 95, 12: 0, 18: 2571, 14: 914, 16: 209, 13: 2531, 6: 963, 17: 844, 1: 1909, 19: 30, 20: 2939, 2: 2703}
+2026-03-09 16:50:35,068 INFO: init_n_caps=14 | seeded_previous_caps=13 | new_cap_random_init(cap=2529,port=14)
+2026-03-09 16:54:56,304 INFO: n_caps=14 | iter=15 | minZ=0.030000 | placement={11: 1012, 0: 1284, 4: 2011, 12: 1998, 10: 1160, 8: 2412, 5: 3347, 20: 3347, 3: 1734, 1: 1770, 16: 0, 9: 1851, 15: 1732, 18: 3063}
+2026-03-09 16:54:56,305 INFO: init_n_caps=15 | seeded_previous_caps=14 | new_cap_random_init(cap=1967,port=14)
+2026-03-09 16:59:33,421 INFO: n_caps=15 | iter=15 | minZ=0.030000 | placement={8: 2768, 20: 2642, 4: 1770, 17: 0, 9: 0, 19: 0, 0: 3160, 10: 1189, 18: 0, 5: 0, 6: 3347, 1: 679, 15: 1191, 14: 2051, 13: 0}
+2026-03-09 16:59:33,421 INFO: init_n_caps=16 | seeded_previous_caps=15 | new_cap_random_init(cap=1432,port=17)
+2026-03-09 17:04:30,746 INFO: n_caps=16 | iter=15 | minZ=0.029594 | placement={16: 800, 0: 977, 3: 1527, 1: 1104, 14: 2115, 17: 3044, 18: 2159, 10: 1953, 11: 0, 2: 1582, 12: 2346, 9: 1872}
