@@ -1,0 +1,20 @@
+2026-03-20 19:21:20,225 INFO: particles=30 iter=40 n_caps=1 minZ=0.080251 runtime=51.57s placement={0: 1014}
+2026-03-20 19:22:12,803 INFO: particles=30 iter=40 n_caps=2 minZ=0.078668 runtime=52.58s placement={0: 1014, 6: 0}
+2026-03-20 19:23:06,361 INFO: particles=30 iter=40 n_caps=3 minZ=0.047330 runtime=53.56s placement={15: 1625, 0: 1014, 16: 1978}
+2026-03-20 19:24:01,106 INFO: particles=30 iter=40 n_caps=4 minZ=0.059380 runtime=54.74s placement={0: 1530, 14: 1015, 9: 1077, 10: 1524}
+2026-03-20 19:24:56,959 INFO: particles=30 iter=40 n_caps=5 minZ=0.055685 runtime=55.85s placement={14: 2280, 16: 967, 6: 847, 0: 1751, 10: 518}
+2026-03-20 19:25:53,722 INFO: particles=30 iter=40 n_caps=6 minZ=0.040374 runtime=56.76s placement={14: 2426, 0: 1014, 9: 1045, 7: 1785, 5: 517, 19: 2274}
+2026-03-20 19:26:51,209 INFO: particles=30 iter=40 n_caps=7 minZ=0.051590 runtime=57.49s placement={0: 2426, 9: 1014, 7: 1045, 5: 1785, 19: 517, 10: 2274, 20: 2470}
+2026-03-20 19:27:49,930 INFO: particles=30 iter=40 n_caps=8 minZ=0.047019 runtime=58.72s placement={4: 2767, 6: 1157, 0: 1455, 1: 1970, 10: 1538, 20: 2499, 16: 411}
+2026-03-20 19:28:49,614 INFO: particles=30 iter=40 n_caps=9 minZ=0.031724 runtime=59.68s placement={0: 2015, 1: 0}
+2026-03-20 19:29:50,065 INFO: particles=30 iter=40 n_caps=10 minZ=0.029700 runtime=60.45s placement={0: 0, 1: 0}
+2026-03-20 19:30:51,421 INFO: particles=30 iter=40 n_caps=11 minZ=0.026327 runtime=61.35s placement={0: 0, 1: 0, 6: 0}
+2026-03-20 19:31:53,555 INFO: particles=30 iter=40 n_caps=12 minZ=0.026390 runtime=62.13s placement={0: 0, 1: 0, 6: 2055}
+2026-03-20 19:32:56,678 INFO: particles=30 iter=40 n_caps=13 minZ=0.022766 runtime=63.12s placement={0: 0, 1: 0}
+2026-03-20 19:34:00,590 INFO: particles=30 iter=40 n_caps=14 minZ=0.022570 runtime=63.91s placement={0: 0, 1: 0}
+2026-03-20 19:35:05,560 INFO: particles=30 iter=40 n_caps=15 minZ=0.022378 runtime=64.97s placement={0: 0, 1: 0}
+2026-03-20 19:36:11,334 INFO: particles=30 iter=40 n_caps=16 minZ=0.022188 runtime=65.77s placement={0: 0, 1: 0}
+2026-03-20 19:37:17,973 INFO: particles=30 iter=40 n_caps=17 minZ=0.022002 runtime=66.64s placement={0: 0, 1: 0}
+2026-03-20 19:38:25,412 INFO: particles=30 iter=40 n_caps=18 minZ=0.021818 runtime=67.44s placement={0: 0, 1: 0}
+2026-03-20 19:39:34,391 INFO: particles=30 iter=40 n_caps=19 minZ=0.021637 runtime=68.98s placement={0: 0, 1: 0}
+2026-03-20 19:40:43,647 INFO: particles=30 iter=40 n_caps=20 minZ=0.021463 runtime=69.25s placement={0: 0, 1: 0}

@@ -1,0 +1,2707 @@
+nohup: ignoring input
+Loading PDN data once (shared across all runs)...
+Loaded: N_FREQS=1391, N_NODES=21, N_CAP_MODELS=3348
+
+=== Running c1_0.1_c2_0.1 ===
+Completed c1_0.1_c2_0.1 | Time = 1678.82s
+
+=== Running c1_0.1_c2_0.2 ===
+Completed c1_0.1_c2_0.2 | Time = 972.43s
+
+=== Running c1_0.1_c2_0.3 ===
+Completed c1_0.1_c2_0.3 | Time = 600.16s
+
+=== Running c1_0.1_c2_0.4 ===
+Completed c1_0.1_c2_0.4 | Time = 601.51s
+
+=== Running c1_0.1_c2_0.5 ===
+Completed c1_0.1_c2_0.5 | Time = 673.15s
+
+=== Running c1_0.1_c2_0.6 ===
+Completed c1_0.1_c2_0.6 | Time = 594.45s
+
+=== Running c1_0.1_c2_0.7 ===
+Completed c1_0.1_c2_0.7 | Time = 594.20s
+
+=== Running c1_0.1_c2_0.8 ===
+Completed c1_0.1_c2_0.8 | Time = 662.87s
+
+=== Running c1_0.1_c2_0.9 ===
+Completed c1_0.1_c2_0.9 | Time = 1406.27s
+
+=== Running c1_0.1_c2_1.0 ===
+Completed c1_0.1_c2_1.0 | Time = 591.98s
+
+=== Running c1_0.1_c2_1.1 ===
+Completed c1_0.1_c2_1.1 | Time = 740.24s
+
+=== Running c1_0.1_c2_1.2 ===
+Completed c1_0.1_c2_1.2 | Time = 664.59s
+
+=== Running c1_0.1_c2_1.3 ===
+Completed c1_0.1_c2_1.3 | Time = 737.46s
+
+=== Running c1_0.1_c2_1.4 ===
+Completed c1_0.1_c2_1.4 | Time = 660.79s
+
+=== Running c1_0.1_c2_1.5 ===
+Completed c1_0.1_c2_1.5 | Time = 662.95s
+
+=== Running c1_0.1_c2_1.6 ===
+Completed c1_0.1_c2_1.6 | Time = 509.89s
+
+=== Running c1_0.1_c2_1.7 ===
+Completed c1_0.1_c2_1.7 | Time = 663.40s
+
+=== Running c1_0.1_c2_1.8 ===
+Completed c1_0.1_c2_1.8 | Time = 1031.17s
+
+=== Running c1_0.1_c2_1.9 ===
+Completed c1_0.1_c2_1.9 | Time = 610.66s
+
+=== Running c1_0.1_c2_2.0 ===
+Completed c1_0.1_c2_2.0 | Time = 653.81s
+
+=== Running c1_0.1_c2_2.1 ===
+Completed c1_0.1_c2_2.1 | Time = 666.43s
+
+=== Running c1_0.1_c2_2.2 ===
+Completed c1_0.1_c2_2.2 | Time = 664.93s
+
+=== Running c1_0.1_c2_2.3 ===
+Completed c1_0.1_c2_2.3 | Time = 591.42s
+
+=== Running c1_0.1_c2_2.4 ===
+Completed c1_0.1_c2_2.4 | Time = 735.67s
+
+=== Running c1_0.1_c2_2.5 ===
+Completed c1_0.1_c2_2.5 | Time = 664.54s
+
+=== Running c1_0.1_c2_2.6 ===
+Completed c1_0.1_c2_2.6 | Time = 811.05s
+
+=== Running c1_0.1_c2_2.7 ===
+Completed c1_0.1_c2_2.7 | Time = 746.23s
+
+=== Running c1_0.1_c2_2.8 ===
+Completed c1_0.1_c2_2.8 | Time = 683.55s
+
+=== Running c1_0.1_c2_2.9 ===
+Completed c1_0.1_c2_2.9 | Time = 1490.06s
+
+=== Running c1_0.1_c2_3.0 ===
+Completed c1_0.1_c2_3.0 | Time = 1108.39s
+
+=== Running c1_0.2_c2_0.1 ===
+Completed c1_0.2_c2_0.1 | Time = 1268.66s
+
+=== Running c1_0.2_c2_0.2 ===
+Completed c1_0.2_c2_0.2 | Time = 826.58s
+
+=== Running c1_0.2_c2_0.3 ===
+Completed c1_0.2_c2_0.3 | Time = 672.91s
+
+=== Running c1_0.2_c2_0.4 ===
+Completed c1_0.2_c2_0.4 | Time = 678.41s
+
+=== Running c1_0.2_c2_0.5 ===
+Completed c1_0.2_c2_0.5 | Time = 663.42s
+
+=== Running c1_0.2_c2_0.6 ===
+Completed c1_0.2_c2_0.6 | Time = 600.10s
+
+=== Running c1_0.2_c2_0.7 ===
+Completed c1_0.2_c2_0.7 | Time = 599.82s
+
+=== Running c1_0.2_c2_0.8 ===
+Completed c1_0.2_c2_0.8 | Time = 827.22s
+
+=== Running c1_0.2_c2_0.9 ===
+Completed c1_0.2_c2_0.9 | Time = 597.28s
+
+=== Running c1_0.2_c2_1.0 ===
+Completed c1_0.2_c2_1.0 | Time = 602.76s
+
+=== Running c1_0.2_c2_1.1 ===
+Completed c1_0.2_c2_1.1 | Time = 601.76s
+
+=== Running c1_0.2_c2_1.2 ===
+Completed c1_0.2_c2_1.2 | Time = 603.24s
+
+=== Running c1_0.2_c2_1.3 ===
+Completed c1_0.2_c2_1.3 | Time = 676.15s
+
+=== Running c1_0.2_c2_1.4 ===
+Completed c1_0.2_c2_1.4 | Time = 522.80s
+
+=== Running c1_0.2_c2_1.5 ===
+Completed c1_0.2_c2_1.5 | Time = 602.29s
+
+=== Running c1_0.2_c2_1.6 ===
+Completed c1_0.2_c2_1.6 | Time = 676.16s
+
+=== Running c1_0.2_c2_1.7 ===
+Completed c1_0.2_c2_1.7 | Time = 596.71s
+
+=== Running c1_0.2_c2_1.8 ===
+Completed c1_0.2_c2_1.8 | Time = 596.02s
+
+=== Running c1_0.2_c2_1.9 ===
+Completed c1_0.2_c2_1.9 | Time = 674.60s
+
+=== Running c1_0.2_c2_2.0 ===
+Completed c1_0.2_c2_2.0 | Time = 599.51s
+
+=== Running c1_0.2_c2_2.1 ===
+Completed c1_0.2_c2_2.1 | Time = 679.68s
+
+=== Running c1_0.2_c2_2.2 ===
+Completed c1_0.2_c2_2.2 | Time = 671.94s
+
+=== Running c1_0.2_c2_2.3 ===
+Completed c1_0.2_c2_2.3 | Time = 599.57s
+
+=== Running c1_0.2_c2_2.4 ===
+Completed c1_0.2_c2_2.4 | Time = 1054.45s
+
+=== Running c1_0.2_c2_2.5 ===
+Completed c1_0.2_c2_2.5 | Time = 601.06s
+
+=== Running c1_0.2_c2_2.6 ===
+Completed c1_0.2_c2_2.6 | Time = 825.90s
+
+=== Running c1_0.2_c2_2.7 ===
+Completed c1_0.2_c2_2.7 | Time = 752.86s
+
+=== Running c1_0.2_c2_2.8 ===
+Completed c1_0.2_c2_2.8 | Time = 1132.09s
+
+=== Running c1_0.2_c2_2.9 ===
+Completed c1_0.2_c2_2.9 | Time = 753.09s
+
+=== Running c1_0.2_c2_3.0 ===
+Completed c1_0.2_c2_3.0 | Time = 906.32s
+
+=== Running c1_0.3_c2_0.1 ===
+Completed c1_0.3_c2_0.1 | Time = 979.98s
+
+=== Running c1_0.3_c2_0.2 ===
+Completed c1_0.3_c2_0.2 | Time = 1516.28s
+
+=== Running c1_0.3_c2_0.3 ===
+Completed c1_0.3_c2_0.3 | Time = 601.24s
+
+=== Running c1_0.3_c2_0.4 ===
+Completed c1_0.3_c2_0.4 | Time = 602.09s
+
+=== Running c1_0.3_c2_0.5 ===
+Completed c1_0.3_c2_0.5 | Time = 678.10s
+
+=== Running c1_0.3_c2_0.6 ===
+Completed c1_0.3_c2_0.6 | Time = 599.70s
+
+=== Running c1_0.3_c2_0.7 ===
+Completed c1_0.3_c2_0.7 | Time = 599.85s
+
+=== Running c1_0.3_c2_0.8 ===
+Completed c1_0.3_c2_0.8 | Time = 600.32s
+
+=== Running c1_0.3_c2_0.9 ===
+Completed c1_0.3_c2_0.9 | Time = 826.99s
+
+=== Running c1_0.3_c2_1.0 ===
+Completed c1_0.3_c2_1.0 | Time = 599.28s
+
+=== Running c1_0.3_c2_1.1 ===
+Completed c1_0.3_c2_1.1 | Time = 737.43s
+
+=== Running c1_0.3_c2_1.2 ===
+Completed c1_0.3_c2_1.2 | Time = 593.22s
+
+=== Running c1_0.3_c2_1.3 ===
+Completed c1_0.3_c2_1.3 | Time = 667.59s
+
+=== Running c1_0.3_c2_1.4 ===
+Completed c1_0.3_c2_1.4 | Time = 594.52s
+
+=== Running c1_0.3_c2_1.5 ===
+Completed c1_0.3_c2_1.5 | Time = 663.82s
+
+=== Running c1_0.3_c2_1.6 ===
+Completed c1_0.3_c2_1.6 | Time = 516.02s
+
+=== Running c1_0.3_c2_1.7 ===
+Completed c1_0.3_c2_1.7 | Time = 662.08s
+
+=== Running c1_0.3_c2_1.8 ===
+Completed c1_0.3_c2_1.8 | Time = 592.56s
+
+=== Running c1_0.3_c2_1.9 ===
+Completed c1_0.3_c2_1.9 | Time = 600.25s
+
+=== Running c1_0.3_c2_2.0 ===
+Completed c1_0.3_c2_2.0 | Time = 666.43s
+
+=== Running c1_0.3_c2_2.1 ===
+Completed c1_0.3_c2_2.1 | Time = 585.70s
+
+=== Running c1_0.3_c2_2.2 ===
+Completed c1_0.3_c2_2.2 | Time = 587.38s
+
+=== Running c1_0.3_c2_2.3 ===
+Completed c1_0.3_c2_2.3 | Time = 657.37s
+
+=== Running c1_0.3_c2_2.4 ===
+Completed c1_0.3_c2_2.4 | Time = 729.82s
+
+=== Running c1_0.3_c2_2.5 ===
+Completed c1_0.3_c2_2.5 | Time = 508.57s
+
+=== Running c1_0.3_c2_2.6 ===
+Completed c1_0.3_c2_2.6 | Time = 653.08s
+
+=== Running c1_0.3_c2_2.7 ===
+Completed c1_0.3_c2_2.7 | Time = 726.04s
+
+=== Running c1_0.3_c2_2.8 ===
+Completed c1_0.3_c2_2.8 | Time = 732.86s
+
+=== Running c1_0.3_c2_2.9 ===
+Completed c1_0.3_c2_2.9 | Time = 585.17s
+
+=== Running c1_0.3_c2_3.0 ===
+Completed c1_0.3_c2_3.0 | Time = 1180.73s
+
+=== Running c1_0.4_c2_0.1 ===
+Completed c1_0.4_c2_0.1 | Time = 1482.35s
+
+=== Running c1_0.4_c2_0.2 ===
+Completed c1_0.4_c2_0.2 | Time = 587.25s
+
+=== Running c1_0.4_c2_0.3 ===
+Completed c1_0.4_c2_0.3 | Time = 736.47s
+
+=== Running c1_0.4_c2_0.4 ===
+Completed c1_0.4_c2_0.4 | Time = 1177.31s
+
+=== Running c1_0.4_c2_0.5 ===
+Completed c1_0.4_c2_0.5 | Time = 726.34s
+
+=== Running c1_0.4_c2_0.6 ===
+Completed c1_0.4_c2_0.6 | Time = 584.79s
+
+=== Running c1_0.4_c2_0.7 ===
+Completed c1_0.4_c2_0.7 | Time = 582.50s
+
+=== Running c1_0.4_c2_0.8 ===
+Completed c1_0.4_c2_0.8 | Time = 580.13s
+
+=== Running c1_0.4_c2_0.9 ===
+Completed c1_0.4_c2_0.9 | Time = 588.64s
+
+=== Running c1_0.4_c2_1.0 ===
+Completed c1_0.4_c2_1.0 | Time = 583.50s
+
+=== Running c1_0.4_c2_1.1 ===
+Completed c1_0.4_c2_1.1 | Time = 667.62s
+
+=== Running c1_0.4_c2_1.2 ===
+Completed c1_0.4_c2_1.2 | Time = 655.54s
+
+=== Running c1_0.4_c2_1.3 ===
+Completed c1_0.4_c2_1.3 | Time = 727.59s
+
+=== Running c1_0.4_c2_1.4 ===
+Completed c1_0.4_c2_1.4 | Time = 669.62s
+
+=== Running c1_0.4_c2_1.5 ===
+Completed c1_0.4_c2_1.5 | Time = 587.76s
+
+=== Running c1_0.4_c2_1.6 ===
+Completed c1_0.4_c2_1.6 | Time = 661.25s
+
+=== Running c1_0.4_c2_1.7 ===
+Completed c1_0.4_c2_1.7 | Time = 580.15s
+
+=== Running c1_0.4_c2_1.8 ===
+Completed c1_0.4_c2_1.8 | Time = 584.89s
+
+=== Running c1_0.4_c2_1.9 ===
+Completed c1_0.4_c2_1.9 | Time = 576.32s
+
+=== Running c1_0.4_c2_2.0 ===
+Completed c1_0.4_c2_2.0 | Time = 664.24s
+
+=== Running c1_0.4_c2_2.1 ===
+Completed c1_0.4_c2_2.1 | Time = 661.84s
+
+=== Running c1_0.4_c2_2.2 ===
+Completed c1_0.4_c2_2.2 | Tim
+=== Running
+=== Running c1_0.4_c2_2.3 ===
+Completed c1_0.4_c2_2.3 | Time = 573.11s
+
+=== Running c1_0.4_c2_2.4 ===
+Completed c1_0.4_c2_2.4 | Time = 572.93s
+
+=== Running c1_0.4_c2_2.5 ===
+Completed c1_0.4_c2_2.5 | Time = 647.09s
+
+=== Running c1_0.4_c2_2.6 ===
+Completed c1_0.4_c2_2.6 | Time = 570.80s
+
+=== Running c1_0.4_c2_2.7 ===
+Completed c1_0.4_c2_2.7 | Time = 786.11s
+
+=== Running c1_0.4_c2_2.8 ===
+Completed c1_0.4_c2_2.8 | Time = 644.78s
+
+=== Running c1_0.4_c2_2.9 ===
+Completed c1_0.4_c2_2.9 | Time = 645.04s
+
+=== Running c1_0.4_c2_3.0 ===
+Completed c1_0.4_c2_3.0 | Time = 785.15s
+
+=== Running c1_0.5_c2_0.1 ===
+Completed c1_0.5_c2_0.1 | Time = 648.21s
+
+=== Running c1_0.5_c2_0.2 ===
+Completed c1_0.5_c2_0.2 | Time = 1437.47s
+
+=== Running c1_0.5_c2_0.3 ===
+Completed c1_0.5_c2_0.3 | Time = 643.92s
+
+=== Running c1_0.5_c2_0.4 ===
+Completed c1_0.5_c2_0.4 | Time = 1446.25s
+
+=== Running c1_0.5_c2_0.5 ===
+Completed c1_0.5_c2_0.5 | Time = 574.05s
+
+=== Running c1_0.5_c2_0.6 ===
+Completed c1_0.5_c2_0.6 | Time = 573.15s
+
+=== Running c1_0.5_c2_0.7 ===
+Completed c1_0.5_c2_0.7 | Time = 574.14s
+
+=== Running c1_0.5_c2_0.8 ===
+Completed c1_0.5_c2_0.8 | Time = 576.42s
+
+=== Running c1_0.5_c2_0.9 ===
+Completed c1_0.5_c2_0.9 | Time = 719.08s
+
+=== Running c1_0.5_c2_1.0 ===
+Completed c1_0.5_c2_1.0 | Time = 641.45s
+
+=== Running c1_0.5_c2_1.1 ===
+Completed c1_0.5_c2_1.1 | Time = 569.50s
+
+=== Running c1_0.5_c2_1.2 ===
+Completed c1_0.5_c2_1.2 | Time = 574.99s
+
+=== Running c1_0.5_c2_1.3 ===
+Completed c1_0.5_c2_1.3 | Time = 646.49s
+
+=== Running c1_0.5_c2_1.4 ===
+Completed c1_0.5_c2_1.4 | Time = 599.57s
+
+=== Running c1_0.5_c2_1.5 ===
+Completed c1_0.5_c2_1.5 | Time = 601.53s
+
+=== Running c1_0.5_c2_1.6 ===
+Completed c1_0.5_c2_1.6 | Time = 668.62s
+
+=== Running c1_0.5_c2_1.7 ===
+Completed c1_0.5_c2_1.7 | Time = 581.78s
+
+=== Running c1_0.5_c2_1.8 ===
+Completed c1_0.5_c2_1.8 | Time = 577.64s
+
+=== Running c1_0.5_c2_1.9 ===
+Completed c1_0.5_c2_1.9 | Time = 678.46s
+
+=== Running c1_0.5_c2_2.0 ===
+Completed c1_0.5_c2_2.0 | Time = 578.92s
+
+=== Running c1_0.5_c2_2.1 ===
+Completed c1_0.5_c2_2.1 | Time = 651.72s
+
+=== Running c1_0.5_c2_2.2 ===
+Completed c1_0.5_c2_2.2 | Time = 578.71s
+
+=== Running c1_0.5_c2_2.3 ===
+Completed c1_0.5_c2_2.3 | Time = 720.30s
+
+=== Running c1_0.5_c2_2.4 ===
+Completed c1_0.5_c2_2.4 | Time = 576.11s
+
+=== Running c1_0.5_c2_2.5 ===
+Completed c1_0.5_c2_2.5 | Time = 580.96s
+
+=== Running c1_0.5_c2_2.6 ===
+Completed c1_0.5_c2_2.6 | Time = 643.58s
+
+=== Running c1_0.5_c2_2.7 ===
+Completed c1_0.5_c2_2.7 | Time = 709.43s
+
+=== Running c1_0.5_c2_2.8 ===
+Completed c1_0.5_c2_2.8 | Time = 712.32s
+
+=== Running c1_0.5_c2_2.9 ===
+Completed c1_0.5_c2_2.9 | Time = 571.40s
+
+=== Running c1_0.5_c2_3.0 ===
+Completed c1_0.5_c2_3.0 | Time = 1441.54s
+
+=== Running c1_0.6_c2_0.1 ===
+Completed c1_0.6_c2_0.1 | Time = 1440.86s
+
+=== Running c1_0.6_c2_0.2 ===
+Completed c1_0.6_c2_0.2 | Time = 646.28s
+
+=== Running c1_0.6_c2_0.3 ===
+Completed c1_0.6_c2_0.3 | Time = 1221.91s
+
+=== Running c1_0.6_c2_0.4 ===
+Completed c1_0.6_c2_0.4 | Time = 1007.35s
+
+=== Running c1_0.6_c2_0.5 ===
+Completed c1_0.6_c2_0.5 | Time = 498.16s
+
+=== Running c1_0.6_c2_0.6 ===
+Completed c1_0.6_c2_0.6 | Time = 575.09s
+
+=== Running c1_0.6_c2_0.7 ===
+Completed c1_0.6_c2_0.7 | Time = 501.54s
+
+=== Running c1_0.6_c2_0.8 ===
+Completed c1_0.6_c2_0.8 | Time = 573.63s
+
+=== Running c1_0.6_c2_0.9 ===
+Completed c1_0.6_c2_0.9 | Time = 573.36s
+
+=== Running c1_0.6_c2_1.0 ===
+Completed c1_0.6_c2_1.0 | Time = 573.50s
+
+=== Running c1_0.6_c2_1.1 ===
+Completed c1_0.6_c2_1.1 | Time = 570.01s
+
+=== Running c1_0.6_c2_1.2 ===
+Completed c1_0.6_c2_1.2 | Time = 573.30s
+
+=== Running c1_0.6_c2_1.3 ===
+Completed c1_0.6_c2_1.3 | Time = 571.05s
+
+=== Running c1_0.6_c2_1.4 ===
+Completed c1_0.6_c2_1.4 | Time = 641.23s
+
+=== Running c1_0.6_c2_1.5 ===
+Completed c1_0.6_c2_1.5 | Time = 570.31s
+
+=== Running c1_0.6_c2_1.6 ===
+Completed c1_0.6_c2_1.6 | Time = 497.94s
+
+=== Running c1_0.6_c2_1.7 ===
+Completed c1_0.6_c2_1.7 | Time = 498.82s
+
+=== Running c1_0.6_c2_1.8 ===
+Completed c1_0.6_c2_1.8 | Time = 575.10s
+
+=== Running c1_0.6_c2_1.9 ===
+Completed c1_0.6_c2_1.9 | Time = 569.50s
+
+=== Running c1_0.6_c2_2.0 ===
+Completed c1_0.6_c2_2.0 | Time = 567.12s
+
+=== Running c1_0.6_c2_2.1 ===
+Completed c1_0.6_c2_2.1 | Time = 715.69s
+
+=== Running c1_0.6_c2_2.2 ===
+Completed c1_0.6_c2_2.2 | Time = 574.80s
+
+=== Running c1_0.6_c2_2.3 ===
+Completed c1_0.6_c2_2.3 | Time = 649.70s
+
+=== Running c1_0.6_c2_2.4 ===
+Completed c1_0.6_c2_2.4 | Time = 651.99s
+
+=== Running c1_0.6_c2_2.5 ===
+Completed c1_0.6_c2_2.5 | Time = 572.85s
+
+=== Running c1_0.6_c2_2.6 ===
+Completed c1_0.6_c2_2.6 | Time = 858.38s
+
+=== Running c1_0.6_c2_2.7 ===
+Completed c1_0.6_c2_2.7 | Time = 926.01s
+
+=== Running c1_0.6_c2_2.8 ===
+Completed c1_0.6_c2_2.8 | Time = 711.35s
+
+=== Running c1_0.6_c2_2.9 ===
+Completed c1_0.6_c2_2.9 | Time = 710.07s
+
+=== Running c1_0.6_c2_3.0 ===
+Completed c1_0.6_c2_3.0 | Time = 997.87s
+
+=== Running c1_0.7_c2_0.1 ===
+Completed c1_0.7_c2_0.1 | Time = 641.82s
+
+=== Running c1_0.7_c2_0.2 ===
+Completed c1_0.7_c2_0.2 | Time = 650.29s
+
+=== Running c1_0.7_c2_0.3 ===
+Completed c1_0.7_c2_0.3 | Time = 722.08s
+
+=== Running c1_0.7_c2_0.4 ===
+Completed c1_0.7_c2_0.4 | Time = 648.85s
+
+=== Running c1_0.7_c2_0.5 ===
+Completed c1_0.7_c2_0.5 | Time = 509.22s
+
+=== Running c1_0.7_c2_0.6 ===
+Completed c1_0.7_c2_0.6 | Time = 579.10s
+
+=== Running c1_0.7_c2_0.7 ===
+Completed c1_0.7_c2_0.7 | Time = 498.24s
+
+=== Running c1_0.7_c2_0.8 ===
+Completed c1_0.7_c2_0.8 | Time = 573.18s
+
+=== Running c1_0.7_c2_0.9 ===
+Completed c1_0.7_c2_0.9 | Time = 568.01s
+
+=== Running c1_0.7_c2_1.0 ===
+Completed c1_0.7_c2_1.0 | Time = 574.07s
+
+=== Running c1_0.7_c2_1.1 ===
+Completed c1_0.7_c2_1.1 | Time = 571.89s
+
+=== Running c1_0.7_c2_1.2 ===
+Completed c1_0.7_c2_1.2 | Time = 573.79s
+
+=== Running c1_0.7_c2_1.3 ===
+Completed c1_0.7_c2_1.3 | Time = 641.58s
+
+=== Running c1_0.7_c2_1.4 ===
+Completed c1_0.7_c2_1.4 | Time = 575.82s
+
+=== Running c1_0.7_c2_1.5 ===
+Completed c1_0.7_c2_1.5 | Time = 571.02s
+
+=== Running c1_0.7_c2_1.6 ===
+Completed c1_0.7_c2_1.6 | Time = 572.59s
+
+=== Running c1_0.7_c2_1.7 ===
+Completed c1_0.7_c2_1.7 | Time = 570.02s
+
+=== Running c1_0.7_c2_1.8 ===
+Completed c1_0.7_c2_1.8 | Time = 573.05s
+
+=== Running c1_0.7_c2_1.9 ===
+Completed c1_0.7_c2_1.9 | Time = 570.02s
+
+=== Running c1_0.7_c2_2.0 ===
+Completed c1_0.7_c2_2.0 | Time = 569.02s
+
+=== Running c1_0.7_c2_2.1 ===
+Completed c1_0.7_c2_2.1 | Time = 578.39s
+
+=== Running c1_0.7_c2_2.2 ===
+Completed c1_0.7_c2_2.2 | Time = 649.52s
+
+=== Running c1_0.7_c2_2.3 ===
+Completed c1_0.7_c2_2.3 | Time = 576.14s
+
+=== Running c1_0.7_c2_2.4 ===
+Completed c1_0.7_c2_2.4 | Time = 643.18s
+
+=== Running c1_0.7_c2_2.5 ===
+Completed c1_0.7_c2_2.5 | Time = 644.34s
+
+=== Running c1_0.7_c2_2.6 ===
+Completed c1_0.7_c2_2.6 | Time = 1437.85s
+
+=== Running c1_0.7_c2_2.7 ===
+Completed c1_0.7_c2_2.7 | Time = 717.69s
+
+=== Running c1_0.7_c2_2.8 ===
+Completed c1_0.7_c2_2.8 | Time = 791.05s
+
+=== Running c1_0.7_c2_2.9 ===
+Completed c1_0.7_c2_2.9 | Time = 1439.99s
+
+=== Running c1_0.7_c2_3.0 ===
+Completed c1_0.7_c2_3.0 | Time = 1456.70s
+
+=== Running c1_0.8_c2_0.1 ===
+Completed c1_0.8_c2_0.1 | Time = 1470.21s
+
+=== Running c1_0.8_c2_0.2 ===
+Completed c1_0.8_c2_0.2 | Time = 754.35s
+
+=== Running c1_0.8_c2_0.3 ===
+Completed c1_0.8_c2_0.3 | Time = 661.41s
+
+=== Running c1_0.8_c2_0.4 ===
+Completed c1_0.8_c2_0.4 | Time = 659.71s
+
+=== Running c1_0.8_c2_0.5 ===
+Completed c1_0.8_c2_0.5 | Time = 648.59s
+
+=== Running c1_0.8_c2_0.6 ===
+Completed c1_0.8_c2_0.6 | Time = 576.37s
+
+=== Running c1_0.8_c2_0.7 ===
+Completed c1_0.8_c2_0.7 | Time = 589.77s
+
+=== Running c1_0.8_c2_0.8 ===
+Completed c1_0.8_c2_0.8 | Time = 582.00s
+
+=== Running c1_0.8_c2_0.9 ===
+Completed c1_0.8_c2_0.9 | Time = 571.00s
+
+=== Running c1_0.8_c2_1.0 ===
+Completed c1_0.8_c2_1.0 | Time = 576.64s
+
+=== Running c1_0.8_c2_1.1 ===
+Completed c1_0.8_c2_1.1 | Time = 580.85s
+
+=== Running c1_0.8_c2_1.2 ===
+Completed c1_0.8_c2_1.2 | Time = 573.26s
+
+=== Running c1_0.8_c2_1.3 ===
+Completed c1_0.8_c2_1.3 | Time = 643.54s
+
+=== Running c1_0.8_c2_1.4 ===
+Completed c1_0.8_c2_1.4 | Time = 569.39s
+
+=== Running c1_0.8_c2_1.5 ===
+Completed c1_0.8_c2_1.5 | Time = 577.25s
+
+=== Running c1_0.8_c2_1.6 ===
+Completed c1_0.8_c2_1.6 | Time = 727.65s
+
+=== Running c1_0.8_c2_1.7 ===
+Completed c1_0.8_c2_1.7 | Time = 578.96s
+
+=== Running c1_0.8_c2_1.8 ===
+Completed c1_0.8_c2_1.8 | Time = 586.84s
+
+=== Running c1_0.8_c2_1.9 ===
+Completed c1_0.8_c2_1.9 | Time = 584.41s
+
+=== Running c1_0.8_c2_2.0 ===
+Completed c1_0.8_c2_2.0 | Time = 630.71s
+
+=== Running c1_0.8_c2_2.1 ===
+Completed c1_0.8_c2_2.1 | Time = 626.10s
+
+=== Running c1_0.8_c2_2.2 ===
+Completed c1_0.8_c2_2.2 | Time = 652.23s
+
+=== Running c1_0.8_c2_2.3 ===
+Completed c1_0.8_c2_2.3 | Time = 583.42s
+
+=== Running c1_0.8_c2_2.4 ===
+Completed c1_0.8_c2_2.4 | Time = 654.32s
+
+=== Running c1_0.8_c2_2.5 ===
+Completed c1_0.8_c2_2.5 | Time = 800.05s
+
+=== Running c1_0.8_c2_2.6 ===
+Completed c1_0.8_c2_2.6 | Time = 1023.40s
+
+=== Running c1_0.8_c2_2.7 ===
+Completed c1_0.8_c2_2.7 | Time = 1483.91s
+
+=== Running c1_0.8_c2_2.8 ===
+Completed c1_0.8_c2_2.8 | Time = 891.24s
+
+=== Running c1_0.8_c2_2.9 ===
+Completed c1_0.8_c2_2.9 | Time = 671.42s
+
+=== Running c1_0.8_c2_3.0 ===
+Completed c1_0.8_c2_3.0 | Time = 1491.49s
+
+=== Running c1_0.9_c2_0.1 ===
+Completed c1_0.9_c2_0.1 | Time = 587.63s
+
+=== Running c1_0.9_c2_0.2 ===
+Completed c1_0.9_c2_0.2 | Time = 666.37s
+
+=== Running c1_0.9_c2_0.3 ===
+Completed c1_0.9_c2_0.3 | Time = 742.00s
+
+=== Running c1_0.9_c2_0.4 ===
+Completed c1_0.9_c2_0.4 | Time = 663.03s
+
+=== Running c1_0.9_c2_0.5 ===
+Completed c1_0.9_c2_0.5 | Time = 582.48s
+
+=== Running c1_0.9_c2_0.6 ===
+Completed c1_0.9_c2_0.6 | Time = 577.47s
+
+=== Running c1_0.9_c2_0.7 ===
+Completed c1_0.9_c2_0.7 | Time = 576.25s
+
+=== Running c1_0.9_c2_0.8 ===
+Completed c1_0.9_c2_0.8 | Time = 652.76s
+
+=== Running c1_0.9_c2_0.9 ===
+Completed c1_0.9_c2_0.9 | Time = 580.55s
+
+=== Running c1_0.9_c2_1.0 ===
+Completed c1_0.9_c2_1.0 | Time = 642.46s
+
+=== Running c1_0.9_c2_1.1 ===
+Completed c1_0.9_c2_1.1 | Time = 578.01s
+
+=== Running c1_0.9_c2_1.2 ===
+Completed c1_0.9_c2_1.2 | Time = 646.69s
+
+=== Running c1_0.9_c2_1.3 ===
+Completed c1_0.9_c2_1.3 | Time = 581.57s
+
+=== Running c1_0.9_c2_1.4 ===
+Completed c1_0.9_c2_1.4 | Time = 652.48s
+
+=== Running c1_0.9_c2_1.5 ===
+Completed c1_0.9_c2_1.5 | Time = 661.14s
+
+=== Running c1_0.9_c2_1.6 ===
+Completed c1_0.9_c2_1.6 | Time = 727.10s
+
+=== Running c1_0.9_c2_1.7 ===
+Completed c1_0.9_c2_1.7 | Time = 641.93s
+
+=== Running c1_0.9_c2_1.8 ===
+Completed c1_0.9_c2_1.8 | Time = 623.04s
+
+=== Running c1_0.9_c2_1.9 ===
+Completed c1_0.9_c2_1.9 | Time = 832.26s
+
+=== Running c1_0.9_c2_2.0 ===
+Completed c1_0.9_c2_2.0 | Time = 718.83s
+
+=== Running c1_0.9_c2_2.1 ===
+Completed c1_0.9_c2_2.1 | Time = 576.66s
+
+=== Running c1_0.9_c2_2.2 ===
+Completed c1_0.9_c2_2.2 | Time = 646.91s
+
+=== Running c1_0.9_c2_2.3 ===
+Completed c1_0.9_c2_2.3 | Time = 578.58s
+
+=== Running c1_0.9_c2_2.4 ===
+Completed c1_0.9_c2_2.4 | Time = 651.40s
+
+=== Running c1_0.9_c2_2.5 ===
+Completed c1_0.9_c2_2.5 | Time = 580.71s
+
+=== Running c1_0.9_c2_2.6 ===
+Completed c1_0.9_c2_2.6 | Time = 651.31s
+
+=== Running c1_0.9_c2_2.7 ===
+Completed c1_0.9_c2_2.7 | Time = 939.96s
+
+=== Running c1_0.9_c2_2.8 ===
+Completed c1_0.9_c2_2.8 | Time = 1453.08s
+
+=== Running c1_0.9_c2_2.9 ===
+Completed c1_0.9_c2_2.9 | Time = 648.11s
+
+=== Running c1_0.9_c2_3.0 ===
+Completed c1_0.9_c2_3.0 | Time = 1450.05s
+
+=== Running c1_1.0_c2_0.1 ===
+Completed c1_1.0_c2_0.1 | Time = 1452.43s
+
+=== Running c1_1.0_c2_0.2 ===
+Completed c1_1.0_c2_0.2 | Time = 1451.71s
+
+=== Running c1_1.0_c2_0.3 ===
+Completed c1_1.0_c2_0.3 | Time = 1444.47s
+
+=== Running c1_1.0_c2_0.4 ===
+Completed c1_1.0_c2_0.4 | Time = 575.27s
+
+=== Running c1_1.0_c2_0.5 ===
+Completed c1_1.0_c2_0.5 | Time = 510.99s
+
+=== Running c1_1.0_c2_0.6 ===
+Completed c1_1.0_c2_0.6 | Time = 729.70s
+
+=== Running c1_1.0_c2_0.7 ===
+Completed c1_1.0_c2_0.7 | Time = 654.97s
+
+=== Running c1_1.0_c2_0.8 ===
+Completed c1_1.0_c2_0.8 | Time = 583.55s
+
+=== Running c1_1.0_c2_0.9 ===
+Completed c1_1.0_c2_0.9 | Time = 510.14s
+
+=== Running c1_1.0_c2_1.0 ===
+Completed c1_1.0_c2_1.0 | Time = 592.38s
+
+=== Running c1_1.0_c2_1.1 ===
+Completed c1_1.0_c2_1.1 | Time = 814.96s
+
+=== Running c1_1.0_c2_1.2 ===
+Completed c1_1.0_c2_1.2 | Time = 666.75s
+
+=== Running c1_1.0_c2_1.3 ===
+Completed c1_1.0_c2_1.3 | Time = 588.63s
+
+=== Running c1_1.0_c2_1.4 ===
+Completed c1_1.0_c2_1.4 | Time = 515.98s
+
+=== Running c1_1.0_c2_1.5 ===
+Completed c1_1.0_c2_1.5 | Time = 593.64s
+
+=== Running c1_1.0_c2_1.6 ===
+Completed c1_1.0_c2_1.6 | Time = 661.28s
+
+=== Running c1_1.0_c2_1.7 ===
+Completed c1_1.0_c2_1.7 | Time = 517.57s
+
+=== Running c1_1.0_c2_1.8 ===
+Completed c1_1.0_c2_1.8 | Time = 517.04s
+
+=== Running c1_1.0_c2_1.9 ===
+Completed c1_1.0_c2_1.9 | Time = 889.40s
+
+=== Running c1_1.0_c2_2.0 ===
+Completed c1_1.0_c2_2.0 | Time = 596.25s
+
+=== Running c1_1.0_c2_2.1 ===
+Completed c1_1.0_c2_2.1 | Time = 657.40s
+
+=== Running c1_1.0_c2_2.2 ===
+Completed c1_1.0_c2_2.2 | Time = 587.26s
+
+=== Running c1_1.0_c2_2.3 ===
+Completed c1_1.0_c2_2.3 | Time = 741.28s
+
+=== Running c1_1.0_c2_2.4 ===
+Completed c1_1.0_c2_2.4 | Time = 596.82s
+
+=== Running c1_1.0_c2_2.5 ===
+Completed c1_1.0_c2_2.5 | Time = 738.95s
+
+=== Running c1_1.0_c2_2.6 ===
+Completed c1_1.0_c2_2.6 | Time = 891.37s
+
+=== Running c1_1.0_c2_2.7 ===
+Completed c1_1.0_c2_2.7 | Time = 744.58s
+
+=== Running c1_1.0_c2_2.8 ===
+Completed c1_1.0_c2_2.8 | Time = 956.27s
+
+=== Running c1_1.0_c2_2.9 ===
+Completed c1_1.0_c2_2.9 | Time = 1490.90s
+
+=== Running c1_1.0_c2_3.0 ===
+Completed c1_1.0_c2_3.0 | Time = 1263.23s
+
+=== Running c1_1.1_c2_0.1 ===
+Completed c1_1.1_c2_0.1 | Time = 1491.55s
+
+=== Running c1_1.1_c2_0.2 ===
+Completed c1_1.1_c2_0.2 | Time = 590.79s
+
+=== Running c1_1.1_c2_0.3 ===
+Completed c1_1.1_c2_0.3 | Time = 587.76s
+
+=== Running c1_1.1_c2_0.4 ===
+Completed c1_1.1_c2_0.4 | Time = 515.89s
+
+=== Running c1_1.1_c2_0.5 ===
+Completed c1_1.1_c2_0.5 | Time = 588.67s
+
+=== Running c1_1.1_c2_0.6 ===
+Completed c1_1.1_c2_0.6 | Time = 591.51s
+
+=== Running c1_1.1_c2_0.7 ===
+Completed c1_1.1_c2_0.7 | Time = 1558.02s
+
+=== Running c1_1.1_c2_0.8 ===
+Completed c1_1.1_c2_0.8 | Time = 661.35s
+
+=== Running c1_1.1_c2_0.9 ===
+Completed c1_1.1_c2_0.9 | Time = 655.50s
+
+=== Running c1_1.1_c2_1.0 ===
+Completed c1_1.1_c2_1.0 | Time = 654.87s
+
+=== Running c1_1.1_c2_1.1 ===
+Completed c1_1.1_c2_1.1 | Time = 739.78s
+
+=== Running c1_1.1_c2_1.2 ===
+Completed c1_1.1_c2_1.2 | Time = 742.09s
+
+=== Running c1_1.1_c2_1.3 ===
+Completed c1_1.1_c2_1.3 | Time = 737.78s
+
+=== Running c1_1.1_c2_1.4 ===
+Completed c1_1.1_c2_1.4 | Time = 607.60s
+
+=== Running c1_1.1_c2_1.5 ===
+Completed c1_1.1_c2_1.5 | Time = 668.75s
+
+=== Running c1_1.1_c2_1.6 ===
+Completed c1_1.1_c2_1.6 | Time = 591.17s
+
+=== Running c1_1.1_c2_1.7 ===
+Completed c1_1.1_c2_1.7 | Time = 589.17s
+
+=== Running c1_1.1_c2_1.8 ===
+Completed c1_1.1_c2_1.8 | Time = 734.85s
+
+=== Running c1_1.1_c2_1.9 ===
+Completed c1_1.1_c2_1.9 | Time = 591.52s
+
+=== Running c1_1.1_c2_2.0 ===
+Completed c1_1.1_c2_2.0 | Time = 597.68s
+
+=== Running c1_1.1_c2_2.1 ===
+Completed c1_1.1_c2_2.1 | Time = 673.78s
+
+=== Running c1_1.1_c2_2.2 ===
+Completed c1_1.1_c2_2.2 | Time = 739.91s
+
+=== Running c1_1.1_c2_2.3 ===
+Completed c1_1.1_c2_2.3 | Time = 738.47s
+
+=== Running c1_1.1_c2_2.4 ===
+Completed c1_1.1_c2_2.4 | Time = 1185.34s
+
+=== Running c1_1.1_c2_2.5 ===
+Completed c1_1.1_c2_2.5 | Time = 1045.24s
+
+=== Running c1_1.1_c2_2.6 ===
+Completed c1_1.1_c2_2.6 | Time = 830.37s
+
+=== Running c1_1.1_c2_2.7 ===
+Completed c1_1.1_c2_2.7 | Time = 996.34s
+
+=== Running c1_1.1_c2_2.8 ===
+Completed c1_1.1_c2_2.8 | Time = 915.47s
+
+=== Running c1_1.1_c2_2.9 ===
+Completed c1_1.1_c2_2.9 | Time = 1543.76s
+
+=== Running c1_1.1_c2_3.0 ===
+Completed c1_1.1_c2_3.0 | Time = 1652.46s
+
+=== Running c1_1.2_c2_0.1 ===
+Completed c1_1.2_c2_0.1 | Time = 1596.41s
+
+=== Running c1_1.2_c2_0.2 ===
+Completed c1_1.2_c2_0.2 | Time = 595.07s
+
+=== Running c1_1.2_c2_0.3 ===
+Completed c1_1.2_c2_0.3 | Time = 736.41s
+
+=== Running c1_1.2_c2_0.4 ===
+Completed c1_1.2_c2_0.4 | Time = 664.64s
+
+=== Running c1_1.2_c2_0.5 ===
+Completed c1_1.2_c2_0.5 | Time = 588.38s
+
+=== Running c1_1.2_c2_0.6 ===
+Completed c1_1.2_c2_0.6 | Time = 775.98s
+
+=== Running c1_1.2_c2_0.7 ===
+Completed c1_1.2_c2_0.7 | Time = 591.51s
+
+=== Running c1_1.2_c2_0.8 ===
+Completed c1_1.2_c2_0.8 | Time = 522.72s
+
+=== Running c1_1.2_c2_0.9 ===
+Completed c1_1.2_c2_0.9 | Time = 659.16s
+
+=== Running c1_1.2_c2_1.0 ===
+Completed c1_1.2_c2_1.0 | Time = 596.40s
+
+=== Running c1_1.2_c2_1.1 ===
+Completed c1_1.2_c2_1.1 | Time = 588.68s
+
+=== Running c1_1.2_c2_1.2 ===
+Completed c1_1.2_c2_1.2 | Time = 590.44s
+
+=== Running c1_1.2_c2_1.3 ===
+Completed c1_1.2_c2_1.3 | Time = 519.00s
+
+=== Running c1_1.2_c2_1.4 ===
+Completed c1_1.2_c2_1.4 | Time = 660.49s
+
+=== Running c1_1.2_c2_1.5 ===
+Completed c1_1.2_c2_1.5 | Time = 663.64s
+
+=== Running c1_1.2_c2_1.6 ===
+Completed c1_1.2_c2_1.6 | Time = 516.80s
+
+=== Running c1_1.2_c2_1.7 ===
+Completed c1_1.2_c2_1.7 | Time = 667.20s
+
+=== Running c1_1.2_c2_1.8 ===
+Completed c1_1.2_c2_1.8 | Time = 674.16s
+
+=== Running c1_1.2_c2_1.9 ===
+Completed c1_1.2_c2_1.9 | Time = 593.29s
+
+=== Running c1_1.2_c2_2.0 ===
+Completed c1_1.2_c2_2.0 | Time = 587.75s
+
+=== Running c1_1.2_c2_2.1 ===
+Completed c1_1.2_c2_2.1 | Time = 666.16s
+
+=== Running c1_1.2_c2_2.2 ===
+Completed c1_1.2_c2_2.2 | Time = 589.69s
+
+=== Running c1_1.2_c2_2.3 ===
+Completed c1_1.2_c2_2.3 | Time = 667.72s
+
+=== Running c1_1.2_c2_2.4 ===
+Completed c1_1.2_c2_2.4 | Time = 884.17s
+
+=== Running c1_1.2_c2_2.5 ===
+Completed c1_1.2_c2_2.5 | Time = 660.62s
+
+=== Running c1_1.2_c2_2.6 ===
+Completed c1_1.2_c2_2.6 | Time = 966.23s
+
+=== Running c1_1.2_c2_2.7 ===
+Completed c1_1.2_c2_2.7 | Time = 1127.72s
+
+=== Running c1_1.2_c2_2.8 ===
+Completed c1_1.2_c2_2.8 | Time = 1490.52s
+
+=== Running c1_1.2_c2_2.9 ===
+Completed c1_1.2_c2_2.9 | Time = 1495.34s
+
+=== Running c1_1.2_c2_3.0 ===
+Completed c1_1.2_c2_3.0 | Time = 821.12s
+
+=== Running c1_1.3_c2_0.1 ===
+Completed c1_1.3_c2_0.1 | Time = 1478.28s
+
+=== Running c1_1.3_c2_0.2 ===
+Completed c1_1.3_c2_0.2 | Time = 1487.20s
+
+=== Running c1_1.3_c2_0.3 ===
+Completed c1_1.3_c2_0.3 | Time = 589.70s
+
+=== Running c1_1.3_c2_0.4 ===
+Completed c1_1.3_c2_0.4 | Time = 584.53s
+
+=== Running c1_1.3_c2_0.5 ===
+Completed c1_1.3_c2_0.5 | Time = 586.83s
+
+=== Running c1_1.3_c2_0.6 ===
+Completed c1_1.3_c2_0.6 | Time = 583.16s
+
+=== Running c1_1.3_c2_0.7 ===
+Completed c1_1.3_c2_0.7 | Time = 517.18s
+
+=== Running c1_1.3_c2_0.8 ===
+Completed c1_1.3_c2_0.8 | Time = 585.74s
+
+=== Running c1_1.3_c2_0.9 ===
+Completed c1_1.3_c2_0.9 | Time = 966.11s
+
+=== Running c1_1.3_c2_1.0 ===
+Completed c1_1.3_c2_1.0 | Time = 587.38s
+
+=== Running c1_1.3_c2_1.1 ===
+Completed c1_1.3_c2_1.1 | Time = 592.56s
+
+=== Running c1_1.3_c2_1.2 ===
+Completed c1_1.3_c2_1.2 | Time = 592.35s
+
+=== Running c1_1.3_c2_1.3 ===
+Completed c1_1.3_c2_1.3 | Time = 598.79s
+
+=== Running c1_1.3_c2_1.4 ===
+Completed c1_1.3_c2_1.4 | Time = 590.94s
+
+=== Running c1_1.3_c2_1.5 ===
+Completed c1_1.3_c2_1.5 | Time = 515.06s
+
+=== Running c1_1.3_c2_1.6 ===
+Completed c1_1.3_c2_1.6 | Time = 587.24s
+
+=== Running c1_1.3_c2_1.7 ===
+Completed c1_1.3_c2_1.7 | Time = 514.35s
+
+=== Running c1_1.3_c2_1.8 ===
+Completed c1_1.3_c2_1.8 | Time = 588.33s
+
+=== Running c1_1.3_c2_1.9 ===
+Completed c1_1.3_c2_1.9 | Time = 805.31s
+
+=== Running c1_1.3_c2_2.0 ===
+Completed c1_1.3_c2_2.0 | Time = 727.47s
+
+=== Running c1_1.3_c2_2.1 ===
+Completed c1_1.3_c2_2.1 | Time = 668.07s
+
+=== Running c1_1.3_c2_2.2 ===
+Completed c1_1.3_c2_2.2 | Time = 588.89s
+
+=== Running c1_1.3_c2_2.3 ===
+Completed c1_1.3_c2_2.3 | Time = 588.15s
+
+=== Running c1_1.3_c2_2.4 ===
+Completed c1_1.3_c2_2.4 | Time = 668.33s
+
+=== Running c1_1.3_c2_2.5 ===
+Completed c1_1.3_c2_2.5 | Time = 580.53s
+
+=== Running c1_1.3_c2_2.6 ===
+Completed c1_1.3_c2_2.6 | Time = 1479.53s
+
+=== Running c1_1.3_c2_2.7 ===
+Completed c1_1.3_c2_2.7 | Time = 1110.09s
+
+=== Running c1_1.3_c2_2.8 ===
+Completed c1_1.3_c2_2.8 | Time = 656.74s
+
+=== Running c1_1.3_c2_2.9 ===
+Completed c1_1.3_c2_2.9 | Time = 1480.69s
+
+=== Running c1_1.3_c2_3.0 ===
+Completed c1_1.3_c2_3.0 | Time = 1469.07s
+
+=== Running c1_1.4_c2_0.1 ===
+Completed c1_1.4_c2_0.1 | Time = 1473.20s
+
+=== Running c1_1.4_c2_0.2 ===
+Completed c1_1.4_c2_0.2 | Time = 735.59s
+
+=== Running c1_1.4_c2_0.3 ===
+Completed c1_1.4_c2_0.3 | Time = 1473.11s
+
+=== Running c1_1.4_c2_0.4 ===
+Completed c1_1.4_c2_0.4 | Time = 963.28s
+
+=== Running c1_1.4_c2_0.5 ===
+Completed c1_1.4_c2_0.5 | Time = 587.98s
+
+=== Running c1_1.4_c2_0.6 ===
+Completed c1_1.4_c2_0.6 | Time = 666.20s
+
+=== Running c1_1.4_c2_0.7 ===
+Completed c1_1.4_c2_0.7 | Time = 591.29s
+
+=== Running c1_1.4_c2_0.8 ===
+Completed c1_1.4_c2_0.8 | Time = 588.35s
+
+=== Running c1_1.4_c2_0.9 ===
+Completed c1_1.4_c2_0.9 | Time = 664.46s
+
+=== Running c1_1.4_c2_1.0 ===
+Completed c1_1.4_c2_1.0 | Time = 596.69s
+
+=== Running c1_1.4_c2_1.1 ===
+Completed c1_1.4_c2_1.1 | Time = 520.84s
+
+=== Running c1_1.4_c2_1.2 ===
+Completed c1_1.4_c2_1.2 | Time = 595.34s
+
+=== Running c1_1.4_c2_1.3 ===
+Completed c1_1.4_c2_1.3 | Time = 593.11s
+
+=== Running c1_1.4_c2_1.4 ===
+Completed c1_1.4_c2_1.4 | Time = 585.89s
+
+=== Running c1_1.4_c2_1.5 ===
+Completed c1_1.4_c2_1.5 | Time = 513.03s
+
+=== Running c1_1.4_c2_1.6 ===
+Completed c1_1.4_c2_1.6 | Time = 584.84s
+
+=== Running c1_1.4_c2_1.7 ===
+Completed c1_1.4_c2_1.7 | Time = 587.87s
+
+=== Running c1_1.4_c2_1.8 ===
+Completed c1_1.4_c2_1.8 | Time = 736.12s
+
+=== Running c1_1.4_c2_1.9 ===
+Completed c1_1.4_c2_1.9 | Time = 662.27s
+
+=== Running c1_1.4_c2_2.0 ===
+Completed c1_1.4_c2_2.0 | Time = 584.70s
+
+=== Running c1_1.4_c2_2.1 ===
+Completed c1_1.4_c2_2.1 | Time = 585.55s
+
+=== Running c1_1.4_c2_2.2 ===
+Completed c1_1.4_c2_2.2 | Time = 1111.42s
+
+=== Running c1_1.4_c2_2.3 ===
+Completed c1_1.4_c2_2.3 | Time = 1273.02s
+
+=== Running c1_1.4_c2_2.4 ===
+Completed c1_1.4_c2_2.4 | Time = 965.19s
+
+=== Running c1_1.4_c2_2.5 ===
+Completed c1_1.4_c2_2.5 | Time = 884.59s
+
+=== Running c1_1.4_c2_2.6 ===
+Completed c1_1.4_c2_2.6 | Time = 1475.03s
+
+=== Running c1_1.4_c2_2.7 ===
+Completed c1_1.4_c2_2.7 | Time = 696.50s
+
+=== Running c1_1.4_c2_2.8 ===
+Completed c1_1.4_c2_2.8 | Time = 1156.81s
+
+=== Running c1_1.4_c2_2.9 ===
+Completed c1_1.4_c2_2.9 | Time = 1592.62s
+
+=== Running c1_1.4_c2_3.0 ===
+Completed c1_1.4_c2_3.0 | Time = 1489.79s
+
+=== Running c1_1.5_c2_0.1 ===
+Completed c1_1.5_c2_0.1 | Time = 740.77s
+
+=== Running c1_1.5_c2_0.2 ===
+Completed c1_1.5_c2_0.2 | Time = 734.32s
+
+=== Running c1_1.5_c2_0.3 ===
+Completed c1_1.5_c2_0.3 | Time = 592.31s
+
+=== Running c1_1.5_c2_0.4 ===
+Completed c1_1.5_c2_0.4 | Time = 739.26s
+
+=== Running c1_1.5_c2_0.5 ===
+Completed c1_1.5_c2_0.5 | Time = 558.74s
+
+=== Running c1_1.5_c2_0.6 ===
+Completed c1_1.5_c2_0.6 | Time = 599.69s
+
+=== Running c1_1.5_c2_0.7 ===
+Completed c1_1.5_c2_0.7 | Time = 599.05s
+
+=== Running c1_1.5_c2_0.8 ===
+Completed c1_1.5_c2_0.8 | Time = 596.62s
+
+=== Running c1_1.5_c2_0.9 ===
+Completed c1_1.5_c2_0.9 | Time = 589.07s
+
+=== Running c1_1.5_c2_1.0 ===
+Completed c1_1.5_c2_1.0 | Time = 517.96s
+
+=== Running c1_1.5_c2_1.1 ===
+Completed c1_1.5_c2_1.1 | Time = 596.23s
+
+=== Running c1_1.5_c2_1.2 ===
+Completed c1_1.5_c2_1.2 | Time = 594.79s
+
+=== Running c1_1.5_c2_1.3 ===
+Completed c1_1.5_c2_1.3 | Time = 669.41s
+
+=== Running c1_1.5_c2_1.4 ===
+Completed c1_1.5_c2_1.4 | Time = 587.83s
+
+=== Running c1_1.5_c2_1.5 ===
+Completed c1_1.5_c2_1.5 | Time = 660.18s
+
+=== Running c1_1.5_c2_1.6 ===
+Completed c1_1.5_c2_1.6 | Time = 593.45s
+
+=== Running c1_1.5_c2_1.7 ===
+Completed c1_1.5_c2_1.7 | Time = 515.18s
+
+=== Running c1_1.5_c2_1.8 ===
+Completed c1_1.5_c2_1.8 | Time = 590.31s
+
+=== Running c1_1.5_c2_1.9 ===
+Completed c1_1.5_c2_1.9 | Time = 591.66s
+
+=== Running c1_1.5_c2_2.0 ===
+Completed c1_1.5_c2_2.0 | Time = 658.77s
+
+=== Running c1_1.5_c2_2.1 ===
+Completed c1_1.5_c2_2.1 | Time = 1117.71s
+
+=== Running c1_1.5_c2_2.2 ===
+Completed c1_1.5_c2_2.2 | Time = 885.52s
+
+=== Running c1_1.5_c2_2.3 ===
+Completed c1_1.5_c2_2.3 | Time = 648.04s
+
+=== Running c1_1.5_c2_2.4 ===
+Completed c1_1.5_c2_2.4 | Time = 865.08s
+
+=== Running c1_1.5_c2_2.5 ===
+Completed c1_1.5_c2_2.5 | Time = 1105.46s
+
+=== Running c1_1.5_c2_2.6 ===
+Completed c1_1.5_c2_2.6 | Time = 881.56s
+
+=== Running c1_1.5_c2_2.7 ===
+Completed c1_1.5_c2_2.7 | Time = 1475.91s
+
+=== Running c1_1.5_c2_2.8 ===
+Completed c1_1.5_c2_2.8 | Time = 1474.40s
+
+=== Running c1_1.5_c2_2.9 ===
+Completed c1_1.5_c2_2.9 | Time = 1409.72s
+
+=== Running c1_1.5_c2_3.0 ===
+Completed c1_1.5_c2_3.0 | Time = 1476.94s
+
+=== Running c1_1.6_c2_0.1 ===
+Completed c1_1.6_c2_0.1 | Time = 734.01s
+
+=== Running c1_1.6_c2_0.2 ===
+Completed c1_1.6_c2_0.2 | Time = 657.51s
+
+=== Running c1_1.6_c2_0.3 ===
+Completed c1_1.6_c2_0.3 | Time = 590.18s
+
+=== Running c1_1.6_c2_0.4 ===
+Completed c1_1.6_c2_0.4 | Time = 598.75s
+
+=== Running c1_1.6_c2_0.5 ===
+Completed c1_1.6_c2_0.5 | Time = 592.72s
+
+=== Running c1_1.6_c2_0.6 ===
+Completed c1_1.6_c2_0.6 | Time = 592.04s
+
+=== Running c1_1.6_c2_0.7 ===
+Completed c1_1.6_c2_0.7 | Time = 588.28s
+
+=== Running c1_1.6_c2_0.8 ===
+Completed c1_1.6_c2_0.8 | Time = 726.50s
+
+=== Running c1_1.6_c2_0.9 ===
+Completed c1_1.6_c2_0.9 | Time = 649.84s
+
+=== Running c1_1.6_c2_1.0 ===
+Completed c1_1.6_c2_1.0 | Time = 588.62s
+
+=== Running c1_1.6_c2_1.1 ===
+Completed c1_1.6_c2_1.1 | Time = 588.01s
+
+=== Running c1_1.6_c2_1.2 ===
+Completed c1_1.6_c2_1.2 | Time = 591.41s
+
+=== Running c1_1.6_c2_1.3 ===
+Completed c1_1.6_c2_1.3 | Time = 591.88s
+
+=== Running c1_1.6_c2_1.4 ===
+Completed c1_1.6_c2_1.4 | Time = 586.98s
+
+=== Running c1_1.6_c2_1.5 ===
+Completed c1_1.6_c2_1.5 | Time = 590.03s
+
+=== Running c1_1.6_c2_1.6 ===
+Completed c1_1.6_c2_1.6 | Time = 644.63s
+
+=== Running c1_1.6_c2_1.7 ===
+Completed c1_1.6_c2_1.7 | Time = 654.53s
+
+=== Running c1_1.6_c2_1.8 ===
+Completed c1_1.6_c2_1.8 | Time = 506.26s
+
+=== Running c1_1.6_c2_1.9 ===
+Completed c1_1.6_c2_1.9 | Time = 666.96s
+
+=== Running c1_1.6_c2_2.0 ===
+Completed c1_1.6_c2_2.0 | Time = 664.68s
+
+=== Running c1_1.6_c2_2.1 ===
+Completed c1_1.6_c2_2.1 | Time = 1133.88s
+
+=== Running c1_1.6_c2_2.2 ===
+Completed c1_1.6_c2_2.2 | Time = 805.44s
+
+=== Running c1_1.6_c2_2.3 ===
+Completed c1_1.6_c2_2.3 | Time = 1157.28s
+
+=== Running c1_1.6_c2_2.4 ===
+Completed c1_1.6_c2_2.4 | Time = 983.50s
+
+=== Running c1_1.6_c2_2.5 ===
+Completed c1_1.6_c2_2.5 | Time = 1916.16s
+
+=== Running c1_1.6_c2_2.6 ===
+Completed c1_1.6_c2_2.6 | Time = 1964.64s
+
+=== Running c1_1.6_c2_2.7 ===
+Completed c1_1.6_c2_2.7 | Time = 1261.21s
+
+=== Running c1_1.6_c2_2.8 ===
+Completed c1_1.6_c2_2.8 | Time = 1945.41s
+
+=== Running c1_1.6_c2_2.9 ===
+Completed c1_1.6_c2_2.9 | Time = 1439.70s
+
+=== Running c1_1.6_c2_3.0 ===
+Completed c1_1.6_c2_3.0 | Time = 1842.49s
+
+=== Running c1_1.7_c2_0.1 ===
+Completed c1_1.7_c2_0.1 | Time = 959.41s
+
+=== Running c1_1.7_c2_0.2 ===
+Completed c1_1.7_c2_0.2 | Time = 966.72s
+
+=== Running c1_1.7_c2_0.3 ===
+Completed c1_1.7_c2_0.3 | Time = 962.66s
+
+=== Running c1_1.7_c2_0.4 ===
+Completed c1_1.7_c2_0.4 | Time = 861.30s
+
+=== Running c1_1.7_c2_0.5 ===
+Completed c1_1.7_c2_0.5 | Time = 962.27s
+
+=== Running c1_1.7_c2_0.6 ===
+Completed c1_1.7_c2_0.6 | Time = 777.61s
+
+=== Running c1_1.7_c2_0.7 ===
+Completed c1_1.7_c2_0.7 | Time = 1142.02s
+
+=== Running c1_1.7_c2_0.8 ===
+Completed c1_1.7_c2_0.8 | Time = 793.11s
+
+=== Running c1_1.7_c2_0.9 ===
+Completed c1_1.7_c2_0.9 | Time = 754.90s
+
+=== Running c1_1.7_c2_1.0 ===
+Completed c1_1.7_c2_1.0 | Time = 852.54s
+
+=== Running c1_1.7_c2_1.1 ===
+Completed c1_1.7_c2_1.1 | Time = 747.55s
+
+=== Running c1_1.7_c2_1.2 ===
+Completed c1_1.7_c2_1.2 | Time = 678.76s
+
+=== Running c1_1.7_c2_1.3 ===
+Completed c1_1.7_c2_1.3 | Time = 782.81s
+
+=== Running c1_1.7_c2_1.4 ===
+Completed c1_1.7_c2_1.4 | Time = 1167.84s
+
+=== Running c1_1.7_c2_1.5 ===
+Completed c1_1.7_c2_1.5 | Time = 859.47s
+
+=== Running c1_1.7_c2_1.6 ===
+Completed c1_1.7_c2_1.6 | Time = 763.91s
+
+=== Running c1_1.7_c2_1.7 ===
+Completed c1_1.7_c2_1.7 | Time = 876.31s
+
+=== Running c1_1.7_c2_1.8 ===
+Completed c1_1.7_c2_1.8 | Time = 683.02s
+
+=== Running c1_1.7_c2_1.9 ===
+Completed c1_1.7_c2_1.9 | Time = 865.01s
+
+=== Running c1_1.7_c2_2.0 ===
+Completed c1_1.7_c2_2.0 | Time = 792.89s
+
+=== Running c1_1.7_c2_2.1 ===
+Completed c1_1.7_c2_2.1 | Time = 874.52s
+
+=== Running c1_1.7_c2_2.2 ===
+Completed c1_1.7_c2_2.2 | Time = 976.09s
+
+=== Running c1_1.7_c2_2.3 ===
+Completed c1_1.7_c2_2.3 | Time = 1943.63s
+
+=== Running c1_1.7_c2_2.4 ===
+Completed c1_1.7_c2_2.4 | Time = 1166.76s
+
+=== Running c1_1.7_c2_2.5 ===
+Completed c1_1.7_c2_2.5 | Time = 1837.98s
+
+=== Running c1_1.7_c2_2.6 ===
+Completed c1_1.7_c2_2.6 | Time = 1470.78s
+
+=== Running c1_1.7_c2_2.7 ===
+Completed c1_1.7_c2_2.7 | Time = 1948.35s
+
+=== Running c1_1.7_c2_2.8 ===
+Completed c1_1.7_c2_2.8 | Time = 1878.64s
+
+=== Running c1_1.7_c2_2.9 ===
+Completed c1_1.7_c2_2.9 | Time = 1944.59s
+
+=== Running c1_1.7_c2_3.0 ===
+Completed c1_1.7_c2_3.0 | Time = 1947.04s
+
+=== Running c1_1.8_c2_0.1 ===
+Completed c1_1.8_c2_0.1 | Time = 1828.40s
+
+=== Running c1_1.8_c2_0.2 ===
+Completed c1_1.8_c2_0.2 | Time = 1520.12s
+
+=== Running c1_1.8_c2_0.3 ===
+Completed c1_1.8_c2_0.3 | Time = 744.03s
+
+=== Running c1_1.8_c2_0.4 ===
+Completed c1_1.8_c2_0.4 | Time = 746.23s
+
+=== Running c1_1.8_c2_0.5 ===
+Completed c1_1.8_c2_0.5 | Time = 756.98s
+
+=== Running c1_1.8_c2_0.6 ===
+Completed c1_1.8_c2_0.6 | Time = 768.75s
+
+=== Running c1_1.8_c2_0.7 ===
+Completed c1_1.8_c2_0.7 | Time = 783.16s
+
+=== Running c1_1.8_c2_0.8 ===
+Completed c1_1.8_c2_0.8 | Time = 1056.68s
+
+=== Running c1_1.8_c2_0.9 ===
+Completed c1_1.8_c2_0.9 | Time = 833.13s
+
+=== Running c1_1.8_c2_1.0 ===
+Completed c1_1.8_c2_1.0 | Time = 734.11s
+
+=== Running c1_1.8_c2_1.1 ===
+Completed c1_1.8_c2_1.1 | Time = 730.80s
+
+=== Running c1_1.8_c2_1.2 ===
+Completed c1_1.8_c2_1.2 | Time = 735.34s
+
+=== Running c1_1.8_c2_1.3 ===
+Completed c1_1.8_c2_1.3 | Time = 715.27s
+
+=== Running c1_1.8_c2_1.4 ===
+Completed c1_1.8_c2_1.4 | Time = 839.30s
+
+=== Running c1_1.8_c2_1.5 ===
+Completed c1_1.8_c2_1.5 | Time = 1273.34s
+
+=== Running c1_1.8_c2_1.6 ===
+Completed c1_1.8_c2_1.6 | Time = 1041.53s
+
+=== Running c1_1.8_c2_1.7 ===
+Completed c1_1.8_c2_1.7 | Time = 736.83s
+
+=== Running c1_1.8_c2_1.8 ===
+Completed c1_1.8_c2_1.8 | Time = 937.91s
+
+=== Running c1_1.8_c2_1.9 ===
+Completed c1_1.8_c2_1.9 | Time = 1729.51s
+
+=== Running c1_1.8_c2_2.0 ===
+Completed c1_1.8_c2_2.0 | Time = 824.54s
+
+=== Running c1_1.8_c2_2.1 ===
+Completed c1_1.8_c2_2.1 | Time = 828.13s
+
+=== Running c1_1.8_c2_2.2 ===
+Completed c1_1.8_c2_2.2 | Time = 1765.29s
+
+=== Running c1_1.8_c2_2.3 ===
+Completed c1_1.8_c2_2.3 | Time = 1645.07s
+
+=== Running c1_1.8_c2_2.4 ===
+Completed c1_1.8_c2_2.4 | Time = 1556.42s
+
+=== Running c1_1.8_c2_2.5 ===
+Completed c1_1.8_c2_2.5 | Time = 733.24s
+
+=== Running c1_1.8_c2_2.6 ===
+Completed c1_1.8_c2_2.6 | Time = 1885.23s
+
+=== Running c1_1.8_c2_2.7 ===
+Completed c1_1.8_c2_2.7 | Time = 1819.73s
+
+=== Running c1_1.8_c2_2.8 ===
+Completed c1_1.8_c2_2.8 | Time = 1827.72s
+
+=== Running c1_1.8_c2_2.9 ===
+Completed c1_1.8_c2_2.9 | Time = 1845.12s
+
+=== Running c1_1.8_c2_3.0 ===
+Completed c1_1.8_c2_3.0 | Time = 1845.63s
+
+=== Running c1_1.9_c2_0.1 ===
+Completed c1_1.9_c2_0.1 | Time = 1825.57s
+
+=== Running c1_1.9_c2_0.2 ===
+Completed c1_1.9_c2_0.2 | Time = 1817.42s
+
+=== Running c1_1.9_c2_0.3 ===
+Completed c1_1.9_c2_0.3 | Time = 727.05s
+
+=== Running c1_1.9_c2_0.4 ===
+Completed c1_1.9_c2_0.4 | Time = 1468.26s
+
+=== Running c1_1.9_c2_0.5 ===
+Completed c1_1.9_c2_0.5 | Time = 751.33s
+
+=== Running c1_1.9_c2_0.6 ===
+Completed c1_1.9_c2_0.6 | Time = 920.50s
+
+=== Running c1_1.9_c2_0.7 ===
+Completed c1_1.9_c2_0.7 | Time = 766.42s
+
+=== Running c1_1.9_c2_0.8 ===
+Completed c1_1.9_c2_0.8 | Time = 738.50s
+
+=== Running c1_1.9_c2_0.9 ===
+Completed c1_1.9_c2_0.9 | Time = 757.85s
+
+=== Running c1_1.9_c2_1.0 ===
+Completed c1_1.9_c2_1.0 | Time = 763.53s
+
+=== Running c1_1.9_c2_1.1 ===
+Completed c1_1.9_c2_1.1 | Time = 716.43s
+
+=== Running c1_1.9_c2_1.2 ===
+Completed c1_1.9_c2_1.2 | Time = 741.79s
+
+=== Running c1_1.9_c2_1.3 ===
+Completed c1_1.9_c2_1.3 | Time = 833.00s
+
+=== Running c1_1.9_c2_1.4 ===
+Completed c1_1.9_c2_1.4 | Time = 763.68s
+
+=== Running c1_1.9_c2_1.5 ===
+Completed c1_1.9_c2_1.5 | Time = 746.79s
+
+=== Running c1_1.9_c2_1.6 ===
+Completed c1_1.9_c2_1.6 | Time = 756.96s
+
+=== Running c1_1.9_c2_1.7 ===
+Completed c1_1.9_c2_1.7 | Time = 828.14s
+
+=== Running c1_1.9_c2_1.8 ===
+Completed c1_1.9_c2_1.8 | Time = 918.54s
+
+=== Running c1_1.9_c2_1.9 ===
+Completed c1_1.9_c2_1.9 | Time = 1831.43s
+
+=== Running c1_1.9_c2_2.0 ===
+Completed c1_1.9_c2_2.0 | Time = 1897.95s
+
+=== Running c1_1.9_c2_2.1 ===
+Completed c1_1.9_c2_2.1 | Time = 1276.60s
+
+=== Running c1_1.9_c2_2.2 ===
+Completed c1_1.9_c2_2.2 | Time = 836.97s
+
+=== Running c1_1.9_c2_2.3 ===
+Completed c1_1.9_c2_2.3 | Time = 833.19s
+
+=== Running c1_1.9_c2_2.4 ===
+Completed c1_1.9_c2_2.4 | Time = 1740.02s
+
+=== Running c1_1.9_c2_2.5 ===
+Completed c1_1.9_c2_2.5 | Time = 1811.78s
+
+=== Running c1_1.9_c2_2.6 ===
+Completed c1_1.9_c2_2.6 | Time = 1904.33s
+
+=== Running c1_1.9_c2_2.7 ===
+Completed c1_1.9_c2_2.7 | Time = 1859.88s
+
+=== Running c1_1.9_c2_2.8 ===
+Completed c1_1.9_c2_2.8 | Time = 1909.29s
+
+=== Running c1_1.9_c2_2.9 ===
+Completed c1_1.9_c2_2.9 | Time = 1844.71s
+
+=== Running c1_1.9_c2_3.0 ===
+Completed c1_1.9_c2_3.0 | Time = 1856.59s
+
+=== Running c1_2.0_c2_0.1 ===
+Completed c1_2.0_c2_0.1 | Time = 823.52s
+
+=== Running c1_2.0_c2_0.2 ===
+Completed c1_2.0_c2_0.2 | Time = 824.41s
+
+=== Running c1_2.0_c2_0.3 ===
+Completed c1_2.0_c2_0.3 | Time = 826.65s
+
+=== Running c1_2.0_c2_0.4 ===
+Completed c1_2.0_c2_0.4 | Time = 750.15s
+
+=== Running c1_2.0_c2_0.5 ===
+Completed c1_2.0_c2_0.5 | Time = 632.90s
+
+=== Running c1_2.0_c2_0.6 ===
+Completed c1_2.0_c2_0.6 | Time = 919.11s
+
+=== Running c1_2.0_c2_0.7 ===
+Completed c1_2.0_c2_0.7 | Time = 737.89s
+
+=== Running c1_2.0_c2_0.8 ===
+Completed c1_2.0_c2_0.8 | Time = 852.61s
+
+=== Running c1_2.0_c2_0.9 ===
+Completed c1_2.0_c2_0.9 | Time = 909.97s
+
+=== Running c1_2.0_c2_1.0 ===
+Completed c1_2.0_c2_1.0 | Time = 1011.26s
+
+=== Running c1_2.0_c2_1.1 ===
+Completed c1_2.0_c2_1.1 | Time = 924.03s
+
+=== Running c1_2.0_c2_1.2 ===
+Completed c1_2.0_c2_1.2 | Time = 824.24s
+
+=== Running c1_2.0_c2_1.3 ===
+Completed c1_2.0_c2_1.3 | Time = 741.42s
+
+=== Running c1_2.0_c2_1.4 ===
+Completed c1_2.0_c2_1.4 | Time = 937.61s
+
+=== Running c1_2.0_c2_1.5 ===
+Completed c1_2.0_c2_1.5 | Time = 735.63s
+
+=== Running c1_2.0_c2_1.6 ===
+Completed c1_2.0_c2_1.6 | Time = 762.64s
+
+=== Running c1_2.0_c2_1.7 ===
+Completed c1_2.0_c2_1.7 | Time = 1004.66s
+
+=== Running c1_2.0_c2_1.8 ===
+Completed c1_2.0_c2_1.8 | Time = 724.73s
+
+=== Running c1_2.0_c2_1.9 ===
+Completed c1_2.0_c2_1.9 | Time = 1856.86s
+
+=== Running c1_2.0_c2_2.0 ===
+Completed c1_2.0_c2_2.0 | Time = 1864.46s
+
+=== Running c1_2.0_c2_2.1 ===
+Completed c1_2.0_c2_2.1 | Time = 1844.37s
+
+=== Running c1_2.0_c2_2.2 ===
+Completed c1_2.0_c2_2.2 | Time = 1205.74s
+
+=== Running c1_2.0_c2_2.3 ===
+Completed c1_2.0_c2_2.3 | Time = 1903.41s
+
+=== Running c1_2.0_c2_2.4 ===
+Completed c1_2.0_c2_2.4 | Time = 1845.02s
+
+=== Running c1_2.0_c2_2.5 ===
+Completed c1_2.0_c2_2.5 | Time = 1811.92s
+
+=== Running c1_2.0_c2_2.6 ===
+Completed c1_2.0_c2_2.6 | Time = 1769.69s
+
+=== Running c1_2.0_c2_2.7 ===
+Completed c1_2.0_c2_2.7 | Time = 1792.56s
+
+=== Running c1_2.0_c2_2.8 ===
+Completed c1_2.0_c2_2.8 | Time = 1839.74s
+
+=== Running c1_2.0_c2_2.9 ===
+Completed c1_2.0_c2_2.9 | Time = 1768.02s
+
+=== Running c1_2.0_c2_3.0 ===
+Completed c1_2.0_c2_3.0 | Time = 1766.59s
+
+=== Running c1_2.1_c2_0.1 ===
+Completed c1_2.1_c2_0.1 | Time = 1705.79s
+
+=== Running c1_2.1_c2_0.2 ===
+Completed c1_2.1_c2_0.2 | Time = 694.67s
+
+=== Running c1_2.1_c2_0.3 ===
+Completed c1_2.1_c2_0.3 | Time = 646.94s
+
+=== Running c1_2.1_c2_0.4 ===
+Completed c1_2.1_c2_0.4 | Time = 643.24s
+
+=== Running c1_2.1_c2_0.5 ===
+Completed c1_2.1_c2_0.5 | Time = 652.14s
+
+=== Running c1_2.1_c2_0.6 ===
+Completed c1_2.1_c2_0.6 | Time = 749.93s
+
+=== Running c1_2.1_c2_0.7 ===
+Completed c1_2.1_c2_0.7 | Time = 669.65s
+
+=== Running c1_2.1_c2_0.8 ===
+Completed c1_2.1_c2_0.8 | Time = 851.20s
+
+=== Running c1_2.1_c2_0.9 ===
+Completed c1_2.1_c2_0.9 | Time = 671.55s
+
+=== Running c1_2.1_c2_1.0 ===
+Completed c1_2.1_c2_1.0 | Time = 1232.15s
+
+=== Running c1_2.1_c2_1.1 ===
+Completed c1_2.1_c2_1.1 | Time = 723.01s
+
+=== Running c1_2.1_c2_1.2 ===
+Completed c1_2.1_c2_1.2 | Time = 701.48s
+
+=== Running c1_2.1_c2_1.3 ===
+Completed c1_2.1_c2_1.3 | Time = 701.55s
+
+=== Running c1_2.1_c2_1.4 ===
+Completed c1_2.1_c2_1.4 | Time = 766.11s
+
+=== Running c1_2.1_c2_1.5 ===
+Completed c1_2.1_c2_1.5 | Time = 648.70s
+
+=== Running c1_2.1_c2_1.6 ===
+Completed c1_2.1_c2_1.6 | Time = 1580.04s
+
+=== Running c1_2.1_c2_1.7 ===
+Completed c1_2.1_c2_1.7 | Time = 691.63s
+
+=== Running c1_2.1_c2_1.8 ===
+Completed c1_2.1_c2_1.8 | Time = 1588.12s
+
+=== Running c1_2.1_c2_1.9 ===
+Completed c1_2.1_c2_1.9 | Time = 1620.00s
+
+=== Running c1_2.1_c2_2.0 ===
+Completed c1_2.1_c2_2.0 | Time = 769.12s
+
+=== Running c1_2.1_c2_2.1 ===
+Completed c1_2.1_c2_2.1 | Time = 1628.70s
+
+=== Running c1_2.1_c2_2.2 ===
+Completed c1_2.1_c2_2.2 | Time = 791.33s
+
+=== Running c1_2.1_c2_2.3 ===
+Completed c1_2.1_c2_2.3 | Time = 1529.82s
+
+=== Running c1_2.1_c2_2.4 ===
+Completed c1_2.1_c2_2.4 | Time = 1922.95s
+
+=== Running c1_2.1_c2_2.5 ===
+Completed c1_2.1_c2_2.5 | Time = 1131.42s
+
+=== Running c1_2.1_c2_2.6 ===
+Completed c1_2.1_c2_2.6 | Time = 1434.48s
+
+=== Running c1_2.1_c2_2.7 ===
+Completed c1_2.1_c2_2.7 | Time = 1618.44s
+
+=== Running c1_2.1_c2_2.8 ===
+Completed c1_2.1_c2_2.8 | Time = 1669.57s
+
+=== Running c1_2.1_c2_2.9 ===
+Completed c1_2.1_c2_2.9 | Time = 1629.77s
+
+=== Running c1_2.1_c2_3.0 ===
+Completed c1_2.1_c2_3.0 | Time = 1632.69s
+
+=== Running c1_2.2_c2_0.1 ===
+Completed c1_2.2_c2_0.1 | Time = 562.86s
+
+=== Running c1_2.2_c2_0.2 ===
+Completed c1_2.2_c2_0.2 | Time = 1644.75s
+
+=== Running c1_2.2_c2_0.3 ===
+Completed c1_2.2_c2_0.3 | Time = 633.20s
+
+=== Running c1_2.2_c2_0.4 ===
+Completed c1_2.2_c2_0.4 | Time = 633.11s
+
+=== Running c1_2.2_c2_0.5 ===
+Completed c1_2.2_c2_0.5 | Time = 661.63s
+
+=== Running c1_2.2_c2_0.6 ===
+Completed c1_2.2_c2_0.6 | Time = 696.08s
+
+=== Running c1_2.2_c2_0.7 ===
+Completed c1_2.2_c2_0.7 | Time = 648.10s
+
+=== Running c1_2.2_c2_0.8 ===
+Completed c1_2.2_c2_0.8 | Time = 799.33s
+
+=== Running c1_2.2_c2_0.9 ===
+Completed c1_2.2_c2_0.9 | Time = 689.53s
+
+=== Running c1_2.2_c2_1.0 ===
+Completed c1_2.2_c2_1.0 | Time = 675.97s
+
+=== Running c1_2.2_c2_1.1 ===
+Completed c1_2.2_c2_1.1 | Time = 816.67s
+
+=== Running c1_2.2_c2_1.2 ===
+Completed c1_2.2_c2_1.2 | Time = 675.99s
+
+=== Running c1_2.2_c2_1.3 ===
+Completed c1_2.2_c2_1.3 | Time = 734.65s
+
+=== Running c1_2.2_c2_1.4 ===
+Completed c1_2.2_c2_1.4 | Time = 934.97s
+
+=== Running c1_2.2_c2_1.5 ===
+Completed c1_2.2_c2_1.5 | Time = 861.24s
+
+=== Running c1_2.2_c2_1.6 ===
+Completed c1_2.2_c2_1.6 | Time = 963.92s
+
+=== Running c1_2.2_c2_1.7 ===
+Completed c1_2.2_c2_1.7 | Time = 897.78s
+
+=== Running c1_2.2_c2_1.8 ===
+Completed c1_2.2_c2_1.8 | Time = 1193.75s
+
+=== Running c1_2.2_c2_1.9 ===
+Completed c1_2.2_c2_1.9 | Time = 724.97s
+
+=== Running c1_2.2_c2_2.0 ===
+Completed c1_2.2_c2_2.0 | Time = 1587.84s
+
+=== Running c1_2.2_c2_2.1 ===
+Completed c1_2.2_c2_2.1 | Time = 971.60s
+
+=== Running c1_2.2_c2_2.2 ===
+Completed c1_2.2_c2_2.2 | Time = 1673.71s
+
+=== Running c1_2.2_c2_2.3 ===
+Completed c1_2.2_c2_2.3 | Time = 1621.14s
+
+=== Running c1_2.2_c2_2.4 ===
+Completed c1_2.2_c2_2.4 | Time = 1714.00s
+
+=== Running c1_2.2_c2_2.5 ===
+Completed c1_2.2_c2_2.5 | Time = 1649.13s
+
+=== Running c1_2.2_c2_2.6 ===
+Completed c1_2.2_c2_2.6 | Time = 1646.09s
+
+=== Running c1_2.2_c2_2.7 ===
+Completed c1_2.2_c2_2.7 | Time = 1634.22s
+
+=== Running c1_2.2_c2_2.8 ===
+Completed c1_2.2_c2_2.8 | Time = 1716.80s
+
+=== Running c1_2.2_c2_2.9 ===
+Completed c1_2.2_c2_2.9 | Time = 1687.59s
+
+=== Running c1_2.2_c2_3.0 ===
+Completed c1_2.2_c2_3.0 | Time = 1694.51s
+
+=== Running c1_2.3_c2_0.1 ===
+Completed c1_2.3_c2_0.1 | Time = 1329.11s
+
+=== Running c1_2.3_c2_0.2 ===
+Completed c1_2.3_c2_0.2 | Time = 770.28s
+
+=== Running c1_2.3_c2_0.3 ===
+Completed c1_2.3_c2_0.3 | Time = 701.52s
+
+=== Running c1_2.3_c2_0.4 ===
+Completed c1_2.3_c2_0.4 | Time = 741.52s
+
+=== Running c1_2.3_c2_0.5 ===
+Completed c1_2.3_c2_0.5 | Time = 636.99s
+
+=== Running c1_2.3_c2_0.6 ===
+Completed c1_2.3_c2_0.6 | Time = 773.99s
+
+=== Running c1_2.3_c2_0.7 ===
+Completed c1_2.3_c2_0.7 | Time = 792.83s
+
+=== Running c1_2.3_c2_0.8 ===
+Completed c1_2.3_c2_0.8 | Time = 754.27s
+
+=== Running c1_2.3_c2_0.9 ===
+Completed c1_2.3_c2_0.9 | Time = 575.44s
+
+=== Running c1_2.3_c2_1.0 ===
+Completed c1_2.3_c2_1.0 | Time = 858.76s
+
+=== Running c1_2.3_c2_1.1 ===
+Completed c1_2.3_c2_1.1 | Time = 761.76s
+
+=== Running c1_2.3_c2_1.2 ===
+Completed c1_2.3_c2_1.2 | Time = 773.42s
+
+=== Running c1_2.3_c2_1.3 ===
+Completed c1_2.3_c2_1.3 | Time = 947.48s
+
+=== Running c1_2.3_c2_1.4 ===
+Completed c1_2.3_c2_1.4 | Time = 744.76s
+
+=== Running c1_2.3_c2_1.5 ===
+Completed c1_2.3_c2_1.5 | Time = 780.87s
+
+=== Running c1_2.3_c2_1.6 ===
+Completed c1_2.3_c2_1.6 | Time = 818.86s
+
+=== Running c1_2.3_c2_1.7 ===
+Completed c1_2.3_c2_1.7 | Time = 844.47s
+
+=== Running c1_2.3_c2_1.8 ===
+Completed c1_2.3_c2_1.8 | Time = 1008.92s
+
+=== Running c1_2.3_c2_1.9 ===
+Completed c1_2.3_c2_1.9 | Time = 830.59s
+
+=== Running c1_2.3_c2_2.0 ===
+Completed c1_2.3_c2_2.0 | Time = 1663.46s
+
+=== Running c1_2.3_c2_2.1 ===
+Completed c1_2.3_c2_2.1 | Time = 1879.23s
+
+=== Running c1_2.3_c2_2.2 ===
+Completed c1_2.3_c2_2.2 | Time = 1641.63s
+
+=== Running c1_2.3_c2_2.3 ===
+Completed c1_2.3_c2_2.3 | Time = 1807.76s
+
+=== Running c1_2.3_c2_2.4 ===
+Completed c1_2.3_c2_2.4 | Time = 1834.58s
+
+=== Running c1_2.3_c2_2.5 ===
+Completed c1_2.3_c2_2.5 | Time = 1880.55s
+
+=== Running c1_2.3_c2_2.6 ===
+Completed c1_2.3_c2_2.6 | Time = 1922.19s
+
+=== Running c1_2.3_c2_2.7 ===
+Completed c1_2.3_c2_2.7 | Time = 1952.73s
+
+=== Running c1_2.3_c2_2.8 ===
+Completed c1_2.3_c2_2.8 | Time = 1954.36s
+
+=== Running c1_2.3_c2_2.9 ===
+Completed c1_2.3_c2_2.9 | Time = 1937.56s
+
+=== Running c1_2.3_c2_3.0 ===
+Completed c1_2.3_c2_3.0 | Time = 1939.17s
+
+=== Running c1_2.4_c2_0.1 ===
+Completed c1_2.4_c2_0.1 | Time = 764.31s
+
+=== Running c1_2.4_c2_0.2 ===
+Completed c1_2.4_c2_0.2 | Time = 732.61s
+
+=== Running c1_2.4_c2_0.3 ===
+Completed c1_2.4_c2_0.3 | Time = 835.41s
+
+=== Running c1_2.4_c2_0.4 ===
+Completed c1_2.4_c2_0.4 | Time = 753.74s
+
+=== Running c1_2.4_c2_0.5 ===
+Completed c1_2.4_c2_0.5 | Time = 755.63s
+
+=== Running c1_2.4_c2_0.6 ===
+Completed c1_2.4_c2_0.6 | Time = 875.07s
+
+=== Running c1_2.4_c2_0.7 ===
+Completed c1_2.4_c2_0.7 | Time = 785.34s
+
+=== Running c1_2.4_c2_0.8 ===
+Completed c1_2.4_c2_0.8 | Time = 862.01s
+
+=== Running c1_2.4_c2_0.9 ===
+Completed c1_2.4_c2_0.9 | Time = 874.56s
+
+=== Running c1_2.4_c2_1.0 ===
+Completed c1_2.4_c2_1.0 | Time = 827.46s
+
+=== Running c1_2.4_c2_1.1 ===
+Completed c1_2.4_c2_1.1 | Time = 768.72s
+
+=== Running c1_2.4_c2_1.2 ===
+Completed c1_2.4_c2_1.2 | Time = 916.67s
+
+=== Running c1_2.4_c2_1.3 ===
+Completed c1_2.4_c2_1.3 | Time = 724.89s
+
+=== Running c1_2.4_c2_1.4 ===
+Completed c1_2.4_c2_1.4 | Time = 1040.19s
+
+=== Running c1_2.4_c2_1.5 ===
+Completed c1_2.4_c2_1.5 | Time = 1616.42s
+
+=== Running c1_2.4_c2_1.6 ===
+Completed c1_2.4_c2_1.6 | Time = 800.93s
+
+=== Running c1_2.4_c2_1.7 ===
+Completed c1_2.4_c2_1.7 | Time = 738.09s
+
+=== Running c1_2.4_c2_1.8 ===
+Completed c1_2.4_c2_1.8 | Time = 1592.37s
+
+=== Running c1_2.4_c2_1.9 ===
+Completed c1_2.4_c2_1.9 | Time = 1669.43s
+
+=== Running c1_2.4_c2_2.0 ===
+Completed c1_2.4_c2_2.0 | Time = 1658.34s
+
+=== Running c1_2.4_c2_2.1 ===
+Completed c1_2.4_c2_2.1 | Time = 1692.86s
+
+=== Running c1_2.4_c2_2.2 ===
+Completed c1_2.4_c2_2.2 | Time = 1679.53s
+
+=== Running c1_2.4_c2_2.3 ===
+Completed c1_2.4_c2_2.3 | Time = 1630.03s
+
+=== Running c1_2.4_c2_2.4 ===
+Completed c1_2.4_c2_2.4 | Time = 1672.94s
+
+=== Running c1_2.4_c2_2.5 ===
+Completed c1_2.4_c2_2.5 | Time = 1636.33s
+
+=== Running c1_2.4_c2_2.6 ===
+Completed c1_2.4_c2_2.6 | Time = 1657.71s
+
+=== Running c1_2.4_c2_2.7 ===
+Completed c1_2.4_c2_2.7 | Time = 1659.37s
+
+=== Running c1_2.4_c2_2.8 ===
+Completed c1_2.4_c2_2.8 | Time = 1655.40s
+
+=== Running c1_2.4_c2_2.9 ===
+Completed c1_2.4_c2_2.9 | Time = 1619.10s
+
+=== Running c1_2.4_c2_3.0 ===
+Completed c1_2.4_c2_3.0 | Time = 1640.55s
+
+=== Running c1_2.5_c2_0.1 ===
+Completed c1_2.5_c2_0.1 | Time = 711.33s
+
+=== Running c1_2.5_c2_0.2 ===
+Completed c1_2.5_c2_0.2 | Time = 773.56s
+
+=== Running c1_2.5_c2_0.3 ===
+Completed c1_2.5_c2_0.3 | Time = 656.33s
+
+=== Running c1_2.5_c2_0.4 ===
+Completed c1_2.5_c2_0.4 | Time = 623.94s
+
+=== Running c1_2.5_c2_0.5 ===
+Completed c1_2.5_c2_0.5 | Time = 684.29s
+
+=== Running c1_2.5_c2_0.6 ===
+Completed c1_2.5_c2_0.6 | Time = 771.38s
+
+=== Running c1_2.5_c2_0.7 ===
+Completed c1_2.5_c2_0.7 | Time = 785.43s
+
+=== Running c1_2.5_c2_0.8 ===
+Completed c1_2.5_c2_0.8 | Time = 781.84s
+
+=== Running c1_2.5_c2_0.9 ===
+Completed c1_2.5_c2_0.9 | Time = 641.97s
+
+=== Running c1_2.5_c2_1.0 ===
+Completed c1_2.5_c2_1.0 | Time = 661.43s
+
+=== Running c1_2.5_c2_1.1 ===
+Completed c1_2.5_c2_1.1 | Time = 840.84s
+
+=== Running c1_2.5_c2_1.2 ===
+Completed c1_2.5_c2_1.2 | Time = 814.35s
+
+=== Running c1_2.5_c2_1.3 ===
+Completed c1_2.5_c2_1.3 | Time = 903.26s
+
+=== Running c1_2.5_c2_1.4 ===
+Completed c1_2.5_c2_1.4 | Time = 809.94s
+
+=== Running c1_2.5_c2_1.5 ===
+Completed c1_2.5_c2_1.5 | Time = 1299.19s
+
+=== Running c1_2.5_c2_1.6 ===
+Completed c1_2.5_c2_1.6 | Time = 714.86s
+
+=== Running c1_2.5_c2_1.7 ===
+Completed c1_2.5_c2_1.7 | Time = 954.83s
+
+=== Running c1_2.5_c2_1.8 ===
+Completed c1_2.5_c2_1.8 | Time = 1442.08s
+
+=== Running c1_2.5_c2_1.9 ===
+Completed c1_2.5_c2_1.9 | Time = 1682.86s
+
+=== Running c1_2.5_c2_2.0 ===
+Completed c1_2.5_c2_2.0 | Time = 1643.73s
+
+=== Running c1_2.5_c2_2.1 ===
+Completed c1_2.5_c2_2.1 | Time = 1642.49s
+
+=== Running c1_2.5_c2_2.2 ===
+Completed c1_2.5_c2_2.2 | Time = 1766.89s
+
+=== Running c1_2.5_c2_2.3 ===
+Completed c1_2.5_c2_2.3 | Time = 1936.00s
+
+=== Running c1_2.5_c2_2.4 ===
+Completed c1_2.5_c2_2.4 | Time = 1918.61s
+
+=== Running c1_2.5_c2_2.5 ===
+Completed c1_2.5_c2_2.5 | Time = 1866.60s
+
+=== Running c1_2.5_c2_2.6 ===
+Completed c1_2.5_c2_2.6 | Time = 1932.17s
+
+=== Running c1_2.5_c2_2.7 ===
+Completed c1_2.5_c2_2.7 | Time = 1916.59s
+
+=== Running c1_2.5_c2_2.8 ===
+Completed c1_2.5_c2_2.8 | Time = 1938.00s
+
+=== Running c1_2.5_c2_2.9 ===
+Completed c1_2.5_c2_2.9 | Time = 1934.41s
+
+=== Running c1_2.5_c2_3.0 ===
+Completed c1_2.5_c2_3.0 | Time = 1942.50s
+
+=== Running c1_2.6_c2_0.1 ===
+Completed c1_2.6_c2_0.1 | Time = 1071.63s
+
+=== Running c1_2.6_c2_0.2 ===
+Completed c1_2.6_c2_0.2 | Time = 851.66s
+
+=== Running c1_2.6_c2_0.3 ===
+Completed c1_2.6_c2_0.3 | Time = 767.90s
+
+=== Running c1_2.6_c2_0.4 ===
+Completed c1_2.6_c2_0.4 | Time = 961.83s
+
+=== Running c1_2.6_c2_0.5 ===
+Completed c1_2.6_c2_0.5 | Time = 774.17s
+
+=== Running c1_2.6_c2_0.6 ===
+Completed c1_2.6_c2_0.6 | Time = 772.44s
+
+=== Running c1_2.6_c2_0.7 ===
+Completed c1_2.6_c2_0.7 | Time = 758.58s
+
+=== Running c1_2.6_c2_0.8 ===
+Completed c1_2.6_c2_0.8 | Time = 764.13s
+
+=== Running c1_2.6_c2_0.9 ===
+Completed c1_2.6_c2_0.9 | Time = 875.48s
+
+=== Running c1_2.6_c2_1.0 ===
+Completed c1_2.6_c2_1.0 | Time = 1547.43s
+
+=== Running c1_2.6_c2_1.1 ===
+Completed c1_2.6_c2_1.1 | Time = 812.22s
+
+=== Running c1_2.6_c2_1.2 ===
+Completed c1_2.6_c2_1.2 | Time = 1134.34s
+
+=== Running c1_2.6_c2_1.3 ===
+Completed c1_2.6_c2_1.3 | Time = 969.16s
+
+=== Running c1_2.6_c2_1.4 ===
+Completed c1_2.6_c2_1.4 | Time = 1518.80s
+
+=== Running c1_2.6_c2_1.5 ===
+Completed c1_2.6_c2_1.5 | Time = 1910.28s
+
+=== Running c1_2.6_c2_1.6 ===
+Completed c1_2.6_c2_1.6 | Time = 1363.18s
+
+=== Running c1_2.6_c2_1.7 ===
+Completed c1_2.6_c2_1.7 | Time = 1671.81s
+
+=== Running c1_2.6_c2_1.8 ===
+Completed c1_2.6_c2_1.8 | Time = 771.49s
+
+=== Running c1_2.6_c2_1.9 ===
+Completed c1_2.6_c2_1.9 | Time = 853.11s
+
+=== Running c1_2.6_c2_2.0 ===
+Completed c1_2.6_c2_2.0 | Time = 1675.76s
+
+=== Running c1_2.6_c2_2.1 ===
+Completed c1_2.6_c2_2.1 | Time = 955.18s
+
+=== Running c1_2.6_c2_2.2 ===
+Completed c1_2.6_c2_2.2 | Time = 1568.47s
+
+=== Running c1_2.6_c2_2.3 ===
+Completed c1_2.6_c2_2.3 | Time = 1592.18s
+
+=== Running c1_2.6_c2_2.4 ===
+Completed c1_2.6_c2_2.4 | Time = 1583.97s
+
+=== Running c1_2.6_c2_2.5 ===
+Completed c1_2.6_c2_2.5 | Time = 1634.38s
+
+=== Running c1_2.6_c2_2.6 ===
+Completed c1_2.6_c2_2.6 | Time = 1584.45s
+
+=== Running c1_2.6_c2_2.7 ===
+Completed c1_2.6_c2_2.7 | Time = 1643.72s
+
+=== Running c1_2.6_c2_2.8 ===
+Completed c1_2.6_c2_2.8 | Time = 1602.72s
+
+=== Running c1_2.6_c2_2.9 ===
+Completed c1_2.6_c2_2.9 | Time = 1704.26s
+
+=== Running c1_2.6_c2_3.0 ===
+Completed c1_2.6_c2_3.0 | Time = 1592.67s
+
+=== Running c1_2.7_c2_0.1 ===
+Completed c1_2.7_c2_0.1 | Time = 832.19s
+
+=== Running c1_2.7_c2_0.2 ===
+Completed c1_2.7_c2_0.2 | Time = 1214.81s
+
+=== Running c1_2.7_c2_0.3 ===
+Completed c1_2.7_c2_0.3 | Time = 857.43s
+
+=== Running c1_2.7_c2_0.4 ===
+Completed c1_2.7_c2_0.4 | Time = 629.87s
+
+=== Running c1_2.7_c2_0.5 ===
+Completed c1_2.7_c2_0.5 | Time = 628.71s
+
+=== Running c1_2.7_c2_0.6 ===
+Completed c1_2.7_c2_0.6 | Time = 636.86s
+
+=== Running c1_2.7_c2_0.7 ===
+Completed c1_2.7_c2_0.7 | Time = 700.31s
+
+=== Running c1_2.7_c2_0.8 ===
+Completed c1_2.7_c2_0.8 | Time = 865.68s
+
+=== Running c1_2.7_c2_0.9 ===
+Completed c1_2.7_c2_0.9 | Time = 795.77s
+
+=== Running c1_2.7_c2_1.0 ===
+Completed c1_2.7_c2_1.0 | Time = 532.40s
+ 445.49s
+
+=== Running c1_2.7_c2_1.4 ===
+Completed c1_2.7_c2_1.4 | Time = 440.49s
+
+=== Running c1_2.7_c2_1.5 ===
+Completed c1_2.7_c2_1.5 | Time = 363.31s
+
+=== Running c1_2.7_c2_1.6 ===
+Completed c1_2.7_c2_1.6 | Time = 435.92s
+
+=== Running c1_2.7_c2_1.7 ===
+Completed c1_2.7_c2_1.7 | Time = 365.62s
+
+=== Running c1_2.7_c2_1.8 ===
+Completed c1_2.7_c2_1.8 | Time = 442.33s
+
+=== Running c1_2.7_c2_1.9 ===
+Completed c1_2.7_c2_1.9 | Time = 439.62s
+
+=== Running c1_2.7_c2_2.0 ===
+Completed c1_2.7_c2_2.0 | Time = 365.12s
+
+=== Running c1_2.7_c2_2.1 ===
+Completed c1_2.7_c2_2.1 | Time = 366.42s
+
+=== Running c1_2.7_c2_2.2 ===
+Completed c1_2.7_c2_2.2 | Time = 583.44s
+
+=== Running c1_2.7_c2_2.3 ===
+Completed c1_2.7_c2_2.3 | Time = 438.57s
+
+=== Running c1_2.7_c2_2.4 ===
+Completed c1_2.7_c2_2.4 | Time = 584.35s
+
+=== Running c1_2.7_c2_2.5 ===
+Completed c1_2.7_c2_2.5 | Time = 586.11s
+
+=== Running c1_2.7_c2_2.6 ===
+Completed c1_2.7_c2_2.6 | Time = 521.15s
+
+=== Running c1_2.7_c2_2.7 ===
+Completed c1_2.7_c2_2.7 | Time = 518.97s
+
+=== Running c1_2.7_c2_2.8 ===
+Completed c1_2.7_c2_2.8 | Time = 438.32s
+
+=== Running c1_2.7_c2_2.9 ===
+Completed c1_2.7_c2_2.9 | Time = 659.46s
+
+=== Running c1_2.7_c2_3.0 ===
+Completed c1_2.7_c2_3.0 | Time = 585.03s
+
+=== Running c1_2.8_c2_0.1 ===
+Completed c1_2.8_c2_0.1 | Time = 369.12s
+
+=== Running c1_2.8_c2_0.2 ===
+Completed c1_2.8_c2_0.2 | Time = 369.37s
+
+=== Running c1_2.8_c2_0.3 ===
+Completed c1_2.8_c2_0.3 | Time = 370.95s
+
+=== Running c1_2.8_c2_0.4 ===
+Completed c1_2.8_c2_0.4 | Time = 369.10s
+
+=== Running c1_2.8_c2_0.5 ===
+Completed c1_2.8_c2_0.5 | Time = 367.44s
+
+=== Running c1_2.8_c2_0.6 ===
+Completed c1_2.8_c2_0.6 | Time = 368.42s
+
+=== Running c1_2.8_c2_0.7 ===
+Completed c1_2.8_c2_0.7 | Time = 368.28s
+
+=== Running c1_2.8_c2_0.8 ===
+Completed c1_2.8_c2_0.8 | Time = 369.60s
+
+=== Running c1_2.8_c2_0.9 ===
+Completed c1_2.8_c2_0.9 | Time = 370.94s
+
+=== Running c1_2.8_c2_1.0 ===
+Completed c1_2.8_c2_1.0 | Time = 366.22s
+
+=== Running c1_2.8_c2_1.1 ===
+Completed c1_2.8_c2_1.1 | Time = 367.43s
+
+=== Running c1_2.8_c2_1.2 ===
+Completed c1_2.8_c2_1.2 | Time = 366.45s
+
+=== Running c1_2.8_c2_1.3 ===
+Completed c1_2.8_c2_1.3 | Time = 438.70s
+
+=== Running c1_2.8_c2_1.4 ===
+Completed c1_2.8_c2_1.4 | Time = 435.90s
+
+=== Running c1_2.8_c2_1.5 ===
+Completed c1_2.8_c2_1.5 | Time = 363.93s
+
+=== Running c1_2.8_c2_1.6 ===
+Completed c1_2.8_c2_1.6 | Time = 370.14s
+
+=== Running c1_2.8_c2_1.7 ===
+Completed c1_2.8_c2_1.7 | Time = 443.63s
+
+=== Running c1_2.8_c2_1.8 ===
+Completed c1_2.8_c2_1.8 | Time = 439.37s
+
+=== Running c1_2.8_c2_1.9 ===
+Completed c1_2.8_c2_1.9 | Time = 438.46s
+
+=== Running c1_2.8_c2_2.0 ===
+Completed c1_2.8_c2_2.0 | Time = 436.37s
+
+=== Running c1_2.8_c2_2.1 ===
+Completed c1_2.8_c2_2.1 | Time = 437.33s
+
+=== Running c1_2.8_c2_2.2 ===
+Completed c1_2.8_c2_2.2 | Time = 370.37s
+
+=== Running c1_2.8_c2_2.3 ===
+Completed c1_2.8_c2_2.3 | Time = 441.07s
+
+=== Running c1_2.8_c2_2.4 ===
+Completed c1_2.8_c2_2.4 | Time = 442.79s
+
+=== Running c1_2.8_c2_2.5 ===
+Completed c1_2.8_c2_2.5 | Time = 442.20s
+
+=== Running c1_2.8_c2_2.6 ===
+Completed c1_2.8_c2_2.6 | Time = 581.79s
+
+=== Running c1_2.8_c2_2.7 ===
+Completed c1_2.8_c2_2.7 | Time = 511.82s
+
+=== Running c1_2.8_c2_2.8 ===
+Completed c1_2.8_c2_2.8 | Time = 513.29s
+
+=== Running c1_2.8_c2_2.9 ===
+Completed c1_2.8_c2_2.9 | Time = 439.97s
+
+=== Running c1_2.8_c2_3.0 ===
+Completed c1_2.8_c2_3.0 | Time = 661.46s
+
+=== Running c1_2.9_c2_0.1 ===
+Completed c1_2.9_c2_0.1 | Time = 442.30s
+
+=== Running c1_2.9_c2_0.2 ===
+Completed c1_2.9_c2_0.2 | Time = 369.82s
+
+=== Running c1_2.9_c2_0.3 ===
+Completed c1_2.9_c2_0.3 | Time = 371.31s
+
+=== Running c1_2.9_c2_0.4 ===
+Completed c1_2.9_c2_0.4 | Time = 368.64s
+
+=== Running c1_2.9_c2_0.5 ===
+Completed c1_2.9_c2_0.5 | Time = 364.22s
+
+=== Running c1_2.9_c2_0.6 ===
+Completed c1_2.9_c2_0.6 | Time = 364.85s
+
+=== Running c1_2.9_c2_0.7 ===
+Completed c1_2.9_c2_0.7 | Time = 361.78s
+
+=== Running c1_2.9_c2_0.8 ===
+Completed c1_2.9_c2_0.8 | Time = 370.23s
+
+=== Running c1_2.9_c2_0.9 ===
+Completed c1_2.9_c2_0.9 | Time = 445.49s
+
+=== Running c1_2.9_c2_1.0 ===
+Completed c1_2.9_c2_1.0 | Time = 440.45s
+
+=== Running c1_2.9_c2_1.1 ===
+Completed c1_2.9_c2_1.1 | Time = 515.21s
+
+=== Running c1_2.9_c2_1.2 ===
+Completed c1_2.9_c2_1.2 | Time = 367.14s
+
+=== Running c1_2.9_c2_1.3 ===
+Completed c1_2.9_c2_1.3 | Time = 375.62s
+
+=== Running c1_2.9_c2_1.4 ===
+Completed c1_2.9_c2_1.4 | Time = 451.75s
+
+=== Running c1_2.9_c2_1.5 ===
+Completed c1_2.9_c2_1.5 | Time = 374.70s
+
+=== Running c1_2.9_c2_1.6 ===
+Completed c1_2.9_c2_1.6 | Time = 448.90s
+
+=== Running c1_2.9_c2_1.7 ===
+Completed c1_2.9_c2_1.7 | Time = 518.13s
+
+=== Running c1_2.9_c2_1.8 ===
+Completed c1_2.9_c2_1.8 | Time = 366.09s
+
+=== Running c1_2.9_c2_1.9 ===
+Completed c1_2.9_c2_1.9 | Time = 441.76s
+
+=== Running c1_2.9_c2_2.0 ===
+Completed c1_2.9_c2_2.0 | Time = 441.73s
+
+=== Running c1_2.9_c2_2.1 ===
+Completed c1_2.9_c2_2.1 | Time = 517.76s
+
+=== Running c1_2.9_c2_2.2 ===
+Completed c1_2.9_c2_2.2 | Time = 667.92s
+
+=== Running c1_2.9_c2_2.3 ===
+Completed c1_2.9_c2_2.3 | Time = 517.73s
+
+=== Running c1_2.9_c2_2.4 ===
+Completed c1_2.9_c2_2.4 | Time = 518.00s
+
+=== Running c1_2.9_c2_2.5 ===
+Completed c1_2.9_c2_2.5 | Time = 590.29s
+
+=== Running c1_2.9_c2_2.6 ===
+Completed c1_2.9_c2_2.6 | Time = 661.65s
+
+=== Running c1_2.9_c2_2.7 ===
+Completed c1_2.9_c2_2.7 | Time = 508.14s
+
+=== Running c1_2.9_c2_2.8 ===
+Completed c1_2.9_c2_2.8 | Time = 445.48s
+
+=== Running c1_2.9_c2_2.9 ===
+Completed c1_2.9_c2_2.9 | Time = 664.98s
+
+=== Running c1_2.9_c2_3.0 ===
+Completed c1_2.9_c2_3.0 | Time = 517.41s
+
+=== Running c1_3.0_c2_0.1 ===
+Completed c1_3.0_c2_0.1 | Time = 367.25s
+
+=== Running c1_3.0_c2_0.2 ===
+Completed c1_3.0_c2_0.2 | Time = 292.36s
+
+=== Running c1_3.0_c2_0.3 ===
+Completed c1_3.0_c2_0.3 | Time = 370.93s
+
+=== Running c1_3.0_c2_0.4 ===
+Completed c1_3.0_c2_0.4 | Time = 368.60s
+
+=== Running c1_3.0_c2_0.5 ===
+Completed c1_3.0_c2_0.5 | Time = 367.05s
+
+=== Running c1_3.0_c2_0.6 ===
+Completed c1_3.0_c2_0.6 | Time = 366.83s
+
+=== Running c1_3.0_c2_0.7 ===
+Completed c1_3.0_c2_0.7 | Time = 368.47s
+
+=== Running c1_3.0_c2_0.8 ===
+Completed c1_3.0_c2_0.8 | Time = 366.93s
+
+=== Running c1_3.0_c2_0.9 ===
+Completed c1_3.0_c2_0.9 | Time = 366.70s
+
+=== Running c1_3.0_c2_1.0 ===
+Completed c1_3.0_c2_1.0 | Time = 439.91s
+
+=== Running c1_3.0_c2_1.1 ===
+Completed c1_3.0_c2_1.1 | Time = 441.03s
+
+=== Running c1_3.0_c2_1.2 ===
+Completed c1_3.0_c2_1.2 | Time = 440.01s
+
+=== Running c1_3.0_c2_1.3 ===
+Completed c1_3.0_c2_1.3 | Time = 370.95s
+
+=== Running c1_3.0_c2_1.4 ===
+Completed c1_3.0_c2_1.4 | Time = 448.01s
+
+=== Running c1_3.0_c2_1.5 ===
+Completed c1_3.0_c2_1.5 | Time = 445.80s
+
+=== Running c1_3.0_c2_1.6 ===
+Completed c1_3.0_c2_1.6 | Time = 442.40s
+
+=== Running c1_3.0_c2_1.7 ===
+Completed c1_3.0_c2_1.7 | Time = 438.32s
+
+=== Running c1_3.0_c2_1.8 ===
+Completed c1_3.0_c2_1.8 | Time = 438.24s
+
+=== Running c1_3.0_c2_1.9 ===
+Completed c1_3.0_c2_1.9 | Time = 585.09s
+
+=== Running c1_3.0_c2_2.0 ===
+Completed c1_3.0_c2_2.0 | Time = 446.44s
+
+=== Running c1_3.0_c2_2.1 ===
+Completed c1_3.0_c2_2.1 | Time = 521.86s
+
+=== Running c1_3.0_c2_2.2 ===
+Completed c1_3.0_c2_2.2 | Time = 442.16s
+
+=== Running c1_3.0_c2_2.3 ===
+Completed c1_3.0_c2_2.3 | Time = 515.29s
+
+=== Running c1_3.0_c2_2.4 ===
+Completed c1_3.0_c2_2.4 | Time = 521.91s
+
+=== Running c1_3.0_c2_2.5 ===
+Completed c1_3.0_c2_2.5 | Time = 675.51s
+
+=== Running c1_3.0_c2_2.6 ===
+Completed c1_3.0_c2_2.6 | Time = 523.69s
+
+=== Running c1_3.0_c2_2.7 ===
+Completed c1_3.0_c2_2.7 | Time = 595.60s
+
+=== Running c1_3.0_c2_2.8 ===
+Completed c1_3.0_c2_2.8 | Time = 514.79s
+
+=== Running c1_3.0_c2_2.9 ===
+Completed c1_3.0_c2_2.9 | Time = 661.30s
+
+=== Running c1_3.0_c2_3.0 ===
+Completed c1_3.0_c2_3.0 | Time = 807.27s
+
+===== GLOBAL BEST CONFIGURATION =====
+          c1 : 0.8
+          c2 : 2.3
+      n_caps : 4
+       min_z : 0.04950038733484342
+    cpu_time : 292.74766734149307
+      folder : /DATA/Aurindum/Swarming/Outputs/20260127_195932_c1c2_Sweep/c1_0.8_c2_2.3
+====================================
+
+ALL c1/c2 PARAMETER SWEEP RUNS COMPLETED.
+Results stored in: /DATA/Aurindum/Swarming/Outputs/20260127_195932_c1c2_Sweep

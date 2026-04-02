@@ -1,0 +1,12 @@
+
+=== Threshold 0.05 ===
+BEST: {'method': 'solve', 'threshold': 0.05, 'time': 62.9629, 'caps': 3, 'folder': 'MinTime/ScratchBench3/solve_0.05/run_11'}
+
+=== Threshold 0.045 ===
+BEST: {'method': 'solve', 'threshold': 0.045, 'time': 140.5561, 'caps': 6, 'folder': 'MinTime/ScratchBench3/solve_0.045/run_12'}
+
+=== Threshold 0.04 ===
+BEST: {'method': 'solve', 'threshold': 0.04, 'time': 131.1526, 'caps': 6, 'folder': 'MinTime/ScratchBench3/solve_0.04/run_8'}
+
+=== Threshold 0.03 ===
+BEST: {'method': 'solve', 'threshold': 0.03, 'time': 362.0555, 'caps': 14, 'folder': 'MinTime/ScratchBench3/solve_0.03/run_17'}

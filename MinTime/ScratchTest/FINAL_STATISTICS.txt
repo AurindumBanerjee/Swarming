@@ -1,0 +1,7 @@
+===== GLOBAL BEST INVERSE METHOD =====
+      method : sm
+         run : 3
+      n_caps : 6
+       min_z : 0.0432428410524949
+    cpu_time : 292.7010561779607
+      folder : ScratchTest/sm/run_3

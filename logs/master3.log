@@ -1,0 +1,93 @@
+nohup: ignoring input
+--- Loading PDN data ---
+
+===== METHOD: numpy =====
+numpy | Run 01 | n_caps=8 | Z=0.041900 | Time=329.57s
+numpy | Run 02 | n_caps=4 | Z=0.044274 | Time=155.00s
+numpy | Run 03 | n_caps=6 | Z=0.044074 | Time=247.97s
+numpy | Run 04 | n_caps=9 | Z=0.038797 | Time=378.79s
+numpy | Run 05 | n_caps=9 | Z=0.040227 | Time=393.29s
+numpy | Run 06 | n_caps=8 | Z=0.043984 | Time=302.40s
+numpy | Run 07 | n_caps=7 | Z=0.042218 | Time=252.73s
+numpy | Run 08 | n_caps=7 | Z=0.041639 | Time=265.62s
+numpy | Run 09 | n_caps=10 | Z=0.042255 | Time=387.42s
+numpy | Run 10 | n_caps=8 | Z=0.041224 | Time=299.66s
+numpy | Run 11 | n_caps=5 | Z=0.043589 | Time=186.79s
+numpy | Run 12 | n_caps=6 | Z=0.040672 | Time=241.83s
+numpy | Run 13 | n_caps=9 | Z=0.041499 | Time=372.93s
+numpy | Run 14 | n_caps=6 | Z=0.041110 | Time=280.36s
+numpy | Run 15 | n_caps=5 | Z=0.044663 | Time=209.61s
+numpy | Run 16 | n_caps=4 | Z=0.043250 | Time=154.04s
+numpy | Run 17 | n_caps=9 | Z=0.044600 | Time=362.01s
+numpy | Run 18 | n_caps=12 | Z=0.040929 | Time=482.21s
+numpy | Run 19 | n_caps=9 | Z=0.044018 | Time=345.33s
+numpy | Run 20 | n_caps=7 | Z=0.041847 | Time=265.22s
+
+===== METHOD: solve =====
+solve | Run 01 | n_caps=9 | Z=0.040876 | Time=173.70s
+solve | Run 02 | n_caps=8 | Z=0.040600 | Time=149.38s
+solve | Run 03 | n_caps=9 | Z=0.042140 | Time=169.64s
+solve | Run 04 | n_caps=9 | Z=0.042854 | Time=169.80s
+solve | Run 05 | n_caps=7 | Z=0.044694 | Time=129.23s
+solve | Run 06 | n_caps=15 | Z=0.043085 | Time=304.59s
+solve | Run 07 | n_caps=7 | Z=0.044339 | Time=129.20s
+solve | Run 08 | n_caps=7 | Z=0.039528 | Time=129.29s
+solve | Run 09 | n_caps=7 | Z=0.042259 | Time=129.60s
+solve | Run 10 | n_caps=14 | Z=0.039697 | Time=282.16s
+solve | Run 11 | n_caps=14 | Z=0.041626 | Time=281.37s
+solve | Run 12 | n_caps=6 | Z=0.044441 | Time=109.27s
+solve | Run 13 | n_caps=11 | Z=0.044101 | Time=212.35s
+solve | Run 14 | n_caps=6 | Z=0.044782 | Time=109.06s
+solve | Run 15 | n_caps=11 | Z=0.037999 | Time=213.40s
+solve | Run 16 | n_caps=7 | Z=0.041768 | Time=128.89s
+solve | Run 17 | n_caps=9 | Z=0.044902 | Time=170.46s
+solve | Run 18 | n_caps=7 | Z=0.039121 | Time=128.99s
+solve | Run 19 | n_caps=7 | Z=0.042036 | Time=128.84s
+solve | Run 20 | n_caps=6 | Z=0.040255 | Time=109.46s
+
+===== METHOD: sm =====
+sm | Run 01 | n_caps=10 | Z=0.044286 | Time=759.72s
+sm | Run 02 | n_caps=16 | Z=0.039566 | Time=1846.91s
+sm | Run 03 | n_caps=9 | Z=0.040955 | Time=747.51s
+sm | Run 04 | n_caps=6 | Z=0.038947 | Time=373.81s
+sm | Run 05 | n_caps=6 | Z=0.042710 | Time=366.75s
+sm | Run 06 | n_caps=8 | Z=0.041330 | Time=622.59s
+sm | Run 07 | n_caps=5 | Z=0.043952 | Time=267.02s
+sm | Run 08 | n_caps=9 | Z=0.042078 | Time=775.73s
+sm | Run 09 | n_caps=10 | Z=0.043903 | Time=941.19s
+sm | Run 10 | n_caps=6 | Z=0.044995 | Time=370.43s
+sm | Run 11 | n_caps=7 | Z=0.042845 | Time=394.06s
+sm | Run 12 | n_caps=5 | Z=0.042661 | Time=216.04s
+sm | Run 13 | n_caps=9 | Z=0.042678 | Time=740.08s
+sm | Run 14 | n_caps=10 | Z=0.037015 | Time=756.52s
+sm | Run 15 | n_caps=5 | Z=0.044927 | Time=215.31s
+sm | Run 16 | n_caps=6 | Z=0.041507 | Time=298.31s
+sm | Run 17 | n_caps=8 | Z=0.042011 | Time=506.53s
+sm | Run 18 | n_caps=7 | Z=0.042277 | Time=400.80s
+sm | Run 19 | n_caps=11 | Z=0.041432 | Time=915.38s
+sm | Run 20 | n_caps=8 | Z=0.039540 | Time=506.20s
+
+===== METHOD: iterative =====
+iterative | Run 01 | n_caps=13 | Z=0.042120 | Time=577.16s
+iterative | Run 02 | n_caps=5 | Z=0.042903 | Time=205.19s
+iterative | Run 03 | n_caps=6 | Z=0.044990 | Time=247.09s
+iterative | Run 04 | n_caps=5 | Z=0.044415 | Time=201.42s
+iterative | Run 05 | n_caps=14 | Z=0.041268 | Time=633.69s
+iterative | Run 06 | n_caps=8 | Z=0.042454 | Time=337.90s
+iterative | Run 07 | n_caps=10 | Z=0.042330 | Time=426.84s
+iterative | Run 08 | n_caps=5 | Z=0.043786 | Time=204.52s
+iterative | Run 09 | n_caps=4 | Z=0.043597 | Time=160.38s
+iterative | Run 10 | n_caps=15 | Z=0.037725 | Time=673.94s
+iterative | Run 11 | n_caps=8 | Z=0.043750 | Time=335.06s
+iterative | Run 12 | n_caps=15 | Z=0.044892 | Time=686.72s
+iterative | Run 13 | n_caps=7 | Z=0.037287 | Time=291.71s
+iterative | Run 14 | n_caps=8 | Z=0.043999 | Time=389.89s
+iterative | Run 15 | n_caps=10 | Z=0.043169 | Time=528.32s
+iterative | Run 16 | n_caps=9 | Z=0.044912 | Time=389.02s
+iterative | Run 17 | n_caps=6 | Z=0.042431 | Time=246.75s
+iterative | Run 18 | n_caps=8 | Z=0.040459 | Time=335.92s
+iterative | Run 19 | n_caps=12 | Z=0.040258 | Time=531.17s
+iterative | Run 20 | n_caps=8 | Z=0.042447 | Time=337.71s
+
+All ScratchTest runs completed.
+Results stored in: ScratchTest3

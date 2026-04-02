@@ -1,0 +1,9 @@
+nohup: ignoring input
+Loading PDN data (Gaussian Inversion baseline)...
+N_FREQS=1391, N_NODES=21, N_CAP_MODELS=3348
+Optimizing n_caps=1... done | minZ=0.087365
+Optimizing n_caps=2... done | minZ=0.066976
+Optimizing n_caps=3... done | minZ=0.056198
+
+Total CPU time: 7249.19s
+Results stored in: /DATA/Aurindum/Swarming/Outputs/Method_Sequential_GaussianInversion_20260122_220122

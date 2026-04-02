@@ -1,0 +1,20 @@
+2026-03-23 03:41:56,003 INFO: particles=80 iter=10 n_caps=1 minZ=0.087365 runtime=36.82s placement={9: 1014}
+2026-03-23 03:42:33,617 INFO: particles=80 iter=10 n_caps=2 minZ=0.054039 runtime=37.61s placement={0: 1014, 5: 1379}
+2026-03-23 03:43:11,859 INFO: particles=80 iter=10 n_caps=3 minZ=0.059310 runtime=38.24s placement={7: 882, 0: 1302, 5: 893}
+2026-03-23 03:43:51,217 INFO: particles=80 iter=10 n_caps=4 minZ=0.047647 runtime=39.36s placement={0: 1012, 5: 1164, 9: 1827, 10: 1226}
+2026-03-23 03:44:31,225 INFO: particles=80 iter=10 n_caps=5 minZ=0.055031 runtime=40.01s placement={5: 966, 9: 1323, 10: 1549, 0: 1120, 6: 0}
+2026-03-23 03:45:11,405 INFO: particles=80 iter=10 n_caps=6 minZ=0.045318 runtime=40.18s placement={9: 966, 10: 1323, 0: 893, 6: 1120, 1: 0}
+2026-03-23 03:45:53,613 INFO: particles=80 iter=10 n_caps=7 minZ=0.043331 runtime=42.21s placement={0: 2706, 1: 2437, 2: 879, 19: 547, 9: 1179}
+2026-03-23 03:46:34,570 INFO: particles=80 iter=10 n_caps=8 minZ=0.034444 runtime=40.96s placement={0: 1688, 1: 2628, 20: 2550, 19: 0}
+2026-03-23 03:47:16,178 INFO: particles=80 iter=10 n_caps=9 minZ=0.036918 runtime=41.61s placement={0: 0, 1: 2628, 20: 567, 19: 1688}
+2026-03-23 03:47:58,437 INFO: particles=80 iter=10 n_caps=10 minZ=0.032768 runtime=42.26s placement={0: 447, 14: 2556, 11: 2513, 1: 434, 15: 1539, 6: 898, 13: 1201}
+2026-03-23 03:48:40,914 INFO: particles=80 iter=10 n_caps=11 minZ=0.032694 runtime=42.48s placement={14: 935, 11: 2556, 0: 0, 1: 434, 15: 1865, 6: 1539, 13: 447}
+2026-03-23 03:49:24,253 INFO: particles=80 iter=10 n_caps=12 minZ=0.030372 runtime=43.34s placement={11: 785, 0: 2327, 1: 2484, 15: 382, 5: 1945, 19: 996}
+2026-03-23 03:50:08,037 INFO: particles=80 iter=10 n_caps=13 minZ=0.028698 runtime=43.78s placement={0: 2027, 1: 2400, 14: 2434, 5: 377, 19: 877}
+2026-03-23 03:50:52,540 INFO: particles=80 iter=10 n_caps=14 minZ=0.028986 runtime=44.50s placement={0: 0, 14: 2400, 5: 2434, 1: 377, 19: 1561, 9: 2027}
+2026-03-23 03:51:37,522 INFO: particles=80 iter=10 n_caps=15 minZ=0.029730 runtime=44.98s placement={14: 532, 6: 2505, 0: 0, 1: 334, 20: 2116, 9: 2514}
+2026-03-23 03:52:22,989 INFO: particles=80 iter=10 n_caps=16 minZ=0.027303 runtime=45.47s placement={6: 532, 0: 2458, 1: 2376, 20: 334, 9: 0, 7: 0}
+2026-03-23 03:53:09,124 INFO: particles=80 iter=10 n_caps=17 minZ=0.022280 runtime=46.13s placement={0: 1012, 1: 2505, 20: 2376, 9: 1048, 7: 0}
+2026-03-23 03:53:55,785 INFO: particles=80 iter=10 n_caps=18 minZ=0.022952 runtime=46.66s placement={0: 0, 20: 2505, 1: 2376, 9: 222, 7: 1566}
+2026-03-23 03:54:42,858 INFO: particles=80 iter=10 n_caps=19 minZ=0.022390 runtime=47.07s placement={20: 532, 0: 0, 1: 2376, 9: 1193, 7: 2514}
+2026-03-23 03:55:30,666 INFO: particles=80 iter=10 n_caps=20 minZ=0.022862 runtime=47.81s placement={0: 3347, 1: 2505, 9: 892, 7: 0}

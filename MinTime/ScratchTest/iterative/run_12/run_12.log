@@ -1,0 +1,9 @@
+2026-02-27 07:34:27,150 INFO: n_caps=1 | minZ=0.154315 | ports=[7] | stage_time=38.168
+2026-02-27 07:35:07,199 INFO: n_caps=2 | minZ=0.118746 | ports=[0, 13] | stage_time=40.048
+2026-02-27 07:35:48,398 INFO: n_caps=3 | minZ=0.081058 | ports=[16, 6, 0] | stage_time=41.199
+2026-02-27 07:36:31,143 INFO: n_caps=4 | minZ=0.065059 | ports=[6, 0, 0, 12] | stage_time=42.745
+2026-02-27 07:37:14,679 INFO: n_caps=5 | minZ=0.060955 | ports=[0, 0, 12, 7, 0] | stage_time=43.535
+2026-02-27 07:37:59,135 INFO: n_caps=6 | minZ=0.068534 | ports=[0, 12, 7, 0, 16, 15] | stage_time=44.456
+2026-02-27 07:38:44,418 INFO: n_caps=7 | minZ=0.069345 | ports=[12, 7, 0, 16, 15, 4, 0] | stage_time=45.283
+2026-02-27 07:39:30,479 INFO: n_caps=8 | minZ=0.061088 | ports=[12, 5, 9, 10, 16, 0, 8, 17] | stage_time=46.061
+2026-02-27 07:40:17,971 INFO: n_caps=9 | minZ=0.052848 | ports=[0, 15, 6, 10, 0, 16, 16, 8, 10] | stage_time=47.491

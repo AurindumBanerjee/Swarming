@@ -1,0 +1,13 @@
+2026-03-16 12:13:20,563 INFO: particles=30 iter=10 n_caps=1 minZ=0.050000 runtime=12.05s placement={11: 1978}
+2026-03-16 12:13:32,667 INFO: particles=30 iter=10 n_caps=2 minZ=0.050001 runtime=12.10s placement={4: 0, 8: 1249}
+2026-03-16 12:13:45,161 INFO: particles=30 iter=10 n_caps=3 minZ=0.050012 runtime=12.49s placement={6: 588, 13: 1804, 5: 2357}
+2026-03-16 12:13:57,901 INFO: particles=30 iter=10 n_caps=4 minZ=0.050003 runtime=12.74s placement={13: 588, 5: 1804, 18: 2357, 6: 1119}
+2026-03-16 12:14:11,182 INFO: particles=30 iter=10 n_caps=5 minZ=0.050001 runtime=13.28s placement={9: 674, 19: 1472, 3: 3275, 11: 3347, 18: 3015}
+2026-03-16 12:14:24,800 INFO: particles=30 iter=10 n_caps=6 minZ=0.050006 runtime=13.62s placement={17: 2412, 14: 1355, 11: 3154, 7: 2891, 8: 3031, 19: 2062}
+2026-03-16 12:14:38,722 INFO: particles=30 iter=10 n_caps=7 minZ=0.050012 runtime=13.92s placement={0: 0, 1: 979, 5: 635, 16: 0}
+2026-03-16 12:14:52,730 INFO: particles=30 iter=10 n_caps=8 minZ=0.050006 runtime=14.01s placement={6: 3347, 0: 106, 1: 175, 7: 1, 10: 396, 15: 274, 11: 582}
+2026-03-16 12:15:07,663 INFO: particles=30 iter=10 n_caps=9 minZ=0.050002 runtime=14.93s placement={13: 30, 14: 675, 12: 3320, 11: 1098, 20: 3347, 16: 2681, 18: 2521, 15: 1939}
+2026-03-16 12:15:22,198 INFO: particles=30 iter=10 n_caps=10 minZ=0.050000 runtime=14.53s placement={19: 1196, 0: 2980, 14: 598, 20: 1064, 9: 287, 15: 526, 16: 1115, 2: 2239, 17: 2939, 3: 491}
+2026-03-16 12:15:36,796 INFO: particles=30 iter=10 n_caps=11 minZ=0.050008 runtime=14.60s placement={12: 681, 16: 1972, 19: 1032, 11: 1167, 13: 0, 14: 3347, 9: 1179, 6: 2125, 3: 1836, 15: 528}
+2026-03-16 12:15:51,663 INFO: particles=30 iter=10 n_caps=12 minZ=0.050002 runtime=14.87s placement={17: 1104, 20: 1254, 11: 1032, 12: 3347, 8: 380, 6: 24, 5: 978, 3: 2400, 18: 2074, 13: 496, 19: 2085}
+2026-03-16 12:15:54,683 INFO: particles=30 iter=10 n_caps=13 minZ=0.048501 runtime=3.02s placement={19: 1538, 7: 738, 1: 2217, 8: 669, 14: 3347, 0: 1406, 16: 1610, 9: 1521, 2: 3125, 10: 1079, 5: 1923}

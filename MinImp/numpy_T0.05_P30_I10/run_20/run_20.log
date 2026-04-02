@@ -1,0 +1,13 @@
+2026-03-16 12:24:52,881 INFO: particles=30 iter=10 n_caps=1 minZ=0.050003 runtime=12.24s placement={0: 2498}
+2026-03-16 12:25:05,218 INFO: particles=30 iter=10 n_caps=2 minZ=0.050003 runtime=12.34s placement={20: 2378, 13: 7}
+2026-03-16 12:25:18,214 INFO: particles=30 iter=10 n_caps=3 minZ=0.050002 runtime=13.00s placement={14: 2180, 18: 1105, 3: 3347}
+2026-03-16 12:25:31,265 INFO: particles=30 iter=10 n_caps=4 minZ=0.050008 runtime=13.05s placement={9: 128, 18: 818, 0: 800, 17: 2491}
+2026-03-16 12:25:44,484 INFO: particles=30 iter=10 n_caps=5 minZ=0.050011 runtime=13.22s placement={11: 1405, 9: 1324, 7: 1475, 8: 436, 13: 2680}
+2026-03-16 12:25:57,952 INFO: particles=30 iter=10 n_caps=6 minZ=0.050001 runtime=13.47s placement={17: 3034, 18: 620, 11: 5, 5: 1118, 16: 3327, 13: 651}
+2026-03-16 12:26:11,604 INFO: particles=30 iter=10 n_caps=7 minZ=0.050002 runtime=13.65s placement={19: 3347, 9: 0, 0: 0, 1: 1414, 12: 3347, 6: 501, 4: 3347}
+2026-03-16 12:26:25,464 INFO: particles=30 iter=10 n_caps=8 minZ=0.050002 runtime=13.86s placement={13: 3347, 0: 0, 1: 0, 11: 0, 4: 3347, 2: 491, 3: 3347}
+2026-03-16 12:26:39,752 INFO: particles=30 iter=10 n_caps=9 minZ=0.050000 runtime=14.29s placement={6: 3347, 0: 580, 15: 1273, 10: 2056, 1: 2482, 13: 70, 3: 2801, 16: 104, 11: 122}
+2026-03-16 12:26:54,009 INFO: particles=30 iter=10 n_caps=10 minZ=0.050010 runtime=14.26s placement={20: 1888, 18: 0, 13: 796, 14: 420, 19: 2270, 1: 44, 15: 2778, 11: 0, 0: 0, 5: 1540}
+2026-03-16 12:27:08,827 INFO: particles=30 iter=10 n_caps=11 minZ=0.050004 runtime=14.82s placement={2: 620, 10: 965, 17: 838, 8: 2525, 11: 186, 9: 866, 15: 2029, 19: 244, 7: 1188, 16: 394, 3: 2765}
+2026-03-16 12:27:24,016 INFO: particles=30 iter=10 n_caps=12 minZ=0.050005 runtime=15.19s placement={9: 1241, 4: 2481, 0: 744, 13: 3347, 20: 1629, 19: 3296, 10: 3065, 11: 0, 2: 2934, 1: 1660, 3: 3347}
+2026-03-16 12:27:27,063 INFO: particles=30 iter=10 n_caps=13 minZ=0.046071 runtime=3.05s placement={17: 366, 1: 1778, 14: 464, 8: 1241, 11: 1482, 0: 939, 9: 1236, 15: 1525, 6: 149, 18: 1301}

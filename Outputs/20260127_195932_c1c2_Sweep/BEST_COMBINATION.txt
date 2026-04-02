@@ -1,0 +1,7 @@
+===== GLOBAL BEST PSO c1/c2 CONFIGURATION =====
+          c1 : 0.8
+          c2 : 2.3
+      n_caps : 4
+       min_z : 0.04950038733484342
+    cpu_time : 292.74766734149307
+      folder : /DATA/Aurindum/Swarming/Outputs/20260127_195932_c1c2_Sweep/c1_0.8_c2_2.3

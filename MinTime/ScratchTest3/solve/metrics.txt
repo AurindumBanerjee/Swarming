@@ -1,0 +1,7 @@
+Particles       : 50
+Iterations      : 15
+Mean Runtime    : 167.9341
+Std Runtime     : 59.1089
+Best Runtime    : 109.0636
+Mean Impedance  : 0.042055
+Best Impedance  : 0.037999

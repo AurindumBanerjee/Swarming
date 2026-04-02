@@ -1,0 +1,15 @@
+2026-03-07 23:41:19,388 INFO: n_caps=1 | iter=15 | minZ=0.050002 | placement={8: 2962}
+2026-03-07 23:41:19,388 INFO: init_n_caps=2 | seeded_previous_caps=1 | new_cap_random_init(cap=1471,port=7)
+2026-03-07 23:41:50,152 INFO: n_caps=2 | iter=15 | minZ=0.050000 | placement={14: 3104, 20: 1696}
+2026-03-07 23:41:50,153 INFO: init_n_caps=3 | seeded_previous_caps=2 | new_cap_random_init(cap=2439,port=19)
+2026-03-07 23:42:21,308 INFO: n_caps=3 | iter=15 | minZ=0.050000 | placement={0: 1710, 11: 1001, 6: 1695}
+2026-03-07 23:42:21,308 INFO: init_n_caps=4 | seeded_previous_caps=3 | new_cap_random_init(cap=157,port=2)
+2026-03-07 23:42:52,810 INFO: n_caps=4 | iter=15 | minZ=0.050000 | placement={15: 732, 13: 997, 0: 1015, 10: 1232}
+2026-03-07 23:42:52,811 INFO: init_n_caps=5 | seeded_previous_caps=4 | new_cap_random_init(cap=2649,port=18)
+2026-03-07 23:43:25,169 INFO: n_caps=5 | iter=15 | minZ=0.050003 | placement={16: 1818, 11: 627, 18: 2158, 8: 3037, 7: 1183}
+2026-03-07 23:43:25,169 INFO: init_n_caps=6 | seeded_previous_caps=5 | new_cap_random_init(cap=2699,port=9)
+2026-03-07 23:43:58,590 INFO: n_caps=6 | iter=15 | minZ=0.050000 | placement={19: 764, 2: 2847, 0: 2575, 5: 29, 4: 1431, 1: 0}
+2026-03-07 23:43:58,591 INFO: init_n_caps=7 | seeded_previous_caps=6 | new_cap_random_init(cap=3331,port=6)
+2026-03-07 23:44:32,342 INFO: n_caps=7 | iter=15 | minZ=0.050000 | placement={20: 3347, 19: 724, 18: 1284, 6: 0, 10: 1794, 7: 392}
+2026-03-07 23:44:32,342 INFO: init_n_caps=8 | seeded_previous_caps=7 | new_cap_random_init(cap=3347,port=11)
+2026-03-07 23:45:06,508 INFO: n_caps=8 | iter=15 | minZ=0.045479 | placement={15: 1673, 0: 1012, 20: 1278, 10: 244, 13: 212, 12: 2134, 2: 202, 14: 1414}
