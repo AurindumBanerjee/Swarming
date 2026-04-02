@@ -1,0 +1,21 @@
+# Logs
+*.log
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Results / outputs
+outputs/
+results/
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+
+# Scratch / experiments
+ScratchBench*/
+MinTime/
