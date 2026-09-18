@@ -1,0 +1,17 @@
+nohup: ignoring input
+Loading PDN data...
+N_FREQS=1391  N_NODES=21  N_CAP_MODELS=3348  real_data=True
+[selftest] inv_pure_python matches inv_numpy (max err 2.60e-17). OK
+
+Active METHODS for this invocation: ['pure_python']
+ROOT_OUT: MinTime/ScratchBench5
+TARGETS: [0.04]  NUM_RUNS: 20
+
+METHOD pure_python TARGET 0.04
+
+All runs completed for this invocation.
+Methods run this time: ['pure_python']
+Results appended to: MinTime/ScratchBench5/results_long.jsonl
+Once every method you need is present in that file, run:
+  python ScratchBench_plot.py
+to build the summary tables and figures.
