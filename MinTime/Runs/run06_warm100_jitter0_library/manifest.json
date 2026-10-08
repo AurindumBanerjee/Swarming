@@ -1,0 +1,18 @@
+{
+  "id": "run06_warm100_jitter0_library",
+  "desc": "Current code (FIX 11-13 resolver/reset) with a 100% warm start: WARM_START_FRACTION = 1.0, WARM_START_JITTER = 0.0, i.e. all 50 particles carry the previous stage's best in the carried genes (no random particles, no jitter). Same algorithm as the original FIX 4 except for the port-resolver fix (compare run03). Library methods, thresholds 0.05/0.045/0.04, 20 runs.",
+  "created": "2026-10-08T11:34:07+0530",
+  "parts": [
+    {
+      "name": "library",
+      "source": "/DATA/Aurindum/Swarming/MinTime/Runs/run02_naive_jitter0/code/ScratchBench_library_naive.py",
+      "source_md5": "b3efb87d84bdbf485b843912109ba2b7",
+      "code": "code/library__run06_warm100_jitter0_library.py",
+      "code_md5": "0a6f7aed77803a90f62c43f1e79498c0",
+      "settings_applied": {
+        "ROOT_OUT": "\"MinTime/Runs/run06_warm100_jitter0_library/output/library\"",
+        "WARM_START_FRACTION": "1.0"
+      }
+    }
+  ]
+}

@@ -28,3 +28,6 @@ Changes vs source (only these lines differ):
 Launch: cd /DATA/Aurindum/Swarming && nohup setsid bash /DATA/Aurindum/Swarming/MinTime/Runs/run03_original_code_library/run.sh > /DATA/Aurindum/Swarming/MinTime/Runs/run03_original_code_library/logs/driver.log 2>&1 < /dev/null &
 
 ---- timeline ----
+Part library START: 2026-10-08 07:23:40 IST  load: 0.36 0.82 0.98
+Run plan 2026-10-08 11:34 IST: sequence_03_05_gated.sh cancelled (run03 unaffected); new order after run03: run06 (100% warm, library) -> run04 -> run05 via sequence_06_04_05.sh
+NOTE 2026-10-08 12:28 IST: run07_gpubench2 (GPU job) runs concurrently with this run, pinned to CPUs 16-23 (NUMA node 1, the sweep uses node 0) with OMP/MKL/OPENBLAS threads = 1. Timings of this run between this time and run07's end (see run07 README) were taken with that job on the machine.

@@ -1,0 +1,25 @@
+{
+  "id": "run07_gpubench2",
+  "desc": "GPUBench2 (GPU / PyTorch, complex128) on the 21-port benchmark PDN: methods numpy, solve, sm, woodbury, woodbury_batch, fast; thresholds 0.05/0.045/0.04 (0.03 dropped), 20 runs, 50 particles x 40 iterations (script default), hybrid warm start as coded in the script (40% warm, jitter 0.02). Ran CONCURRENTLY with the CPU ScratchBench sweeps, pinned to CPUs 16-23 (NUMA node 1) with BLAS/OMP pinned to 1 thread.",
+  "created": "2026-10-08T12:28:13+0530",
+  "parts": [
+    {
+      "name": "gpubench2",
+      "source": "/DATA/Aurindum/GPUSwarm/GPUBench2.py",
+      "source_md5": "af569a633a2e812dd84bd3693c244ce2",
+      "code": "code/gpubench2__run07_gpubench2.py",
+      "code_md5": "f1c96e8999b67a2ed45fafb0f3e58434",
+      "settings_applied": {
+        "ROOT_OUT": "\"MinTime/Runs/run07_gpubench2/output/gpubench2\""
+      }
+    }
+  ],
+  "execution": {
+    "conda_env": "gpuwork",
+    "taskset": "16-23",
+    "env": [],
+    "part_args": {
+      "gpubench2": "--targets 0.05,0.045,0.04 --runs 20"
+    }
+  }
+}
