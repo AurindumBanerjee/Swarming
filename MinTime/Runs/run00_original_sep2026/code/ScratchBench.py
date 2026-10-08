@@ -39,12 +39,6 @@
 #        resolve_adjacent_ports() additionally reserves it as "already
 #        used" as defense in depth.
 #
-# FIX 11/12/13  Ported from GPUSwarm/CPUTest/SB.py: 11 hybrid warm start
-#        (40% of particles carry prev_best, particle 0 elite, jittered;
-#        rest random) superseding the all-identical seeding of FIX 4;
-#        12 resolve_adjacent_ports tries every offset (no duplicate ports);
-#        13 prev_best reset when a stage yields no gbest.
-#
 # FIX 4  Warm-start between capacitor-count stages, per the paper's
 #        Section III-A: at the end of stage N, the winning particle's
 #        first 2N genes seed the first 2N dimensions of every particle in
@@ -129,11 +123,6 @@ MAX_CAPS = 20
 
 N_PARTICLES = 50
 N_ITERATIONS = 15
-
-# FIX 11: warm-start swarm composition (40% warm, rest random).
-WARM_START_FRACTION = 0.4
-N_WARM_START = int(round(WARM_START_FRACTION * N_PARTICLES))
-WARM_START_JITTER = 0.02
 
 W_MAX, W_MIN = 0.9, 0.4
 C1, C2 = 1.5, 1.5
@@ -319,29 +308,17 @@ def resolve_adjacent_ports(models, ports):
             used.add(ports[i])
             continue
 
-        # FIX 12: explicit `placed` flag. The old `if ports[i] in used:
-        # break` was always true when neither candidate at the current
-        # offset was free, so the search gave up after offset 1 and
-        # returned duplicate ports. Every offset is now tried in turn.
-        placed = False
-
         for offset in range(1, N_NODES):
 
-            for cand in (ports[i] + offset, ports[i] - offset):
+            for cand in [ports[i] + offset, ports[i] - offset]:
 
                 if 0 <= cand < N_NODES and cand not in used:
                     ports[i] = cand
                     used.add(cand)
-                    placed = True
                     break
 
-            if placed:
+            if ports[i] in used:
                 break
-
-        if not placed:
-            # No free node remains (n_caps > len(VALID_PORTS)); the
-            # collision is genuinely unavoidable, so keep the port as-is.
-            used.add(ports[i])
 
     return models, ports
 
@@ -541,46 +518,31 @@ def evaluate_config(config, method):
 def seed_particles(n_caps, prev_best):
     """
     Stage 1 (or no usable previous best): fully random swarm, as before.
-    Stage N+1 with a previous stage's global best available (FIX 11,
-    ported from GPUSwarm/CPUTest/SB.py): a HYBRID swarm. The first
-    N_WARM_START particles (40%) carry prev_best in their first 2N genes;
-    the rest are uniformly random. Particle 0 is an exact copy of prev_best
-    (elitism); warm particles 1.. get clipped Gaussian jitter on the
-    carried genes only. Seeding every particle identically zeroes both PSO
-    velocity terms in the carried dimensions and freezes them.
-    The layout keeps the grouped
+    Stage N+1 with a previous stage's global best available: every
+    particle's first 2N genes are seeded IDENTICALLY from prev_best (the
+    winning particle from stage N); only the two new genes for the
+    (N+1)-th capacitor (one model gene, one port gene) are randomised per
+    particle. This matches the paper's Section III-A warm-start exactly,
+    and is why particles/velocities keep the grouped
     [models(n_caps) | ports(n_caps)] layout rather than an interleaved one
     -- the new genes must be inserted into the middle of the vector (after
     the old models, after the old ports), not appended at the very end.
     """
-    n_warm = min(N_WARM_START, N_PARTICLES)
-
-    if prev_best is None or n_caps == 1 or n_warm == 0:
+    if prev_best is None or n_caps == 1:
         return np.random.rand(N_PARTICLES, 2 * n_caps)
 
     prev_n = n_caps - 1
     prev_models = prev_best[:prev_n]          # (prev_n,)
     prev_ports = prev_best[prev_n:]           # (prev_n,)
 
-    warm = np.hstack([
-        np.tile(prev_models, (n_warm, 1)), np.random.rand(n_warm, 1),
-        np.tile(prev_ports,  (n_warm, 1)), np.random.rand(n_warm, 1),
+    new_model_gene = np.random.rand(N_PARTICLES, 1)
+    new_port_gene = np.random.rand(N_PARTICLES, 1)
+
+    particles = np.hstack([
+        np.tile(prev_models, (N_PARTICLES, 1)), new_model_gene,
+        np.tile(prev_ports, (N_PARTICLES, 1)), new_port_gene,
     ])
-
-    if WARM_START_JITTER > 0 and n_warm > 1:
-        carried = np.ones(2 * n_caps, dtype=bool)
-        carried[prev_n] = False       # new model gene, already uniform
-        carried[-1] = False           # new port gene, already uniform
-        noise = np.random.normal(0.0, WARM_START_JITTER, warm.shape)
-        noise[0, :] = 0.0             # particle 0 is elite, untouched
-        noise[:, ~carried] = 0.0      # never perturb the new genes
-        warm = np.clip(warm + noise, 0.0, 1.0)
-
-    n_rand = N_PARTICLES - n_warm
-    if n_rand > 0:
-        warm = np.vstack([warm, np.random.rand(n_rand, 2 * n_caps)])
-
-    return warm
+    return particles
 
 # ============================================================
 # PSO
@@ -600,9 +562,8 @@ def run_pso(method, threshold, out_folder, run_id):
 
     logger.info(
         "RUN_START | method=%s | threshold=%.6f | run=%d | particles=%d | "
-        "iterations=%d | base_seed=%d | warm_start=%d | jitter=%.4f",
-        method, threshold, run_id, N_PARTICLES, N_ITERATIONS, BASE_SEED,
-        N_WARM_START, WARM_START_JITTER
+        "iterations=%d | base_seed=%d",
+        method, threshold, run_id, N_PARTICLES, N_ITERATIONS, BASE_SEED
     )
 
     prev_best = None   # winning particle vector from the previous n_caps stage
@@ -677,8 +638,6 @@ def run_pso(method, threshold, out_folder, run_id):
         histories[n_caps] = history
 
         if gbest_particle is None:
-            # FIX 13: don't seed the next stage from a stale, wrong-width prev_best.
-            prev_best = None
             logger.info("n_caps=%d | iter=%d | minZ=inf | placement={}", n_caps, it + 1)
             continue
 

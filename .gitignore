@@ -1,5 +1,6 @@
 # Logs
 *.log
+*.out
 
 # Images
 *.png
@@ -18,4 +19,20 @@ __pycache__/
 
 # Scratch / experiments
 ScratchBench*/
-MinTime/
+
+# MinTime/: legacy result folders stay ignored (files already tracked remain tracked).
+# MinTime/Runs/ is the tracked home of every ScratchBench run: code, manifests, READMEs, INDEX.md and new_run.py are
+# tracked; bulky output/ and logs/ are not.
+MinTime/*
+!MinTime/Runs/
+MinTime/Runs/*/output/
+MinTime/Runs/*/logs/
+MinTime/Runs/GO_RUN3
+# Per-run summaries and plots are tracked (including PNG/PDF); raw output/ and logs/ are not.
+!MinTime/Runs/*/plots/
+!MinTime/Runs/*/plots/**
+!MinTime/Runs/*/analysis/**/*.png
+
+# Large dataset binaries (178-209 MB each, over GitHub's 100 MB limit) are not tracked; they live on the server (see Dataset/README.md).
+Dataset/*.mat
+Dataset/*/*.mat

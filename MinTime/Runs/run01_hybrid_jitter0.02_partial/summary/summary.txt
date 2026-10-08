@@ -1,0 +1,6 @@
+Baseline summary: /tmp/aur_sum.u4wkV2
+Run records: 59
+
+numpy | threshold=0.05 | runs=20 | success=18/20 (90.0%) | time_s mean/median/min/max=274.35/271.425/177.957/397.234 | caps mean/min/max=12.8333/9/18 | best_minz mean/min/max=0.0494017/0.047645/0.051929
+sm | threshold=0.05 | runs=19 | success=17/19 (89.5%) | time_s mean/median/min/max=1174.73/1139.07/522.378/2365.65 | caps mean/min/max=12.7647/9/18 | best_minz mean/min/max=0.0492963/0.047645/0.051929
+solve | threshold=0.05 | runs=20 | success=18/20 (90.0%) | time_s mean/median/min/max=282.596/288.085/159.802/435.963 | caps mean/min/max=12.8333/9/18 | best_minz mean/min/max=0.0494017/0.047645/0.051929
