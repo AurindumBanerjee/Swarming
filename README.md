@@ -20,7 +20,7 @@ this repository is the record of the code, the run manifests and the documentati
 | `Data/` | benchmark PDN: `y2.mat`, `decaps.mat`, `freq2.mat` (21 ports, 1391 frequencies) | yes |
 | `Dataset/` | MPHY / VDDQ DDR3 dataset (server only, large `.mat`) | on the server repo; **not** in the local checkout |
 | `Outputs/` | older outputs and logs | old files tracked, new ones ignored |
-| `MinTime/` | legacy timing-benchmark result folders (`ScratchBench2..5`, `ScratchTest*`, ...), ignored. `MinTime/Runs/` held the runs until 2026-10-08 (see `runs/`); only `run07_gpubench2` is still there, until it finishes | legacy |
+| `MinTime/` | legacy timing-benchmark result folders (`ScratchBench2..5`, `ScratchTest*`, ...), ignored. `MinTime/Runs/` held the runs until 2026-10-08 (now `runs/`) | legacy |
 | **`runs/`** | **one isolated folder per run: `runs/<experiment>/<run_id>/`** (experiment `scratchbench`); `runs/INDEX.md` lists them; `runs/_ops/` keeps the launch/formalise scripts used so far | code, manifests, READMEs, summaries, plots tracked; `output/` and `logs/` ignored |
 | **`reference/`** | **starting point for new work, same convention as the GPUSwarm repo**: `template_experiment.py`, `new_run.py`, `summarize_run.sh`, `output_style/` (samples of every output type) | yes |
 
@@ -53,8 +53,8 @@ a literal `ROOT_OUT`, so a run sets it to its own `output/` with `--set`; new co
 | `run02_naive_jitter0` | same code with `WARM_START_JITTER = 0.0` (naive warm block), library part, finished. |
 | `run03_original_code_library` | original code (FIX 4), library part, 20 runs; **stopped** on 2026-10-08 (0.05 complete for all four methods; at 0.045 numpy and solve complete, sm 16/20, iterative not started). |
 | `run03_original_code_repro`, `run04_naive_purepython_5runs`, `run05_original_purepython_5runs`, `run06_warm100_jitter0_library` | planned, **never executed** (cancelled 2026-10-08). Their code copies still point at `MinTime/Runs/...` output paths. |
-| `run07_gpubench2` | `GPUBench2.py` on the GPU (PyTorch), pinned to CPUs 16-23. Still under `MinTime/Runs/` while it runs. |
-| `run08_warm100_5runs` | current: 100 % warm start (`WARM_START_FRACTION = 1.0`, jitter 0), library methods, 5 runs per threshold. |
+| `gpubench2/run07_gpubench2` | `GPUBench2.py` on the GPU (PyTorch), finished; exact methods identical, woodbury_batch 7-33x and fast 19-38x over the GPU numpy method. |
+| `run08_warm100_5runs` | 100 % warm start (`WARM_START_FRACTION = 1.0`, jitter 0), library methods, 5 runs per threshold; finished. Identical to run00 at 0.05/0.045; 0.04 not reached (0/5): run00's 0.04 successes used duplicate-port placements. |
 
 Each run keeps its results next to its code: `summary/` (`runs.csv`, `summary.csv`, `summary.txt`, from `summarize_baseline.py`; only the
 last `RUN_START` block of each log is used) and `plots/` (speedup figures). The speedup S is relative to the `pure_python` run, so plots exist

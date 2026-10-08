@@ -1,0 +1,15 @@
+Baseline summary: /tmp/aur_sum.reVO7S
+Run records: 60
+
+iterative | threshold=0.04 | runs=5 | success=1/5 (20.0%) | time_s mean/median/min/max=279.054/279.054/279.054/279.054 | caps mean/min/max=9/9/9 | best_minz mean/min/max=0.0411748/0.039999/0.041805
+numpy | threshold=0.04 | runs=5 | success=0/5 (0.0%) | time_s mean/median/min/max=-/-/-/- | caps mean/min/max=-/-/- | best_minz mean/min/max=0.0409098/0.04002/0.041779
+sm | threshold=0.04 | runs=5 | success=0/5 (0.0%) | time_s mean/median/min/max=-/-/-/- | caps mean/min/max=-/-/- | best_minz mean/min/max=0.0409098/0.04002/0.041779
+solve | threshold=0.04 | runs=5 | success=0/5 (0.0%) | time_s mean/median/min/max=-/-/-/- | caps mean/min/max=-/-/- | best_minz mean/min/max=0.0409098/0.04002/0.041779
+iterative | threshold=0.045 | runs=5 | success=5/5 (100.0%) | time_s mean/median/min/max=202.67/208.868/167.182/220.972 | caps mean/min/max=6.8/6/7 | best_minz mean/min/max=0.0446694/0.044447/0.044961
+numpy | threshold=0.045 | runs=5 | success=5/5 (100.0%) | time_s mean/median/min/max=119.578/123.288/108.852/127.882 | caps mean/min/max=6.6/6/7 | best_minz mean/min/max=0.0446408/0.044364/0.044961
+sm | threshold=0.045 | runs=5 | success=5/5 (100.0%) | time_s mean/median/min/max=266.852/277.144/229.637/296.634 | caps mean/min/max=6.6/6/7 | best_minz mean/min/max=0.0446408/0.044364/0.044961
+solve | threshold=0.045 | runs=5 | success=5/5 (100.0%) | time_s mean/median/min/max=103.303/106.415/94.1308/110.418 | caps mean/min/max=6.6/6/7 | best_minz mean/min/max=0.0446408/0.044364/0.044961
+iterative | threshold=0.05 | runs=5 | success=5/5 (100.0%) | time_s mean/median/min/max=146.017/150.692/136.059/154.438 | caps mean/min/max=5/5/5 | best_minz mean/min/max=0.049515/0.048816/0.049981
+numpy | threshold=0.05 | runs=5 | success=5/5 (100.0%) | time_s mean/median/min/max=84.4658/82.4028/80.8817/94.8428 | caps mean/min/max=5/5/5 | best_minz mean/min/max=0.0495868/0.049254/0.04999
+sm | threshold=0.05 | runs=5 | success=5/5 (100.0%) | time_s mean/median/min/max=146.771/137.802/136.476/181.024 | caps mean/min/max=5/5/5 | best_minz mean/min/max=0.0495868/0.049254/0.04999
+solve | threshold=0.05 | runs=5 | success=5/5 (100.0%) | time_s mean/median/min/max=72.6222/70.2668/69.9453/81.832 | caps mean/min/max=5/5/5 | best_minz mean/min/max=0.0495868/0.049254/0.04999

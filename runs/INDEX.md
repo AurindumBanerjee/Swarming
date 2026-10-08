@@ -14,4 +14,5 @@ Runs up to run07 predate the layout: moved here from MinTime/Runs on 2026-10-08 
 | scratchbench/run04_naive_purepython_5runs | never executed | - | pure_python of the run02 code, 5 runs per threshold; cancelled. | pure_python__run04 30c7376b |
 | scratchbench/run05_original_purepython_5runs | never executed | - | pure_python of the original code, 5 runs per threshold; cancelled. | pure_python__run05 3b5ad44b |
 | scratchbench/run06_warm100_jitter0_library | never executed | - | 100% warm start, library, 20 runs; replaced by run08 (5 runs). | library__run06 0a6f7aed |
-| MinTime/Runs/run07_gpubench2 | running | 2026-10-08 | GPUBench2.py on the GPU, pinned to CPUs 16-23; moves to runs/ when finished. | gpubench2__run07 f1c96e89 |
+| gpubench2/run07_gpubench2 | finished | 2026-10-08 | GPUBench2.py on the GPU (6 methods, complex128, 50x40, hybrid warm start 0.4/0.02), pinned to CPUs 16-23; exact methods give identical minZ; woodbury_batch 7-33x, fast 19-38x over GPU numpy. | gpubench2__run07 f1c96e89 |
+| scratchbench/run08_warm100_5runs | finished | 2026-10-08 | 100% warm start (fraction 1.0, jitter 0), library, 5 runs: identical to run00 at 0.05/0.045; 0.04 not reached (0/5) because the old successes used duplicate ports. | library__run06..run08 e42ba235 |
