@@ -1,0 +1,28 @@
+{
+  "experiment": "scratchbench",
+  "run_id": "run08_warm100_5runs",
+  "description": "Current code with a 100% warm start (WARM_START_FRACTION = 1.0, WARM_START_JITTER = 0.0: all 50 particles carry the previous stage best, no random particles, no jitter), library methods numpy/solve/sm/iterative, thresholds 0.05/0.045/0.04, 5 runs per threshold. Same algorithm as the original FIX 4 code except the port-resolver (FIX 12) and stage-reset (FIX 13) fixes. Replaces the 20-run run06.",
+  "created": "2026-10-08T12:53:56+0530",
+  "source": {
+    "path": "runs/scratchbench/run06_warm100_jitter0_library/code/library__run06_warm100_jitter0_library.py",
+    "md5": "0a6f7aed77803a90f62c43f1e79498c0",
+    "git": null,
+    "modified_in_working_tree": false
+  },
+  "code": {
+    "file": "code/library__run06_warm100_jitter0_library__run08_warm100_5runs.py",
+    "md5": "e42ba235f2fdcb4b1f6d7b2e2bfadac0",
+    "set_lines": [
+      "ROOT_OUT = \"runs/scratchbench/run08_warm100_5runs/output\"",
+      "NUM_RUNS = 5"
+    ]
+  },
+  "execution": {
+    "args": "",
+    "env": [],
+    "taskset": "0-7",
+    "conda_env": "work",
+    "python": "python"
+  },
+  "host_at_creation": "eeiitj123.iitj.ac.in"
+}

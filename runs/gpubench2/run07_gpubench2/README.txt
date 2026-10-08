@@ -28,3 +28,13 @@ Launch: cd /DATA/Aurindum/Swarming && nohup setsid bash /DATA/Aurindum/Swarming/
 
 ---- timeline ----
 Part gpubench2 START: 2026-10-08 12:28:22 IST  load: 1.35 1.24 1.19
+Part gpubench2 END:   2026-10-08 16:51:35 IST  exit code 0
+NOTE 2026-10-08: moved from MinTime/Runs/run07_gpubench2 to runs/gpubench2/run07_gpubench2 (repo restructure; the ROOT_OUT baked into code/ refers to the old location).
+CONCURRENCY: ran 12:28-16:51 IST alongside run08 (CPU sweep, pinned to CPUs 0-7; this run pinned to 16-23, BLAS threads 1) -- its GPU timings were
+taken with no other GPU job running; no other CPU job shared its cores.
+RESULT (summary/summary_table.csv, 50 particles x 40 iterations, hybrid warm start 0.4 / jitter 0.02 as coded in GPUBench2.py, complex128, 20 runs):
+  * Every method reaches the SAME best minZ per (threshold, run) (verification.json: max relative cost deviation vs numpy ~5e-15) -- the exact
+    reformulations do not change the search.
+  * Speed-up over the GPU 'numpy' method (full inverse): woodbury ~3.2x, woodbury_batch 7.1x (0.04) .. 32.6x (0.05), fast (cache + exact pruning)
+    18.8x (0.04) .. 38.3x (0.05); solve ~1.6x, sm 1.2-2.3x.
+  * With this warm-start setting the search is weak on this PDN: success 95% at 0.05, 25% at 0.045, 0% at 0.04 (compare the CPU runs).

@@ -1,0 +1,1 @@
+No pure_python runs among: runs/scratchbench/run08_warm100_5runs/output  -- the speedup plots are relative to pure Python, so none were drawn. Re-run summarize_run.sh with the pure_python root (e.g. run04/run05) to get them.
