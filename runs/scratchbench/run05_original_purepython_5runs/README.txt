@@ -31,3 +31,5 @@ Changes vs source (only these lines differ):
 Launch: cd /DATA/Aurindum/Swarming && nohup setsid bash /DATA/Aurindum/Swarming/MinTime/Runs/run05_original_purepython_5runs/run.sh > /DATA/Aurindum/Swarming/MinTime/Runs/run05_original_purepython_5runs/logs/driver.log 2>&1 < /dev/null &
 
 ---- timeline ----
+NOTE 2026-10-08: moved from MinTime/Runs/run05_original_purepython_5runs to runs/scratchbench/run05_original_purepython_5runs (repo restructure to the GPUSwarm layout). Paths printed above in this README and baked into code/*.py (ROOT_OUT) refer to the old location; nothing else changed.
+STATUS 2026-10-08: NEVER EXECUTED (cancelled before start). The code copy bakes an output path under MinTime/Runs/; to run this configuration use reference/new_run.py (new run id).

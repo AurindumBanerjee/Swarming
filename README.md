@@ -20,44 +20,46 @@ this repository is the record of the code, the run manifests and the documentati
 | `Data/` | benchmark PDN: `y2.mat`, `decaps.mat`, `freq2.mat` (21 ports, 1391 frequencies) | yes |
 | `Dataset/` | MPHY / VDDQ DDR3 dataset (server only, large `.mat`) | on the server repo; **not** in the local checkout |
 | `Outputs/` | older outputs and logs | old files tracked, new ones ignored |
-| `MinTime/` | timing-benchmark results. Old result folders (`ScratchBench2..5`, `ScratchTest*`, ...) are legacy and ignored | only `MinTime/Runs/` is new |
-| **`MinTime/Runs/`** | **the home of every ScratchBench run, see below** | code, manifests, READMEs tracked; `output/` and `logs/` ignored |
+| `MinTime/` | legacy timing-benchmark result folders (`ScratchBench2..5`, `ScratchTest*`, ...), ignored. `MinTime/Runs/` held the runs until 2026-10-08 (see `runs/`); only `run07_gpubench2` is still there, until it finishes | legacy |
+| **`runs/`** | **one isolated folder per run: `runs/<experiment>/<run_id>/`** (experiment `scratchbench`); `runs/INDEX.md` lists them; `runs/_ops/` keeps the launch/formalise scripts used so far | code, manifests, READMEs, summaries, plots tracked; `output/` and `logs/` ignored |
+| **`reference/`** | **starting point for new work, same convention as the GPUSwarm repo**: `template_experiment.py`, `new_run.py`, `summarize_run.sh`, `output_style/` (samples of every output type) | yes |
 
 The scripts take their data from `/DATA/Aurindum/Swarming/Data` (absolute `BASE_DIR`) and write to a relative
 `ROOT_OUT`, so run them with the repository root as the working directory.
 
-## Runs convention (`MinTime/Runs/`)
+## Runs convention (`runs/`, shared with the GPUSwarm repo)
 
 Every run has its own folder with its own copy of the code, so an old run's files are never rewritten:
 
 ```
-MinTime/Runs/<run_id>/
-    code/<part>__<run_id>.py   the script exactly as run (source copy + only the settings listed in its README)
-    output/<part>/             ROOT_OUT of that part (ignored by git; copy it around separately)
-    logs/                      console output (ignored)
-    run.sh                     launcher: BLAS pinned to 1 thread, parts strictly one after the other
-    manifest.json, README.txt  md5 of source and as-run code, exact diff, environment, start/end times
-MinTime/Runs/INDEX.md          one row per run
-MinTime/Runs/new_run.py        creates a new run folder:  python new_run.py create --id ... --desc ... --part name=src.py --set KEY=VALUE
+runs/<experiment>/<run_id>/
+    code/<script>__<run_id>.py   the script exactly as run (source copy + only the --set lines listed in its README)
+    output/                      ROOT_OUT of the script: raw results (ignored by git; copy it around separately)
+    logs/                        console output (ignored)
+    summary/  plots/             tables and figures (tracked)
+    run.sh  manifest.json  README.txt   launcher (BLAS pinned to 1 thread), md5 of source and as-run code, diff, environment, timeline
+runs/INDEX.md                    one row per run
+reference/new_run.py             creates a run folder:  python reference/new_run.py --experiment scratchbench --id runNN_name --desc "..."                                      --source ScratchBench.py --set 'ROOT_OUT = "runs/scratchbench/runNN_name/output"' --set 'NUM_RUNS = 5' [--taskset 0-7] [--conda-env work]
+reference/summarize_run.sh       runs summarize_baseline.py (+ the speedup plots when a pure_python partner is present) into <run>/summary and <run>/plots
 ```
 
-Never edit a finished or running run's files; make a new run with `new_run.py` instead.
-
-Each run folder also keeps its results next to its code: `summary/` (`runs.csv`, `summary.csv`, `summary.txt`, from
-`summarize_baseline.py`; only the last `RUN_START` block of each log is used) and `plots/` (speedup figures). The speedup
-S is relative to the `pure_python` run, so plots exist only where a pure_python partner is present (run00; for the library-only
-runs a `NO_PLOTS.txt` explains why and the pair is plotted once its pure_python run finishes). Make or refresh them with
-`MinTime/Runs/summarize_run.sh <out_dir> <root> [<root> ...]` (several roots are merged through a symlink farm, so
-e.g. run02's library and run04's pure_python can be summarised and plotted together). Only `output/` and `logs/` are git-ignored.
+Never edit a finished or running run's files; make a new run with `reference/new_run.py` instead. The ScratchBench scripts write to
+a literal `ROOT_OUT`, so a run sets it to its own `output/` with `--set`; new code should read `RUN_DIR` instead (`reference/template_experiment.py`).
 
 | run | what |
 |---|---|
-| `run00_original_sep2026` | the original Sep-2026 baseline: FIX 4 warm start (all 50 particles identical in the carried genes), old port resolver. Code and outputs copied unchanged. |
+| `run00_original_sep2026` | the original Sep-2026 baseline: FIX 4 warm start (all 50 particles identical in the carried genes), old port resolver. Code, outputs, summary and plots copied unchanged. |
 | `run01_hybrid_jitter0.02_partial` | FIX 11-13 code (40 % warm block, elite + jitter 0.02), library part only, stopped part-way. |
-| `run02_naive_jitter0` | same code with `WARM_START_JITTER = 0.0` (naive warm block), library part. |
-| `run03_original_code_library` | original code (FIX 4), library part, thresholds 0.05 / 0.045 / 0.04, 20 runs. |
-| `run04_naive_purepython_5runs` | run02 code, `pure_python`, 5 runs per threshold. |
-| `run05_original_purepython_5runs` | original code, `pure_python`, 5 runs per threshold. |
+| `run02_naive_jitter0` | same code with `WARM_START_JITTER = 0.0` (naive warm block), library part, finished. |
+| `run03_original_code_library` | original code (FIX 4), library part, 20 runs; **stopped** on 2026-10-08 (0.05 complete for all four methods; at 0.045 numpy and solve complete, sm 16/20, iterative not started). |
+| `run03_original_code_repro`, `run04_naive_purepython_5runs`, `run05_original_purepython_5runs`, `run06_warm100_jitter0_library` | planned, **never executed** (cancelled 2026-10-08). Their code copies still point at `MinTime/Runs/...` output paths. |
+| `run07_gpubench2` | `GPUBench2.py` on the GPU (PyTorch), pinned to CPUs 16-23. Still under `MinTime/Runs/` while it runs. |
+| `run08_warm100_5runs` | current: 100 % warm start (`WARM_START_FRACTION = 1.0`, jitter 0), library methods, 5 runs per threshold. |
+
+Each run keeps its results next to its code: `summary/` (`runs.csv`, `summary.csv`, `summary.txt`, from `summarize_baseline.py`; only the
+last `RUN_START` block of each log is used) and `plots/` (speedup figures). The speedup S is relative to the `pure_python` run, so plots exist
+only where a pure_python partner is present. Several roots can be merged (a run's library and another run's pure_python) with
+`reference/summarize_run.sh <out_dir> <root> [<root> ...]`.
 
 ## Measurement notes
 

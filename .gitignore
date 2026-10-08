@@ -36,3 +36,14 @@ MinTime/Runs/GO_RUN3
 # Large dataset binaries (178-209 MB each, over GitHub's 100 MB limit) are not tracked; they live on the server (see Dataset/README.md).
 Dataset/*.mat
 Dataset/*/*.mat
+
+# ---- runs/ (see README.md and reference/README.md): code copies, manifests, READMEs, summaries and plots are tracked;
+# raw output and logs are not. *.png / *.log above would hide tracked figures and samples, so they are re-included.
+runs/*/*/output/
+runs/*/*/logs/
+runs/_ops/*.log
+runs/_ops/*.out
+runs/_ops/GO_RUN3
+!runs/**/plots/**
+!runs/**/analysis/**/*.png
+!reference/output_style/**
