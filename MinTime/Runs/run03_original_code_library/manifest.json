@@ -1,0 +1,19 @@
+{
+  "id": "run03_original_code_library",
+  "desc": "Reproduction of run00 with the ORIGINAL code (FIX 4: all 50 particles warm, old resolver): library methods only; thresholds 0.05/0.045/0.04 (0.03 dropped), 20 runs. Replaces the never-started run03_original_code_repro.",
+  "created": "2026-10-07T12:49:02+0530",
+  "parts": [
+    {
+      "name": "library",
+      "source": "/DATA/Aurindum/Swarming/MinTime/Runs/run00_original_sep2026/code/ScratchBench.py",
+      "source_md5": "9cd1e2b12626b5ed4fdbabd95b9c6167",
+      "code": "code/library__run03_original_code_library.py",
+      "code_md5": "4ed971bcdf721fae2bba6083c977f0c9",
+      "settings_applied": {
+        "ROOT_OUT": "\"MinTime/Runs/run03_original_code_library/output/library\"",
+        "TARGETS": "[0.05, 0.045, 0.04]",
+        "METHODS": "[\"numpy\", \"solve\", \"sm\", \"iterative\"]"
+      }
+    }
+  ]
+}

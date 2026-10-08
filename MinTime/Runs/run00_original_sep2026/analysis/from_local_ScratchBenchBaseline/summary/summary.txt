@@ -1,0 +1,23 @@
+Baseline summary: D:\MyStuff\College\.7thSemester\PSO\Swarming\MinTime\ScratchBenchBaseline
+Run records: 385
+
+iterative | threshold=0.03 | runs=20 | success=0/20 (0.0%) | time_s mean/median/min/max=-/-/-/- | caps mean/min/max=-/-/- | best_minz mean/min/max=0.0386715/0.037365/0.039638
+numpy | threshold=0.03 | runs=20 | success=0/20 (0.0%) | time_s mean/median/min/max=-/-/-/- | caps mean/min/max=-/-/- | best_minz mean/min/max=0.0391976/0.038049/0.040352
+pure_python | threshold=0.03 | runs=5 | success=0/5 (0.0%) | time_s mean/median/min/max=-/-/-/- | caps mean/min/max=-/-/- | best_minz mean/min/max=0.0391198/0.03842/0.039884
+sm | threshold=0.03 | runs=20 | success=0/20 (0.0%) | time_s mean/median/min/max=-/-/-/- | caps mean/min/max=-/-/- | best_minz mean/min/max=0.0391976/0.038049/0.040352
+solve | threshold=0.03 | runs=20 | success=0/20 (0.0%) | time_s mean/median/min/max=-/-/-/- | caps mean/min/max=-/-/- | best_minz mean/min/max=0.0391976/0.038049/0.040352
+iterative | threshold=0.04 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=570.465/556.832/352.86/919.171 | caps mean/min/max=13.15/9/20 | best_minz mean/min/max=0.0399167/0.039721/0.039999
+numpy | threshold=0.04 | runs=20 | success=18/20 (90.0%) | time_s mean/median/min/max=554.883/567.018/380.956/794.62 | caps mean/min/max=14.5/11/19 | best_minz mean/min/max=0.0399637/0.039706/0.040352
+pure_python | threshold=0.04 | runs=20 | success=18/20 (90.0%) | time_s mean/median/min/max=25711.9/26596.1/18260.7/34901.7 | caps mean/min/max=14.5/11/19 | best_minz mean/min/max=0.0399637/0.039706/0.040352
+sm | threshold=0.04 | runs=20 | success=18/20 (90.0%) | time_s mean/median/min/max=1610.54/1722.61/798.811/2878.63 | caps mean/min/max=14.5/11/19 | best_minz mean/min/max=0.0399637/0.039706/0.040352
+solve | threshold=0.04 | runs=20 | success=18/20 (90.0%) | time_s mean/median/min/max=301.191/287.788/197.836/457.073 | caps mean/min/max=14.5/11/19 | best_minz mean/min/max=0.0399637/0.039706/0.040352
+iterative | threshold=0.045 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=268.243/268.05/213.921/328.414 | caps mean/min/max=7/6/8 | best_minz mean/min/max=0.044775/0.04436/0.044998
+numpy | threshold=0.045 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=198.482/193.228/166.272/262.668 | caps mean/min/max=7/6/9 | best_minz mean/min/max=0.0446646/0.043819/0.044993
+pure_python | threshold=0.045 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=12162.1/11553.5/9666.57/15700.2 | caps mean/min/max=7/6/9 | best_minz mean/min/max=0.0446646/0.043819/0.044993
+sm | threshold=0.045 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=311.531/294.246/224.901/501.947 | caps mean/min/max=7/6/9 | best_minz mean/min/max=0.0446646/0.043819/0.044993
+solve | threshold=0.045 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=116.886/116.347/94.9649/152.907 | caps mean/min/max=7/6/9 | best_minz mean/min/max=0.0446646/0.043819/0.044993
+iterative | threshold=0.05 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=210.324/207.458/167.433/250.594 | caps mean/min/max=5.2/5/6 | best_minz mean/min/max=0.0492238/0.048226/0.049981
+numpy | threshold=0.05 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=169.161/163.95/134.165/233.675 | caps mean/min/max=5.25/5/7 | best_minz mean/min/max=0.0495719/0.048962/0.04999
+pure_python | threshold=0.05 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=8600.99/7975.3/7358.81/11674.3 | caps mean/min/max=5.25/5/7 | best_minz mean/min/max=0.0495719/0.048962/0.04999
+sm | threshold=0.05 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=199.123/170.731/160.996/330.921 | caps mean/min/max=5.25/5/7 | best_minz mean/min/max=0.0495719/0.048962/0.04999
+solve | threshold=0.05 | runs=20 | success=20/20 (100.0%) | time_s mean/median/min/max=93.9907/86.0412/82.9001/128.652 | caps mean/min/max=5.25/5/7 | best_minz mean/min/max=0.0495719/0.048962/0.04999

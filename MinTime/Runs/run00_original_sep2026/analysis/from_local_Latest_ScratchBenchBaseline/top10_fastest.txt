@@ -1,0 +1,10 @@
+1. {'method': 'solve', 'threshold': 0.05, 'time': 75.1859, 'caps': 5, 'best_minz': 0.049339, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_1'}
+2. {'method': 'solve', 'threshold': 0.05, 'time': 76.9728, 'caps': 5, 'best_minz': 0.04999, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_2'}
+3. {'method': 'solve', 'threshold': 0.05, 'time': 82.9001, 'caps': 5, 'best_minz': 0.048962, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_14'}
+4. {'method': 'solve', 'threshold': 0.05, 'time': 83.145, 'caps': 5, 'best_minz': 0.049867, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_17'}
+5. {'method': 'solve', 'threshold': 0.05, 'time': 83.2581, 'caps': 5, 'best_minz': 0.049257, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_20'}
+6. {'method': 'solve', 'threshold': 0.05, 'time': 83.5988, 'caps': 5, 'best_minz': 0.049593, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_11'}
+7. {'method': 'solve', 'threshold': 0.05, 'time': 84.6641, 'caps': 5, 'best_minz': 0.04965, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_4'}
+8. {'method': 'solve', 'threshold': 0.05, 'time': 84.7356, 'caps': 5, 'best_minz': 0.049872, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_6'}
+9. {'method': 'solve', 'threshold': 0.05, 'time': 84.8946, 'caps': 5, 'best_minz': 0.049756, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_7'}
+10. {'method': 'solve', 'threshold': 0.05, 'time': 85.1183, 'caps': 5, 'best_minz': 0.049684, 'success': True, 'folder': 'MinTime/ScratchBenchBaseline/solve__THR__0.05/run_18'}

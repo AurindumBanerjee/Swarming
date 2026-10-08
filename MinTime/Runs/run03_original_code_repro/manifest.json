@@ -1,0 +1,31 @@
+{
+  "id": "run03_original_code_repro",
+  "desc": "Reproduction of run00 with the ORIGINAL code (FIX 4: all 50 particles warm, old resolver); thresholds 0.05/0.045/0.04 (0.03 dropped), 20 runs; library then pure_python (full sweep).",
+  "created": "2026-10-07T12:25:49+0530",
+  "parts": [
+    {
+      "name": "library",
+      "source": "/DATA/Aurindum/Swarming/MinTime/Runs/run00_original_sep2026/code/ScratchBench.py",
+      "source_md5": "9cd1e2b12626b5ed4fdbabd95b9c6167",
+      "code": "code/library__run03_original_code_repro.py",
+      "code_md5": "4a3e65a73631460f8ecf97db32eb3677",
+      "settings_applied": {
+        "ROOT_OUT": "\"MinTime/Runs/run03_original_code_repro/output/library\"",
+        "TARGETS": "[0.05, 0.045, 0.04]",
+        "METHODS": "[\"numpy\", \"solve\", \"sm\", \"iterative\"]"
+      }
+    },
+    {
+      "name": "pure_python",
+      "source": "/DATA/Aurindum/Swarming/MinTime/Runs/run00_original_sep2026/code/ScratchBench2.py",
+      "source_md5": "7fc8245a34307ccbcf5b046a3b988220",
+      "code": "code/pure_python__run03_original_code_repro.py",
+      "code_md5": "17270def1aa8da2bda472eb693845e16",
+      "settings_applied": {
+        "ROOT_OUT": "\"MinTime/Runs/run03_original_code_repro/output/pure_python\"",
+        "TARGETS": "[0.05, 0.045, 0.04]",
+        "METHODS": "[\"pure_python\"]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "run05_original_purepython_5runs",
+  "desc": "pure_python part with the ORIGINAL code (run00 ScratchBench2.py, FIX 4), 5 runs per threshold (PURE_PYTHON_NUM_RUNS = 5), thresholds 0.05/0.045/0.04.",
+  "created": "2026-10-07T12:49:03+0530",
+  "parts": [
+    {
+      "name": "pure_python",
+      "source": "/DATA/Aurindum/Swarming/MinTime/Runs/run00_original_sep2026/code/ScratchBench2.py",
+      "source_md5": "7fc8245a34307ccbcf5b046a3b988220",
+      "code": "code/pure_python__run05_original_purepython_5runs.py",
+      "code_md5": "3b5ad44b20e7019137a09cd7d17ed243",
+      "settings_applied": {
+        "ROOT_OUT": "\"MinTime/Runs/run05_original_purepython_5runs/output/pure_python\"",
+        "TARGETS": "[0.05, 0.045, 0.04]",
+        "PURE_PYTHON_NUM_RUNS": "5"
+      }
+    }
+  ]
+}

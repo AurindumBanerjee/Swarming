@@ -1,0 +1,18 @@
+{
+  "id": "run04_naive_purepython_5runs",
+  "desc": "pure_python part of the run02 code (current code, WARM_START_JITTER = 0.0, naive warm start), 5 runs per threshold (PURE_PYTHON_NUM_RUNS = 5), thresholds 0.05/0.045/0.04.",
+  "created": "2026-10-07T12:49:03+0530",
+  "parts": [
+    {
+      "name": "pure_python",
+      "source": "/DATA/Aurindum/Swarming/MinTime/ScratchBenchRerun_20261006/ScratchBench2_purepython_naive.py",
+      "source_md5": "2b6aa56ada456d60dad7e935bd20f0c0",
+      "code": "code/pure_python__run04_naive_purepython_5runs.py",
+      "code_md5": "30c7376bd4376cc1fa5e1bb33d9dd097",
+      "settings_applied": {
+        "ROOT_OUT": "\"MinTime/Runs/run04_naive_purepython_5runs/output/pure_python\"",
+        "PURE_PYTHON_NUM_RUNS": "5"
+      }
+    }
+  ]
+}
