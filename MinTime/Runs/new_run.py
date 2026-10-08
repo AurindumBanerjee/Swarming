@@ -19,6 +19,11 @@ Usage (run with the conda "work" python on the server, cwd anywhere):
       --set-part library 'METHODS=["numpy", "solve", "sm", "iterative"]' \
       --set-part pure_python 'METHODS=["pure_python"]'
 Only top-level `KEY = value` lines that exist exactly once are replaced; ROOT_OUT is always set per part.
+Optional execution style (defaults keep the old behaviour):
+  --part-args NAME 'ARGS'   command-line arguments passed to that part's script
+  --taskset CPUS            pin every part with taskset -c CPUS (keeps a job off the cores a timing sweep uses)
+  --env KEY=VALUE           extra exported environment variable (repeatable)
+  --conda-env NAME          conda env to activate (default: work; GPU jobs: gpuwork)
 """
 import argparse
 import difflib
@@ -79,6 +84,7 @@ def create(a):
     if os.path.exists(run):
         sys.exit(f"{run} already exists -- runs are never overwritten; choose a new --id")
     glob_set = dict(kv.split("=", 1) for kv in a.set or [])
+    part_args = {n: v for n, v in (a.part_args or [])}
     part_set = {}
     for name, kv in (a.set_part or []):
         k, v = kv.split("=", 1)
@@ -89,7 +95,9 @@ def create(a):
         parts.append((name, os.path.abspath(src)))
     for sub in ("code", "output", "logs"):
         os.makedirs(os.path.join(run, sub))
-    manifest = {"id": a.id, "desc": a.desc, "created": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "parts": []}
+    manifest = {"id": a.id, "desc": a.desc, "created": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "parts": [],
+                "execution": {"conda_env": a.conda_env, "taskset": a.taskset, "env": a.env or [],
+                              "part_args": part_args}}
     diffs = []
     for name, src in parts:
         text = open(src, newline="").read().replace("\r\n", "\n")
@@ -112,13 +120,15 @@ def create(a):
     sh = ["#!/bin/bash",
           f"# Run {a.id}: parts execute strictly one after the other. cwd must be {BASE} (ROOT_OUT is relative).",
           f"RUN={run}", f"cd {BASE} || exit 1",
-          "source /DATA/Aurindum/conda/etc/profile.d/conda.sh", "conda activate work",
-          "export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1",
+          "source /DATA/Aurindum/conda/etc/profile.d/conda.sh", f"conda activate {a.conda_env}",
+          "export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1"
+          + "".join(f" {kv}" for kv in (a.env or [])),
           "stamp() { date '+%Y-%m-%d %H:%M:%S %Z'; }", ""]
     for p in manifest["parts"]:
         n = p["name"]
         sh += [f'echo "Part {n} START: $(stamp)  load: $(cut -d" " -f1-3 /proc/loadavg)" >> "$RUN/README.txt"',
-               f'python -u "$RUN/{p["code"]}" > "$RUN/logs/{n}_console.log" 2>&1',
+               (f'taskset -c {a.taskset} ' if a.taskset else "") + f'python -u "$RUN/{p["code"]}"'
+               + (f" {part_args[n]}" if n in part_args else "") + f' > "$RUN/logs/{n}_console.log" 2>&1',
                f'echo "Part {n} END:   $(stamp)  exit code $?" >> "$RUN/README.txt"', ""]
     open(os.path.join(run, "run.sh"), "w", newline="").write("\n".join(sh))
     os.chmod(os.path.join(run, "run.sh"), 0o755)
@@ -128,6 +138,8 @@ def create(a):
         for p in manifest["parts"]:
             fh.write(f"  {p['name']:<12} {p['code']}  md5 {p['code_md5']}  (source {p['source']} md5 {p['source_md5']})\n")
         fh.write("\nChanges vs source (only these lines differ):\n" + "\n".join(diffs) + "\n")
+        fh.write(f"\nExecution: conda env {a.conda_env}; taskset {a.taskset or 'none'}; extra env {a.env or 'none'}; "
+                 f"arguments {part_args or 'none'}\n")
         fh.write("\nLaunch: cd " + BASE + " && nohup setsid bash " + run + "/run.sh > " + run
                  + "/logs/driver.log 2>&1 < /dev/null &\n\n---- timeline ----\n")
     idx = os.path.join(RUNS, "INDEX.md")
@@ -151,6 +163,10 @@ def main():
     c.add_argument("--part", action="append", required=True, help="NAME=source_script.py (repeatable)")
     c.add_argument("--set", action="append", help="KEY=VALUE applied to every part")
     c.add_argument("--set-part", action="append", nargs=2, metavar=("NAME", "KEY=VALUE"))
+    c.add_argument("--part-args", action="append", nargs=2, metavar=("NAME", "ARGS"))
+    c.add_argument("--taskset", default=None, help="CPU list for taskset -c, e.g. 16-23")
+    c.add_argument("--env", action="append", help="extra KEY=VALUE exported in run.sh")
+    c.add_argument("--conda-env", default="work")
     c.set_defaults(fn=create)
     a = ap.parse_args()
     a.fn(a)
