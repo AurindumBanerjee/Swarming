@@ -43,3 +43,5 @@ Queued 2026-10-07 12:26 IST: starts automatically after run02 chain (pid 141088)
 
 SUPERSEDED 2026-10-07 12:49 IST BEFORE ANY RUN STARTED: its queue was cancelled; replaced by run03_original_code_library,
 run04_naive_purepython_5runs and run05_original_purepython_5runs (pure_python is now 5 runs per threshold). Nothing was ever written to output/.
+NOTE 2026-10-08: moved from MinTime/Runs/run03_original_code_repro to runs/scratchbench/run03_original_code_repro (repo restructure to the GPUSwarm layout). Paths printed above in this README and baked into code/*.py (ROOT_OUT) refer to the old location; nothing else changed.
+STATUS 2026-10-08: NEVER EXECUTED (cancelled before start). The code copy bakes an output path under MinTime/Runs/; to run this configuration use reference/new_run.py (new run id).

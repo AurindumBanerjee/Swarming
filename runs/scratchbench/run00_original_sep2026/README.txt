@@ -14,3 +14,4 @@ Algorithm of this code (FIX 4 warm start): from stage 2 on, ALL 50 particles cop
 carried genes (only the two genes of the new capacitor are random) -> carried genes frozen, greedy forward selection.
 Port-collision resolver has the pre-FIX-12 early break. Thresholds in the outputs: 0.05 0.045 0.04 0.03, 20 runs each
 (pure_python 0.03 only 5 runs), timer time.perf_counter(). Thread settings of that run were not recorded.
+NOTE 2026-10-08: moved from MinTime/Runs/run00_original_sep2026 to runs/scratchbench/run00_original_sep2026 (repo restructure to the GPUSwarm layout). Paths printed above in this README and baked into code/*.py (ROOT_OUT) refer to the old location; nothing else changed.
