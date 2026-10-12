@@ -51,3 +51,7 @@ runs/_ops/GO_RUN3
 # Paper drafts / figures (PSO_LAPACK_MAPCON) are not part of this repository
 PSO_LAPACK_MAPCON/
 PSO_LAPACK_MAPCON.zip
+
+# Editor settings and local scratch folders
+.vscode/
+Local drafts/
