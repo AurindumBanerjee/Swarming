@@ -47,3 +47,7 @@ runs/_ops/GO_RUN3
 !runs/**/plots/**
 !runs/**/analysis/**/*.png
 !reference/output_style/**
+
+# Paper drafts / figures (PSO_LAPACK_MAPCON) are not part of this repository
+PSO_LAPACK_MAPCON/
+PSO_LAPACK_MAPCON.zip
