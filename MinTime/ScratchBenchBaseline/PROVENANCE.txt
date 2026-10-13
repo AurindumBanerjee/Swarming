@@ -1,0 +1,12 @@
+PROVENANCE of the code that produced MinTime/ScratchBenchBaseline/
+MATCH: EXACT (ROOT_OUT, folder names, log format and dates all match)
+
+Evidence:
+  - ScratchBench.py and ScratchBench2.py @ c2af179 both have ROOT_OUT = "MinTime/ScratchBenchBaseline" and log 'RUN_START | method=.. | base_seed=..' with FOLDER_SEP '__THR__'
+  - results: <method>__THR__<thr>/run_N, 2026-09-06..25; the scripts were committed on 2026-09-19 (c2af179)
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/ScratchBench.py        from c2af179:ScratchBench.py  md5 9cd1e2b12626b5ed4fdbabd95b9c6167  main script
+  code/ScratchBench2.py       from c2af179:ScratchBench2.py  md5 7fc8245a34307ccbcf5b046a3b988220  sibling script with the same ROOT_OUT
+
+Commits are cited by their current hashes (history rewritten 2026-10-12; old hashes: 6b9438e was f2eae5a, c2af179 was 93eba1b; the January commits 4c0656b and 6d379cd are unchanged).

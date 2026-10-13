@@ -1,0 +1,13 @@
+PROVENANCE of the code that produced ScratchBench2/
+MATCH: CLOSEST (same log format and algorithm; the run's exact settings are not in git)
+
+Evidence:
+  - the log string 'init_n_caps=%d | seeded_previous_caps=%d | new_cap_random_init(cap=%d,port=%d)' that fills every log here occurs in exactly one script in the whole history: Refer.py
+  - results: numpy/solve/sm/iterative, 4 thresholds x 20 runs, 2026-03-07..10 (Refer.py was committed 2026-09-19); logs also carry 'iter=' and 'placement='
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/Refer.py               from c2af179  md5 067a170f47740e635e245a90f0112366  same log format; kept in the repo as a reference copy
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.
+
+Refer.py as committed has ROOT_OUT = "MinTime/Refer", NUM_RUNS = 2, TARGETS = [0.04,0.03]: it was edited after these runs, so the run used the same code with larger settings.

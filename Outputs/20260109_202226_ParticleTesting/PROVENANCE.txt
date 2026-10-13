@@ -1,0 +1,11 @@
+PROVENANCE of the code that produced Outputs/20260109_202226_ParticleTesting/
+MATCH: CLOSEST (script committed the same day as the run)
+
+Evidence:
+  - Testing1.py names its output folder %Y%m%d_%H%M%S_ParticleTesting under Outputs/; folders P<particles>_I<iters>, logs 'n_caps=%d | minZ=.. | models=[..] | nodes=[..]'
+  - run 2026-01-09 20:22 (log files up to 2026-01-12); Testing1.py committed 2026-01-09 (4c0656b) and edited 2026-01-22 (6d379cd); the 4c0656b version is copied
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/Testing1.py            from 4c0656b:Testing1.py  md5 89db7f32a7c76849d633d220b49b8706  version committed on the day of the run
+
+Commits are cited by their current hashes (history rewritten 2026-10-12; old hashes: 6b9438e was f2eae5a, c2af179 was 93eba1b; the January commits 4c0656b and 6d379cd are unchanged).

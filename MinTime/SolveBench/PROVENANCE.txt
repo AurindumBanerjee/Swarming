@@ -1,0 +1,9 @@
+PROVENANCE of the code that produced SolveBench/
+MATCH: NOT RECOVERABLE
+
+Evidence:
+  - logs contain 'Arbitrary initialization applied for new capacitor' and a ScratchBenchmark/ subfolder; neither string occurs in any committed script (searched the whole history)
+
+No code copied: nothing in the git history matches this run.
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.

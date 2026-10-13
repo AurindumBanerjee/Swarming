@@ -1,0 +1,10 @@
+PROVENANCE of the code that produced numpy_0.05/
+MATCH: CLOSEST (same family; this 5-run test was never committed)
+
+Evidence:
+  - 5 runs of numpy at threshold 0.05 on 2026-04-01 19:15..19:36 in the 'n_caps | minZ' format, one day before ScratchBench.py was first committed; ROOT_OUT differs
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/ScratchBench.py        from 6b9438e  md5 afead4c48934803b90ea110c058ff73a  family of the run
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.

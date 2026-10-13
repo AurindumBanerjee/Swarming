@@ -1,0 +1,10 @@
+PROVENANCE of the code that produced MinImp5/
+MATCH: EXACT (ROOT_OUT and METHODS match; run dates 2026-04-01..10, committed 2026-04-02)
+
+Evidence:
+  - MinImp3.py has ROOT_OUT = "MinImp5", METHODS = [woodbury, iterative], ITER_OPTIONS [10,15,25,40,50]; same log format as MinImp4
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/MinImp3.py             from 6b9438e:MinImp3.py  md5 80c102119d2e53da082b539283b59c17  writes MinImp5
+
+Commits are cited by their current hashes (history rewritten 2026-10-12; old hashes: 6b9438e was f2eae5a, c2af179 was 93eba1b; the January commits 4c0656b and 6d379cd are unchanged).

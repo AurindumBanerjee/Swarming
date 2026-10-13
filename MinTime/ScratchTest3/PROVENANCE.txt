@@ -1,0 +1,11 @@
+PROVENANCE of the code that produced ScratchTest3/
+MATCH: EXACT configuration (committed later than the run)
+
+Evidence:
+  - ScratchTest.py has ROOT_OUT = "ScratchTest3", METHODS numpy/solve/sm/iterative, NUM_RUNS 20, 50 x 15, and writes FINAL_STATISTICS.txt (present here); logs carry placement={...}
+  - results 2026-02-28; the script was first committed 2026-04-02
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/ScratchTest.py         from 6b9438e  md5 34f58b1af62714612311a77efe284e94  writes ScratchTest3/FINAL_STATISTICS.txt
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.

@@ -1,0 +1,10 @@
+PROVENANCE of the code that produced ScratchTest2/
+MATCH: CLOSEST (same script, later ROOT_OUT/settings)
+
+Evidence:
+  - same log format (placement={...}) and FINAL_STATISTICS.txt as ScratchTest3; run 2026-02-27..28, i.e. presumably an earlier configuration of ScratchTest.py (ROOT_OUT presumably ScratchTest2)
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/ScratchTest.py         from 6b9438e  md5 34f58b1af62714612311a77efe284e94  later revision (ROOT_OUT = ScratchTest3)
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.

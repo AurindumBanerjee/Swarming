@@ -1,0 +1,12 @@
+PROVENANCE of the code that produced Comparison/
+MATCH: CLOSEST (same family and log format; its ROOT_OUT was never committed)
+
+Evidence:
+  - hybrid_*, iterative_*, numpy_*, sm_* (80 logs each, 2026-04-05..07) in the 'n_caps | minZ' format; 'hybrid' exists only in the ScratchBench.py / ScratchBench2.py family (inv_hybrid)
+  - no committed script has ROOT_OUT = MinTime/Comparison: a copy of that family with a different ROOT_OUT and METHODS was used
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/ScratchBench.py        from 6b9438e  md5 afead4c48934803b90ea110c058ff73a  family of the run (numpy/solve)
+  code/ScratchBench2.py       from 6b9438e  md5 fb4c62e2d3744d17645b662cb6194a81  family of the run (sm/iterative/hybrid)
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.

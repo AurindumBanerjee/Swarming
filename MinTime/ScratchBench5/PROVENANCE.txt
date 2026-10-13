@@ -1,0 +1,20 @@
+PROVENANCE of the code that produced ScratchBench5/
+MATCH: MIXED: pure_python and analysis EXACT; numpy/solve/sm/iterative CLOSEST
+
+Evidence:
+  - pure_python_* (76 logs, 2026-08-24..31) and results_long.jsonl (2026-08-25..31): PythonBench.py, PythonBench2.py, PythonBench3.py, PythonBench4.py all have ROOT_OUT = "MinTime/ScratchBench5", METHODS = ["pure_python"] and write results_long.jsonl; they differ only in the single active threshold: PythonBench.py 0.05, PythonBench2.py 0.045, PythonBench3.py 0.04, PythonBench4.py 0.03
+  - Analysis/ (44 files, 2026-06-24): plot.py has ROOT_OUT = Path("MinTime/ScratchBench5") and writes Analysis/{Boxplots,Frequencies,Heatmaps,RunGrids,...}; Plotting.py also targets this folder
+  - numpy_/solve_/sm_/iterative_ (80 logs each, 2026-04-05..07) use the old 'n_caps | minZ' log format. Its exact script (ScratchBench.py family with ROOT_OUT = ScratchBench5) was never committed. Nearest: ScratchBench.py @ 6b9438e (same log format, ROOT_OUT was ScratchBench3) and ScratchBenchOld.py @ c2af179 (ROOT_OUT = ScratchBench5, METHODS numpy/solve/sm/iterative, but a later revision whose logs also carry iter= and placement=)
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/PythonBench.py         from c2af179  md5 f03719ee6b1fd77fa7b641770d50a955  pure_python, threshold 0.05
+  code/PythonBench2.py        from c2af179  md5 cc3cd65edf45238ee0c12e6ce5d03997  pure_python, threshold 0.045
+  code/PythonBench3.py        from c2af179  md5 d8a34f14439336b6a0313208183b027a  pure_python, threshold 0.04
+  code/PythonBench4.py        from c2af179  md5 553dad78a43fdd84d514bd368461609a  pure_python, threshold 0.03
+  code/plot.py                from c2af179  md5 a6b74185e80732d423d038f2db3bba18  produces Analysis/
+  code/Plotting.py            from c2af179  md5 33180ae9697e8ae9b4f62576a436c8cb  plotting / results_long.jsonl reader
+  code/ScratchBench.py        from 6b9438e  md5 afead4c48934803b90ea110c058ff73a  CLOSEST for the Apr numpy/solve (format match; ROOT_OUT needs editing)
+  code/ScratchBench2.py       from 6b9438e  md5 fb4c62e2d3744d17645b662cb6194a81  CLOSEST for the Apr sm/iterative (format match)
+  code/ScratchBenchOld.py     from c2af179  md5 d174e30375bf3ea305dc09c3d87ceb08  later revision with ROOT_OUT = ScratchBench5; log format differs
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.

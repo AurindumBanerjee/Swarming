@@ -1,0 +1,11 @@
+PROVENANCE of the code that produced MinImp2/
+MATCH: CLOSEST (same script and log format; its ROOT_OUT and METHODS were edited later)
+
+Evidence:
+  - runs 2026-03-16..04-01 (975 logs) in the log format 'particles=%d iter=%d n_caps=%d minZ=%.6f runtime=%.2fs placement=%s', which occurs only in MinImp.py / MinImp3.py
+  - the committed MinImp.py has ROOT_OUT = MinImp4: these earlier results (folder names <method>_P<particles>_I<iters>) were produced by earlier states of the same script, which were never committed
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/MinImp.py              from 6b9438e:MinImp.py  md5 65b1a3b2bdc6fbda03b772d737444a64  family of the run (ROOT_OUT now MinImp4)
+
+Commits are cited by their current hashes (history rewritten 2026-10-12; old hashes: 6b9438e was f2eae5a, c2af179 was 93eba1b; the January commits 4c0656b and 6d379cd are unchanged).

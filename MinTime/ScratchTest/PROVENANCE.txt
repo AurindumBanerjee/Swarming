@@ -1,0 +1,11 @@
+PROVENANCE of the code that produced ScratchTest/
+MATCH: NOT RECOVERABLE (descendant copied for reference only)
+
+Evidence:
+  - its logs use 'ports=[..] | stage_time=..', a format that occurs in no committed script (searched the whole history for 'stage_time=' and 'ports=%s')
+  - ScratchTest.py @ 6b9438e is the later descendant of the script (same FINAL_STATISTICS.txt output); it does not reproduce this log format
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/ScratchTest.py         from 6b9438e  md5 34f58b1af62714612311a77efe284e94  REFERENCE ONLY: later descendant, not the code that ran
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.

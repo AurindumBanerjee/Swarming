@@ -1,0 +1,11 @@
+PROVENANCE of the code that produced ScratchBench4/
+MATCH: EXACT (configuration, folder names, log format and dates all match)
+
+Evidence:
+  - ScratchBench2.py has ROOT_OUT = "MinTime/ScratchBench4", METHODS = ["sm","iterative","hybrid"] (inv_hybrid() is defined in it), same constants as ScratchBench3
+  - folders hybrid_*, iterative_*, sm_* with 80 logs each in the 'n_caps | minZ' format; runs 2026-04-01..04, commit 2026-04-02
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/ScratchBench2.py       from 6b9438e  md5 fb4c62e2d3744d17645b662cb6194a81  writes MinTime/ScratchBench4
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.

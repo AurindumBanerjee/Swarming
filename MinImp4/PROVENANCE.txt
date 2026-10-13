@@ -1,0 +1,10 @@
+PROVENANCE of the code that produced MinImp4/
+MATCH: EXACT (ROOT_OUT and METHODS match; run dates 2026-04-01..10, committed 2026-04-02)
+
+Evidence:
+  - MinImp.py has ROOT_OUT = "MinImp4", METHODS = [numpy, solve, sm], ITER_OPTIONS [10,15,25,40,50]; its log line 'particles=%d iter=%d n_caps=%d minZ=%.6f runtime=%.2fs placement=%s' is the format of every log here
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/MinImp.py              from 6b9438e:MinImp.py  md5 65b1a3b2bdc6fbda03b772d737444a64  writes MinImp4
+
+Commits are cited by their current hashes (history rewritten 2026-10-12; old hashes: 6b9438e was f2eae5a, c2af179 was 93eba1b; the January commits 4c0656b and 6d379cd are unchanged).

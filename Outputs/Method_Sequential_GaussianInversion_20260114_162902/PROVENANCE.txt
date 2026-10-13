@@ -1,0 +1,11 @@
+PROVENANCE of the code that produced Outputs/Method_Sequential_GaussianInversion_20260114_162902/
+MATCH: CLOSEST (folder naming matches; committed 8 days after the run)
+
+Evidence:
+  - TestGauss.py writes Outputs/Method_Sequential_<method>_%Y%m%d_%H%M%S with best_config_by_n.txt and convergence_n<k>.png; the run is dated 2026-01-14
+  - TestGauss.py was committed once, on 2026-01-22 (6d379cd); this run (2026-01-14) used an earlier state of it
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/TestGauss.py           from 6d379cd:TestGauss.py  md5 eaa57d87290d7936a3a994f2b7fbb8a3  only committed version
+
+Commits are cited by their current hashes (history rewritten 2026-10-12; old hashes: 6b9438e was f2eae5a, c2af179 was 93eba1b; the January commits 4c0656b and 6d379cd are unchanged).

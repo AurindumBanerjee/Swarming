@@ -1,0 +1,11 @@
+PROVENANCE of the code that produced ScratchBench3/
+MATCH: EXACT (configuration, folder names, log format and dates all match)
+
+Evidence:
+  - ScratchBench.py has ROOT_OUT = "MinTime/ScratchBench3", METHODS = ["numpy","solve"], NUM_RUNS 20, TARGETS 0.05/0.045/0.04/0.03, 50 particles x 15 iterations
+  - folders numpy_0.0x and solve_0.0x with 80 logs each; log line 'n_caps=%d | minZ=%.6f' is this script's format; runs 2026-04-01..02, commit 2026-04-02
+
+Files copied into code/ (git show <commit>:<path>, bytes unchanged):
+  code/ScratchBench.py        from 6b9438e  md5 afead4c48934803b90ea110c058ff73a  writes MinTime/ScratchBench3
+
+Commits are cited by their current hashes; before the 2026-10-12 history rewrite 6b9438e was f2eae5a (2026-04-02, 'Lots of Pending Changes') and c2af179 was 93eba1b (2026-09-19, 'Lot of updates'). Those are the only two commits in which these scripts were ever committed.
